@@ -1,0 +1,180 @@
+<app-navbar></app-navbar>
+<!-- CONTENT -->
+<section id="hero">
+    <div class="container-lg hero-container d-flex align-items-center">
+        <div class="row hero-row justify-content-center my-auto mx-auto text-center text-lg-start">
+
+            <div class="col-lg-6 col-md-9 my-auto">
+                <h1 class="pb-2 fw-bold">{{ "MAIN.MAIN_HEAD" | translate }}</h1>
+                <p class="py-2">{{ "MAIN.MAIN_P" | translate }}</p>
+                <button class="btn btn-primary btn-lg" routerLink="/register"><small>{{ "MAIN.MAIN_BUTTON" | translate
+                        }}</small></button>
+                <p class="text-secondary pt-2"><small>{{ "MAIN.MAIN_BUTTON_TEXT" | translate }}</small></p>
+            </div>
+
+            <div *ngIf="translate.currentLang === 'et'" class="col-lg-6 col-md-9 my-auto">
+                <div style="position: relative; padding-bottom: 65.33575317604357%; height: 0;"><iframe
+                        src="https://www.loom.com/embed/ae3847a4d6624da9b069983c52ad8993" frameborder="0"
+                        webkitallowfullscreen mozallowfullscreen allowfullscreen
+                        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+            </div>
+
+            <div *ngIf="translate.currentLang === 'lv'" class="col-lg-6 col-md-9 my-auto">
+                <div style="position: relative; padding-bottom: 65.33575317604357%; height: 0;"><iframe
+                        src="https://www.loom.com/embed/a36962b5204a4c9f8c0389789c69b9d0" frameborder="0"
+                        webkitallowfullscreen mozallowfullscreen allowfullscreen
+                        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+            </div>
+
+            <div *ngIf="translate.currentLang === 'lt'" class="col-lg-6 col-md-9 my-auto">
+                <div style="position: relative; padding-bottom: 65.33575317604357%; height: 0;"><iframe
+                        src="https://www.loom.com/embed/67bd490dbc6c490bb634d4ffd89401f0" frameborder="0"
+                        webkitallowfullscreen mozallowfullscreen allowfullscreen
+                        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+            </div>
+
+            <div *ngIf="translate.currentLang === 'ru'" class="col-lg-6 col-md-9 my-auto">
+                <div style="position: relative; padding-bottom: 65.33575317604357%; height: 0;"><iframe
+                        src="https://www.loom.com/embed/b8fb8be3491a42f2b8f7f4b9afc3ab20" frameborder="0"
+                        webkitallowfullscreen mozallowfullscreen allowfullscreen
+                        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+            </div>
+
+            <div *ngIf="translate.currentLang === 'en'" class="col-lg-6 col-md-9 my-auto">
+                <div style="position: relative; padding-bottom: 65.33575317604357%; height: 0;"><iframe
+                        src="https://www.loom.com/embed/d45bd66ec5cb43e281eb9e1bd87f15f8" frameborder="0"
+                        webkitallowfullscreen mozallowfullscreen allowfullscreen
+                        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+            </div>
+
+
+        </div>
+    </div>
+</section>
+
+<section id="features">
+    <div class="container-lg feature1">
+        <div
+            class="row g-4 justify-content-center align-items-center mx-auto text-center text-lg-start ">
+
+            <div class="col-lg-6 col-md-9">
+                <h1 class="pb-2 fw-bold">{{ "MAIN.F1_HEAD" | translate }}</h1>
+                <p class="py-2">{{ "MAIN.F1_P" | translate }}</p>
+            </div>
+
+            <div class="col-lg-6 col-md-9 d-lg-block">
+                <img src="assets/img/main/f1_time.png" class="img-fluid" alt="save time" />
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="container-lg feature">
+        <div class="row g-4 justify-content-center align-items-center mx-auto flex-column-reverse flex-lg-row text-center text-lg-start">
+
+            <div class="col-lg-6 col-md-9">
+                <img src="assets/img/main/f2_focus.png" class="img-fluid" alt="keep focused" />
+            </div>
+
+            <div class="col-lg-6 col-md-9">
+                <h1 class="pb-2 fw-bold">{{ "MAIN.F2_HEAD" | translate }}</h1>
+                <p class="py-2">{{ "MAIN.F2_P" | translate }}</p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container-lg feature">
+        <div
+            class="row g-4 justify-content-center align-items-center mx-auto text-center text-lg-start ">
+
+            <div class="col-lg-6 col-md-9">
+                <h1 class="pb-2 fw-bold">{{ "MAIN.F3_HEAD" | translate }}</h1>
+                <p class="py-2">{{ "MAIN.F3_P" | translate }}</p>
+            </div>
+
+            <div class="col-lg-6 col-md-9 d-lg-block">
+                <img src="assets/img/main/f3_language.png" class="img-fluid" alt="multilanguage" />
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container-lg feature">
+        <div class="row g-4 justify-content-center align-items-center mx-auto flex-column-reverse flex-lg-row text-center text-lg-start">
+
+            <div class="col-lg-6 col-md-9">
+                <img src="assets/img/main/f4_interface.png" class="img-fluid" alt="interface" />
+            </div>
+
+            <div class="col-lg-6 col-md-9">
+                <h1 class="pb-2 fw-bold">{{ "MAIN.F4_HEAD" | translate }}</h1>
+                <p class="py-2">{{ "MAIN.F4_P" | translate }}</p>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <div class="container-lg feature">
+        <div
+            class="row g-4 justify-content-center align-items-center mx-auto text-center text-lg-start ">
+
+            <div class="col-lg-6 col-md-9">
+                <h1 class="pb-2 fw-bold">{{ "MAIN.F5_HEAD" | translate }}</h1>
+                <p class="py-2">{{ "MAIN.F5_P" | translate }}</p>
+            </div>
+
+            <div class="col-lg-6 col-md-9 d-lg-block">
+                <img src="assets/img/main/f5_filters.png" class="img-fluid" alt="filters" />
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="container-lg feature">
+        <div class="row g-4 justify-content-center align-items-center mx-auto flex-column-reverse flex-lg-row text-center text-lg-start">
+
+            <div class="col-lg-6 col-md-9">
+                <img src="assets/img/main/f7_2_sources.png" class="img-fluid" alt="manage sources" />
+            </div>
+
+            <div class="col-lg-6 col-md-9">
+                <h1 class="pb-2 fw-bold">{{ "MAIN.F6_HEAD" | translate }}</h1>
+                <p class="py-2">{{ "MAIN.F6_P" | translate }}</p>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="container-lg feature">
+        <div
+            class="row g-4 justify-content-center align-items-center mx-auto text-center text-lg-start ">
+
+            <div class="col-lg-6 col-md-9">
+                <h1 class="pb-2 fw-bold">{{ "MAIN.F7_HEAD" | translate }}</h1>
+                <p class="py-2">{{ "MAIN.F7_P" | translate }}</p>
+            </div>
+
+            <div class="col-lg-6 col-md-9 d-lg-block">
+                <img src="assets/img/main/f8_original.png" class="img-fluid" alt="link to original" />
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container-lg py-5 my-5">
+        <div class="row">
+            <div class="col-lg-6 col-md-9 justify-content-center align-items-center mx-auto text-center">
+                <h1 class="pb-5 fw-bold text-center">{{ "MAIN.REGISTER_NOW" | translate }}</h1>
+                <button class="btn btn-primary btn-lg mb-5 text-center" routerLink="/register"><small>{{
+                        "MAIN.REGISTRATION" | translate }}</small></button>
+            </div>
+        </div>
+    </div>
+
+</section>

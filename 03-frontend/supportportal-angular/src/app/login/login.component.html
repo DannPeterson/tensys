@@ -1,0 +1,61 @@
+<app-navbar></app-navbar>
+<!-- HEADER -->
+<section id="header ">
+  <div class="container-xxl text-center mt-5 py-5">
+    <div class="display-2 pt-5">{{ "LOGIN_PAGE.LOGIN" | translate }}</div>
+  </div>
+</section>
+
+<div class="container pt-2">
+  <div class="row justify-content-center">
+    <!-- Login Form -->
+    <div class="col-md-7 col-lg-6 ml-auto">
+      <form #loginForm="ngForm" (ngSubmit)="onLogin(loginForm.value)">
+        <div class="row">
+          <!-- Username -->
+          <div class="input-group input-group-lg col-lg-6 mb-4">
+            <span class="input-group-text">
+              <i class="bi bi-person-fill text-secondary"></i>
+            </span>
+            <input type="text" id="username" name="username" class="form-control"
+              placeholder="{{ 'LOGIN_PAGE.USERNAME' | translate }}" ngModel #usernameInput="ngModel" required />
+          </div>
+
+          <!-- Password -->
+          <div class="input-group input-group-lg col-lg-6 mb-4">
+            <span class="input-group-text">
+              <i class="bi bi-lock-fill text-secondary"></i>
+            </span>
+            <input type="password" id="password" name="password" class="form-control"
+              placeholder="{{ 'LOGIN_PAGE.PASSWORD' | translate }}" ngModel #passwordInput="ngModel" required />
+          </div>
+
+          <!-- Submit -->
+          <div class="form-group text-center">
+            <button [disabled]="loginForm.invalid || showLoading" type="submit" name="button"
+              class="btn btn-primary btn-lg">
+              <div *ngIf="showLoading" class="spinner-border text-light" role="status"></div>
+              <span *ngIf="showLoading">&nbsp;&nbsp;{{ "LOGIN_PAGE.PROCESSING" | translate }}</span>
+              <span *ngIf="!showLoading">{{ "LOGIN_PAGE.LOGIN" | translate }}</span>
+            </button>
+          </div>
+
+        </div>
+      </form>
+      <!-- Divider Text -->
+      <div class="form-group col-lg-12 mx-auto d-flex align-items-center my-4">
+        <div class="border-bottom w-100 ml-5"></div>
+        <span class="px-2 small text-muted font-weight-bold text-muted">{{ "LOGIN_PAGE.OR" | translate }}</span>
+        <div class="border-bottom w-100 mr-5"></div>
+      </div>
+
+      <!-- Already Registered -->
+      <div class="text-center w-100">
+        <p class="text-muted font-weight-bold">{{ "LOGIN_PAGE.DONT_HAVE_ACCOUNT" | translate }} <a href="register"
+            routerLink="/register" class="text-primary ml-2">{{ "LOGIN_PAGE.REGISTER" | translate }}</a></p>
+        <p class="text-muted font-weight-bold"><a href="password-reset" routerLink="/password-reset"
+            class="text-primary ml-2">{{ "LOGIN_PAGE.FORGOT_PASSWORD" | translate }}</a></p>
+      </div>
+    </div>
+  </div>
+</div>

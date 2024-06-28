@@ -1,0 +1,77 @@
+<app-navbar></app-navbar>
+<!-- HEADER -->
+<section id="header">
+  <div class="container-lg text-center mt-5 py-5">
+    <div class="display-2 pt-5">{{ "NAVIGATION.REGISTRATION" | translate }}</div>
+  </div>
+</section>  
+
+<div class="container pt-2">
+  <div class="row justify-content-center">
+
+    <!-- Registration Form -->
+    <div class="col-md-7 col-lg-6 ml-auto">
+      <form #registerForm="ngForm" (ngSubmit)="onRegister(registerForm.value)">
+        <div class="row">
+          <!-- First Name -->
+          <span class="help-block" *ngIf="firstNameInput.invalid && firstNameInput.touched" style="color:red;">{{
+            "REGISTER_PAGE.ENTER_FIRST_NAME" | translate }}</span>
+          <div class="input-group input-group-lg col-lg-6 mb-4">
+            <span class="input-group-text">
+              <i class="bi bi-person-fill text-secondary"></i>
+            </span>
+            <input type="text" class="form-control" name="firstName"
+              placeholder="{{ 'REGISTER_PAGE.FIRST_NAME' | translate }}" required ngModel #firstNameInput="ngModel" />
+          </div>
+
+          <!-- Email Address -->
+          <span class="help-block" *ngIf="emailInput.invalid && emailInput.touched" style="color:red;">{{
+            "REGISTER_PAGE.ENTER_EMAIL" | translate }}</span>
+          <div class="input-group input-group-lg col-lg-6 mb-4">
+            <span class="input-group-text">
+              <i class="bi bi-envelope-fill text-secondary"></i>
+            </span>
+            <input type="text" class="form-control" name="email" placeholder="Email" required ngModel
+              #emailInput="ngModel" />
+          </div>
+
+
+
+          <!-- Username -->
+          <span class="help-block" *ngIf="usernameInput.invalid && usernameInput.touched" style="color:red;">{{
+            "REGISTER_PAGE.ENTER_USERNAME" | translate }}</span>
+          <div class="input-group input-group-lg col-lg-6 mb-4">
+            <span class="input-group-text">
+              <i class="bi bi-upc-scan text-secondary"></i>
+            </span>
+            <input type="text" class="form-control" name="username"
+              placeholder="{{ 'REGISTER_PAGE.USERNAME' | translate }}" required ngModel #usernameInput="ngModel" />
+          </div>
+
+          <!-- Submit Button -->
+          <div class="form-group text-center">
+            <button [disabled]="registerForm.invalid || showLoading" type="submit" name="button"
+              class="btn btn-primary btn-lg">
+              <div *ngIf="showLoading" class="spinner-border text-light" role="status">&nbsp;&nbsp;</div>
+              {{ 'REGISTER_PAGE.CREATE_AN_ACCOUNT' | translate }} 
+            </button>
+          </div>
+
+          <!-- Divider Text -->
+          <div class="form-group col-lg-12 mx-auto d-flex align-items-center my-4">
+            <div class="border-bottom w-100 ml-5"></div>
+            <span class="px-2 small text-muted font-weight-bold text-muted">{{ 'REGISTER_PAGE.OR' | translate }}</span>
+            <div class="border-bottom w-100 mr-5"></div>
+          </div>
+
+          <!-- Already Registered -->
+          <div class="text-center w-100">
+            <p class="text-muted font-weight-bold">{{ 'REGISTER_PAGE.ALREADY_REGISTERED' | translate }} <a href="login"
+                routerLink="/login" class="text-primary ml-2">{{ 'REGISTER_PAGE.LOGIN' | translate }}</a></p>
+          </div>
+        </div>
+
+      </form>
+    </div>
+  </div>
+</div>

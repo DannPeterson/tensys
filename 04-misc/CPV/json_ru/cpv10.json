@@ -1,0 +1,4542 @@
+[
+	{
+		"id" : 9001,
+		"code" : "85121251-7",
+		"description" : null,
+		"description_ee" : "Gastroenteroloogi teenused",
+		"description_en" : "Gastroenterologist services",
+		"description_lt" : "Gastroenterologų paslaugos",
+		"description_lv" : "Gastroenterologu pakalpojumi",
+		"description_ru" : "Услуги гастроэнтеролога"
+	},
+	{
+		"id" : 9002,
+		"code" : "85121252-4",
+		"description" : null,
+		"description_ee" : "Geriaatri teenused",
+		"description_en" : "Geriatric services",
+		"description_lt" : "Geriatrinės paslaugos",
+		"description_lv" : "Geriatrijas pakalpojumi",
+		"description_ru" : "Гериатрические услуги"
+	},
+	{
+		"id" : 9003,
+		"code" : "85121270-6",
+		"description" : null,
+		"description_ee" : "Psühhiaatri või psühholoogi teenused",
+		"description_en" : "Psychiatrist or psychologist services",
+		"description_lt" : "Psichiatrų arba psichologų paslaugos",
+		"description_lv" : "Psihiatru vai psihologu pakalpojumi",
+		"description_ru" : "Услуги психиатра или психолога"
+	},
+	{
+		"id" : 9004,
+		"code" : "85121271-3",
+		"description" : null,
+		"description_ee" : "Psüühiliste häiretega inimeste hooldekoduteenused",
+		"description_en" : "Home for the psychologically disturbed services",
+		"description_lt" : "Žmonėms su psichologine negalia skirtų namų paslaugos",
+		"description_lv" : "Pansionātu pakalpojumi personām ar psiholoģiskiem traucējumiem",
+		"description_ru" : "Дом для психически неуравновешенных служб"
+	},
+	{
+		"id" : 9005,
+		"code" : "85121280-9",
+		"description" : null,
+		"description_ee" : "Oftalmoloogi, dermatoloogi või ortopeedi teenused",
+		"description_en" : "Ophthalmologist, dermatology or orthopedics services",
+		"description_lt" : "Oftalmologijos, dermatologijos arba ortopedijos paslaugos",
+		"description_lv" : "Oftalmologu, dermatoloģijas vai ortopēdijas pakalpojumi",
+		"description_ru" : "Услуги офтальмолога, дерматолога или ортопеда"
+	},
+	{
+		"id" : 9006,
+		"code" : "85121281-6",
+		"description" : null,
+		"description_ee" : "Oftalmoloogi teenused",
+		"description_en" : "Ophthalmologist services",
+		"description_lt" : "Oftalmologijos paslaugos",
+		"description_lv" : "Oftalmologu pakalpojumi",
+		"description_ru" : "Услуги офтальмолога"
+	},
+	{
+		"id" : 9007,
+		"code" : "85121282-3",
+		"description" : null,
+		"description_ee" : "Dermatoloogi teenused",
+		"description_en" : "Dermatology services",
+		"description_lt" : "Dermatologijos paslaugos",
+		"description_lv" : "Dermatoloģijas pakalpojumi",
+		"description_ru" : "Дерматологические услуги"
+	},
+	{
+		"id" : 9008,
+		"code" : "85121283-0",
+		"description" : null,
+		"description_ee" : "Ortopeedi teenused",
+		"description_en" : "Orthopaedic services",
+		"description_lt" : "Ortopedijos paslaugos",
+		"description_lv" : "Ortopēdijas pakalpojumi",
+		"description_ru" : "Ортопедические услуги"
+	},
+	{
+		"id" : 9009,
+		"code" : "85121290-2",
+		"description" : null,
+		"description_ee" : "Pediaatri või uroloogi teenused",
+		"description_en" : "Paediatric or urologist services",
+		"description_lt" : "Pediatrijos arba urologijos paslaugos",
+		"description_lv" : "Pediatrijas vai urologu pakalpojumi",
+		"description_ru" : "Услуги педиатра или уролога"
+	},
+	{
+		"id" : 9010,
+		"code" : "85121291-9",
+		"description" : null,
+		"description_ee" : "Pediaatri teenused",
+		"description_en" : "Paediatric services",
+		"description_lt" : "Pediatrijos paslaugos",
+		"description_lv" : "Pediatrijas pakalpojumi",
+		"description_ru" : "Педиатрические услуги"
+	},
+	{
+		"id" : 9011,
+		"code" : "85121292-6",
+		"description" : null,
+		"description_ee" : "Uroloogi teenused",
+		"description_en" : "Urologist services",
+		"description_lt" : "Urologijos paslaugos",
+		"description_lv" : "Urologu pakalpojumi",
+		"description_ru" : "Услуги уролога"
+	},
+	{
+		"id" : 9012,
+		"code" : "85121300-6",
+		"description" : null,
+		"description_ee" : "Kirurgi teenused",
+		"description_en" : "Surgical specialist services",
+		"description_lt" : "Chirurgų specialistų paslaugos",
+		"description_lv" : "Ķirurģijas speciālistu pakalpojumi",
+		"description_ru" : "Услуги специалистов-хирургов"
+	},
+	{
+		"id" : 9013,
+		"code" : "85130000-9",
+		"description" : null,
+		"description_ee" : "Hambaravipraksis ja vastavad teenused",
+		"description_en" : "Dental practice and related services",
+		"description_lt" : "Stomatologijos praktika ir kitos susijusios paslaugos",
+		"description_lv" : "Stomatoloģijas prakses un saistītie pakalpojumi",
+		"description_ru" : "Стоматологическая практика и сопутствующие услуги"
+	},
+	{
+		"id" : 9014,
+		"code" : "85131000-6",
+		"description" : null,
+		"description_ee" : "Hambaravipraksise teenused",
+		"description_en" : "Dental-practice services",
+		"description_lt" : "Stomatologijos praktikos paslaugos",
+		"description_lv" : "Stomatoloģijas prakses pakalpojumi",
+		"description_ru" : "Стоматологические услуги"
+	},
+	{
+		"id" : 9015,
+		"code" : "85131100-7",
+		"description" : null,
+		"description_ee" : "Ortodontilised teenused",
+		"description_en" : "Orthodontic services",
+		"description_lt" : "Ortodontinės paslaugos",
+		"description_lv" : "Ortodontijas pakalpojumi",
+		"description_ru" : "Ортодонтические услуги"
+	},
+	{
+		"id" : 9016,
+		"code" : "85131110-0",
+		"description" : null,
+		"description_ee" : "Ortodontilise kirurgia teenused",
+		"description_en" : "Orthodontic-surgery services",
+		"description_lt" : "Chirurginės ortodontinės paslaugos",
+		"description_lv" : "Ortodontiskās ķirurģijas pakalpojumi",
+		"description_ru" : "Ортодонто-хирургические услуги"
+	},
+	{
+		"id" : 9017,
+		"code" : "85140000-2",
+		"description" : null,
+		"description_ee" : "Mitmesugused tervishoiuteenused",
+		"description_en" : "Miscellaneous health services",
+		"description_lt" : "Įvairios sveikatos priežiūros paslaugos",
+		"description_lv" : "Dažādi veselības aprūpes pakalpojumi",
+		"description_ru" : "Разные медицинские услуги"
+	},
+	{
+		"id" : 9018,
+		"code" : "85141000-9",
+		"description" : null,
+		"description_ee" : "Meditsiinipersonali pakutavad teenused",
+		"description_en" : "Services provided by medical personnel",
+		"description_lt" : "Medicinos personalo teikiamos paslaugos",
+		"description_lv" : "Pakalpojumi, ko sniedz medicīniskais personāls",
+		"description_ru" : "Услуги, предоставляемые медицинским персоналом"
+	},
+	{
+		"id" : 9019,
+		"code" : "85141100-0",
+		"description" : null,
+		"description_ee" : "Ämmaemandateenused",
+		"description_en" : "Services provided by midwives",
+		"description_lt" : "Akušerių teikiamos paslaugos",
+		"description_lv" : "Pakalpojumi, ko sniedz vecmātes",
+		"description_ru" : "Услуги, предоставляемые акушерками"
+	},
+	{
+		"id" : 9020,
+		"code" : "85141200-1",
+		"description" : null,
+		"description_ee" : "Õeteenused",
+		"description_en" : "Services provided by nurses",
+		"description_lt" : "Slaugytojų teikiamos paslaugos",
+		"description_lv" : "Pakalpojumi, ko sniedz medmāsas",
+		"description_ru" : "Услуги, предоставляемые медсестрами"
+	},
+	{
+		"id" : 9021,
+		"code" : "85141210-4",
+		"description" : null,
+		"description_ee" : "Koduraviteenused",
+		"description_en" : "Home medical treatment services",
+		"description_lt" : "Medicininio gydymo namuose paslaugos",
+		"description_lv" : "Medicīniskās ārstēšanas pakalpojumi mājās",
+		"description_ru" : "Услуги по лечению на дому"
+	},
+	{
+		"id" : 9022,
+		"code" : "85141211-1",
+		"description" : null,
+		"description_ee" : "Dialüüsi koduraviteenused",
+		"description_en" : "Dialysis home medical treatment services",
+		"description_lt" : "Dializės procedūros atlikimo namuose paslaugos",
+		"description_lv" : "Dialīzes medicīniskās ārstēšanas pakalpojumi mājās",
+		"description_ru" : "Услуги диализа на дому"
+	},
+	{
+		"id" : 9023,
+		"code" : "85141220-7",
+		"description" : null,
+		"description_ee" : "Õdede nõuandeteenused",
+		"description_en" : "Advisory services provided by nurses",
+		"description_lt" : "Slaugytojų teikiamos konsultacijų paslaugos",
+		"description_lv" : "Konsultatīvie pakalpojumi, ko sniedz medmāsas",
+		"description_ru" : "Консультативные услуги медицинских сестер"
+	},
+	{
+		"id" : 9024,
+		"code" : "85142000-6",
+		"description" : null,
+		"description_ee" : "Parameedikute teenused",
+		"description_en" : "Paramedical services",
+		"description_lt" : "Paramedicinos paslaugos",
+		"description_lv" : "Paramediķu pakalpojumi",
+		"description_ru" : "Парамедицинские услуги"
+	},
+	{
+		"id" : 9025,
+		"code" : "85142100-7",
+		"description" : null,
+		"description_ee" : "Füsioteraapiateenused",
+		"description_en" : "Physiotherapy services",
+		"description_lt" : "Fizioterapijos paslaugos",
+		"description_lv" : "Fizioterapijas pakalpojumi",
+		"description_ru" : "Физиотерапевтические услуги"
+	},
+	{
+		"id" : 9026,
+		"code" : "85142200-8",
+		"description" : null,
+		"description_ee" : "Homöopaatilised teenused",
+		"description_en" : "Homeopathic services",
+		"description_lt" : "Homeopatijos paslaugos",
+		"description_lv" : "Homeopātijas pakalpojumi",
+		"description_ru" : "Гомеопатические услуги"
+	},
+	{
+		"id" : 9027,
+		"code" : "85142300-9",
+		"description" : null,
+		"description_ee" : "Hügieeniteenused",
+		"description_en" : "Hygiene services",
+		"description_lt" : "Higienos paslaugos",
+		"description_lv" : "Higiēnas pakalpojumi",
+		"description_ru" : "Гигиенические услуги"
+	},
+	{
+		"id" : 9028,
+		"code" : "85142400-0",
+		"description" : null,
+		"description_ee" : "Inkontinentsusvahendite kojutoimetamine",
+		"description_en" : "Home delivery of incontinence products",
+		"description_lt" : "Nelaikymo slaugos produktų pristatymo į namus paslaugos",
+		"description_lv" : "Urīna nesaturēšanas piederumu piegāde mājās",
+		"description_ru" : "Доставка товаров от недержания на дом"
+	},
+	{
+		"id" : 9029,
+		"code" : "85143000-3",
+		"description" : null,
+		"description_ee" : "Kiirabiteenused",
+		"description_en" : "Ambulance services",
+		"description_lt" : "Greitosios pagalbos paslaugos",
+		"description_lv" : "Neatliekamās medicīniskās palīdzības pakalpojumi",
+		"description_ru" : "Услуги скорой помощи"
+	},
+	{
+		"id" : 9030,
+		"code" : "85144000-0",
+		"description" : null,
+		"description_ee" : "Hooldekodude tervishoiuteenused",
+		"description_en" : "Residential health facilities services",
+		"description_lt" : "Stacionarinių gydymo klinikų paslaugos",
+		"description_lv" : "Veselības aprūpes centru pakalpojumi",
+		"description_ru" : "Услуги стационарных медицинских учреждений"
+	},
+	{
+		"id" : 9031,
+		"code" : "85144100-1",
+		"description" : null,
+		"description_ee" : "Hooldekodude põetusteenused",
+		"description_en" : "Residential nursing care services",
+		"description_lt" : "Stacionarinės slaugos paslaugos",
+		"description_lv" : "Aprūpes centru pakalpojumi",
+		"description_ru" : "Услуги по уходу на дому"
+	},
+	{
+		"id" : 9032,
+		"code" : "85145000-7",
+		"description" : null,
+		"description_ee" : "Meditsiinilaboratooriumide teenused",
+		"description_en" : "Services provided by medical laboratories",
+		"description_lt" : "Medicinos laboratorijų teikiamos paslaugos",
+		"description_lv" : "Medicīnisko laboratoriju sniegtie pakalpojumi",
+		"description_ru" : "Услуги, предоставляемые медицинскими лабораториями"
+	},
+	{
+		"id" : 9033,
+		"code" : "85146000-4",
+		"description" : null,
+		"description_ee" : "Verepankade teenused",
+		"description_en" : "Services provided by blood banks",
+		"description_lt" : "Kraujo bankų teikiamos paslaugos",
+		"description_lv" : "Asins banku sniegtie pakalpojumi",
+		"description_ru" : "Услуги, предоставляемые банками крови"
+	},
+	{
+		"id" : 9034,
+		"code" : "85146100-5",
+		"description" : null,
+		"description_ee" : "Spermapankade teenused",
+		"description_en" : "Services provided by sperm banks",
+		"description_lt" : "Spermos bankų teikiamos paslaugos",
+		"description_lv" : "Spermas banku sniegtie pakalpojumi",
+		"description_ru" : "Услуги, предоставляемые банками спермы"
+	},
+	{
+		"id" : 9035,
+		"code" : "85146200-6",
+		"description" : null,
+		"description_ee" : "Elundisiirdamispankade teenused",
+		"description_en" : "Services provided by transplant organ banks",
+		"description_lt" : "Transplantuojamų organų bankų teikiamos paslaugos",
+		"description_lv" : "Orgānu transplantu banku sniegtie pakalpojumi",
+		"description_ru" : "Услуги, предоставляемые банками органов для трансплантации"
+	},
+	{
+		"id" : 9036,
+		"code" : "85147000-1",
+		"description" : null,
+		"description_ee" : "Töötervishoiu teenused",
+		"description_en" : "Company health services",
+		"description_lt" : "Bendrovių sveikatos priežiūros paslaugos",
+		"description_lv" : "Veselības aprūpes pakalpojumi uzņēmumiem",
+		"description_ru" : "Медицинские услуги компании"
+	},
+	{
+		"id" : 9037,
+		"code" : "85148000-8",
+		"description" : null,
+		"description_ee" : "Meditsiinilise analüüsi teenused",
+		"description_en" : "Medical analysis services",
+		"description_lt" : "Medicininės analizės paslaugos",
+		"description_lv" : "Medicīniskās analīzes pakalpojumi",
+		"description_ru" : "Услуги медицинского анализа"
+	},
+	{
+		"id" : 9038,
+		"code" : "85149000-5",
+		"description" : null,
+		"description_ee" : "Farmaatsiateenused",
+		"description_en" : "Pharmacy services",
+		"description_lt" : "Farmacijos paslaugos",
+		"description_lv" : "Farmaceitiskie pakalpojumi",
+		"description_ru" : "Аптечные услуги"
+	},
+	{
+		"id" : 9039,
+		"code" : "85150000-5",
+		"description" : null,
+		"description_ee" : "Meditsiiniülesvõttetehnika teenused",
+		"description_en" : "Medical imaging services",
+		"description_lt" : "Medicininės organų atvaizdavimo paslaugos",
+		"description_lv" : "Medicīniskie attēlveidošanas pakalpojumi",
+		"description_ru" : "Услуги медицинской визуализации"
+	},
+	{
+		"id" : 9040,
+		"code" : "85160000-8",
+		"description" : null,
+		"description_ee" : "Optiku teenused",
+		"description_en" : "Optician services",
+		"description_lt" : "Optikos paslaugos",
+		"description_lv" : "Optiķu pakalpojumi",
+		"description_ru" : "Услуги оптики"
+	},
+	{
+		"id" : 9041,
+		"code" : "85170000-1",
+		"description" : null,
+		"description_ee" : "Nõelraviarsti ja kiropraktiku teenused",
+		"description_en" : "Acupuncture and chiropractor services",
+		"description_lt" : "Akupunktūros ir chiropraktikos paslaugos",
+		"description_lv" : "Akupunktūras un hiropraktiķu pakalpojumi",
+		"description_ru" : "Услуги акупунктуры и мануального терапевта"
+	},
+	{
+		"id" : 9042,
+		"code" : "85171000-8",
+		"description" : null,
+		"description_ee" : "Nõelraviarsti teenused",
+		"description_en" : "Acupuncture services",
+		"description_lt" : "Akupunktūros paslaugos",
+		"description_lv" : "Akupunktūras pakalpojumi",
+		"description_ru" : "Услуги акупунктуры"
+	},
+	{
+		"id" : 9043,
+		"code" : "85172000-5",
+		"description" : null,
+		"description_ee" : "Kiropraktiku teenused",
+		"description_en" : "Chiropractor services",
+		"description_lt" : "Chiropraktikos paslaugos",
+		"description_lv" : "Hiropraktiķu pakalpojumi",
+		"description_ru" : "Услуги мануального терапевта"
+	},
+	{
+		"id" : 9044,
+		"code" : "85200000-1",
+		"description" : null,
+		"description_ee" : "Veterinaarteenused",
+		"description_en" : "Veterinary services",
+		"description_lt" : "Veterinarijos paslaugos",
+		"description_lv" : "Veterinārie pakalpojumi",
+		"description_ru" : "Ветеринарные услуги"
+	},
+	{
+		"id" : 9045,
+		"code" : "85210000-3",
+		"description" : null,
+		"description_ee" : "Koduloomade poegade kasvatamise keskused",
+		"description_en" : "Domestic animal nurseries",
+		"description_lt" : "Naminių gyvūnų jauniklių augyklos",
+		"description_lv" : "Mājas dzīvnieku audzētavas",
+		"description_ru" : "Питомники домашних животных"
+	},
+	{
+		"id" : 9046,
+		"code" : "85300000-2",
+		"description" : null,
+		"description_ee" : "Sotsiaaltöö ja vastavad teenused",
+		"description_en" : "Social work and related services",
+		"description_lt" : "Socialinio darbo ir kitos susijusios paslaugos",
+		"description_lv" : "Sociālie pakalpojumi un saistītie pakalpojumi",
+		"description_ru" : "Социальная работа и сопутствующие услуги"
+	},
+	{
+		"id" : 9047,
+		"code" : "85310000-5",
+		"description" : null,
+		"description_ee" : "Sotsiaaltöö",
+		"description_en" : "Social work services",
+		"description_lt" : "Socialinio darbo paslaugos",
+		"description_lv" : "Sociālā darba pakalpojumi",
+		"description_ru" : "Услуги социальной работы"
+	},
+	{
+		"id" : 9048,
+		"code" : "85311000-2",
+		"description" : null,
+		"description_ee" : "Majutusega sotsiaalteenused",
+		"description_en" : "Social work services with accommodation",
+		"description_lt" : "Socialinio darbo paslaugos, susijusios su apgyvendinimu",
+		"description_lv" : "Sociālā darba pakalpojumi ar izmitināšanas iespējām",
+		"description_ru" : "Социальные услуги с проживанием"
+	},
+	{
+		"id" : 9049,
+		"code" : "85311100-3",
+		"description" : null,
+		"description_ee" : "Sotsiaalteenused vanuritele",
+		"description_en" : "Welfare services for the elderly",
+		"description_lt" : "Senelių rūpybos paslaugos",
+		"description_lv" : "Sociālie pakalpojumi veciem cilvēkiem",
+		"description_ru" : "Социальные услуги для пожилых людей"
+	},
+	{
+		"id" : 9050,
+		"code" : "85311200-4",
+		"description" : null,
+		"description_ee" : "Sotsiaalteenused puuetega isikutele",
+		"description_en" : "Welfare services for the handicapped",
+		"description_lt" : "Neįgaliųjų rūpybos paslaugos",
+		"description_lv" : "Dienas aprūpes pakalpojumi cilvēkiem ar īpašām vajadzībām",
+		"description_ru" : "Социальные услуги для инвалидов"
+	},
+	{
+		"id" : 9051,
+		"code" : "85311300-5",
+		"description" : null,
+		"description_ee" : "Sotsiaalteenused lastele ja noortele",
+		"description_en" : "Welfare services for children and young people",
+		"description_lt" : "Vaikų ir jaunimo rūpybos paslaugos",
+		"description_lv" : "Sociālie pakalpojumi bērniem un jauniešiem",
+		"description_ru" : "Социальные услуги для детей и молодежи"
+	},
+	{
+		"id" : 9052,
+		"code" : "85312000-9",
+		"description" : null,
+		"description_ee" : "Majutuseta sotsiaaltöö teenused",
+		"description_en" : "Social work services without accommodation",
+		"description_lt" : "Socialinio darbo paslaugos, nesusijusios su apgyvendinimu",
+		"description_lv" : "Sociālie pakalpojumi bez izmitināšanas iespējām",
+		"description_ru" : "Социальные услуги без проживания"
+	},
+	{
+		"id" : 9053,
+		"code" : "85312100-0",
+		"description" : null,
+		"description_ee" : "Päevahooldusteenused",
+		"description_en" : "Daycare services",
+		"description_lt" : "Priežiūros dieną paslaugos",
+		"description_lv" : "Dienas aprūpes pakalpojumi",
+		"description_ru" : "Услуги дневного ухода"
+	},
+	{
+		"id" : 9054,
+		"code" : "85312110-3",
+		"description" : null,
+		"description_ee" : "Laste päevahooldusteenused",
+		"description_en" : "Child daycare services",
+		"description_lt" : "Vaikų priežiūros dieną paslaugos",
+		"description_lv" : "Bērnu dienas aprūpes pakalpojumi",
+		"description_ru" : "Услуги по присмотру за детьми"
+	},
+	{
+		"id" : 9055,
+		"code" : "85312120-6",
+		"description" : null,
+		"description_ee" : "Puuetega laste ja noorte päevahooldusteenused",
+		"description_en" : "Daycare services for handicapped children and young people",
+		"description_lt" : "Neįgalių vaikų ir jaunimo priežiūros dieną paslaugos",
+		"description_lv" : "Dienas aprūpes pakalpojumi bērniem un jauniešiem ar īpašām vajadzībām",
+		"description_ru" : "Услуги дневного ухода за детьми-инвалидами и молодежью"
+	},
+	{
+		"id" : 9056,
+		"code" : "85312200-1",
+		"description" : null,
+		"description_ee" : "Toiduainete kojutoimetamine",
+		"description_en" : "Homedelivery of provisions",
+		"description_lt" : "Maisto atsargų pristatymas į namus",
+		"description_lv" : "Pirkumu piegāde mājās",
+		"description_ru" : "Доставка провизии на дом"
+	},
+	{
+		"id" : 9057,
+		"code" : "85312300-2",
+		"description" : null,
+		"description_ee" : "Juhendus- ja nõustamisteenused",
+		"description_en" : "Guidance and counselling services",
+		"description_lt" : "Patarimų ir konsultacinės paslaugos",
+		"description_lv" : "Virzības un padomdevēju pakalpojumi",
+		"description_ru" : "Услуги руководства и консультирования"
+	},
+	{
+		"id" : 9058,
+		"code" : "85312310-5",
+		"description" : null,
+		"description_ee" : "Juhendusteenused",
+		"description_en" : "Guidance services",
+		"description_lt" : "Patarimų paslaugos",
+		"description_lv" : "Virzības pakalpojumi",
+		"description_ru" : "Услуги гида"
+	},
+	{
+		"id" : 9059,
+		"code" : "85312320-8",
+		"description" : null,
+		"description_ee" : "Nõustamisteenused",
+		"description_en" : "Counselling services",
+		"description_lt" : "Konsultacinės paslaugos",
+		"description_lv" : "Padomdevēju pakalpojumi",
+		"description_ru" : "Консультационные услуги"
+	},
+	{
+		"id" : 9060,
+		"code" : "85312330-1",
+		"description" : null,
+		"description_ee" : "Pereplaneerimisteenused",
+		"description_en" : "Family-planning services",
+		"description_lt" : "Šeimos planavimo paslaugos",
+		"description_lv" : "Ģimenes plānošanas pakalpojumi",
+		"description_ru" : "Услуги по планированию семьи"
+	},
+	{
+		"id" : 9061,
+		"code" : "85312400-3",
+		"description" : null,
+		"description_ee" : "Väljaspool hooldekodusid pakutavad hoolekandeteenused",
+		"description_en" : "Welfare services not delivered through residential institutions",
+		"description_lt" : "Rūpybos paslaugos, kurių neteikia stacionarios institucijos",
+		"description_lv" : "Sociālās aprūpes pakalpojumi, ko nesniedz izmitināšanas iestādes",
+		"description_ru" : "Социальные услуги, не предоставляемые через интернатные учреждения"
+	},
+	{
+		"id" : 9062,
+		"code" : "85312500-4",
+		"description" : null,
+		"description_ee" : "Rehabilitatsiooniteenused",
+		"description_en" : "Rehabilitation services",
+		"description_lt" : "Reabilitacijos paslaugos",
+		"description_lv" : "Rehabilitācijas pakalpojumi",
+		"description_ru" : "Реабилитационные услуги"
+	},
+	{
+		"id" : 9063,
+		"code" : "85312510-7",
+		"description" : null,
+		"description_ee" : "Kutsealase rehabilitatsiooni teenused",
+		"description_en" : "Vocational rehabilitation services",
+		"description_lt" : "Profesinės reabilitacijos paslaugos",
+		"description_lv" : "Profesionālās rehabilitācijas pakalpojumi",
+		"description_ru" : "Услуги профессиональной реабилитации"
+	},
+	{
+		"id" : 9064,
+		"code" : "85320000-8",
+		"description" : null,
+		"description_ee" : "Sotsiaalteenused",
+		"description_en" : "Social services",
+		"description_lt" : "Socialinės paslaugos",
+		"description_lv" : "Sociālie pakalpojumi",
+		"description_ru" : "Социальные службы"
+	},
+	{
+		"id" : 9065,
+		"code" : "85321000-5",
+		"description" : null,
+		"description_ee" : "Administratiivsed sotsiaalteenused",
+		"description_en" : "Administrative social services",
+		"description_lt" : "Administracinės socialinės paslaugos",
+		"description_lv" : "Administratīvie sociālie pakalpojumi",
+		"description_ru" : "Административные социальные услуги"
+	},
+	{
+		"id" : 9066,
+		"code" : "85322000-2",
+		"description" : null,
+		"description_ee" : "Kogukonna tegevusprogramm",
+		"description_en" : "Community action programme",
+		"description_lt" : "Bendruomenės veiksmų programa",
+		"description_lv" : "Vietējās pašvaldības rīcības programma",
+		"description_ru" : "Программа действий сообщества"
+	},
+	{
+		"id" : 9067,
+		"code" : "85323000-9",
+		"description" : null,
+		"description_ee" : "Kogukonna tervishoiuteenused",
+		"description_en" : "Community health services",
+		"description_lt" : "Bendruomenės sveikatos priežiūros paslaugos",
+		"description_lv" : "Vietējās pašvaldības sniegtie veselības pakalpojumi",
+		"description_ru" : "Общественные службы здравоохранения"
+	},
+	{
+		"id" : 9068,
+		"code" : "90000000-7",
+		"description" : null,
+		"description_ee" : "Reovee- ja jäätmekõrvaldusteenused, puhastus- ja keskkonnateenused",
+		"description_en" : "Sewage, refuse, cleaning and environmental services",
+		"description_lt" : "Nuotekų ir atliekų šalinimo paslaugos, valymo ir aplinkosaugos paslaugos",
+		"description_lv" : "Notekūdeņu, atkritumu, tīrīšanas un vides pakalpojumi",
+		"description_ru" : "Сточные воды, мусор, уборка и экологические услуги"
+	},
+	{
+		"id" : 9069,
+		"code" : "90400000-1",
+		"description" : null,
+		"description_ee" : "Reoveeteenused",
+		"description_en" : "Sewage services",
+		"description_lt" : "Nuotekų paslaugos",
+		"description_lv" : "Notekūdeņu pakalpojumi",
+		"description_ru" : "Канализационные услуги"
+	},
+	{
+		"id" : 9070,
+		"code" : "90410000-4",
+		"description" : null,
+		"description_ee" : "Reovee ärajuhtimisteenused",
+		"description_en" : "Sewage removal services",
+		"description_lt" : "Nuotekų išgabenimo paslaugos",
+		"description_lv" : "Notekūdeņu novadīšanas pakalpojumi",
+		"description_ru" : "Услуги по удалению сточных вод"
+	},
+	{
+		"id" : 9071,
+		"code" : "90420000-7",
+		"description" : null,
+		"description_ee" : "Reovee käitlusteenused",
+		"description_en" : "Sewage treatment services",
+		"description_lt" : "Nuotekų valymo paslaugos",
+		"description_lv" : "Notekūdeņu attīrīšanas pakalpojumi",
+		"description_ru" : "Услуги по очистке сточных вод"
+	},
+	{
+		"id" : 9072,
+		"code" : "90430000-0",
+		"description" : null,
+		"description_ee" : "Reovee kõrvaldamisteenused",
+		"description_en" : "Sewage disposal services",
+		"description_lt" : "Nuotekų šalinimo paslaugos",
+		"description_lv" : "Notekūdeņu likvidēšanas pakalpojumi",
+		"description_ru" : "Услуги по удалению сточных вод"
+	},
+	{
+		"id" : 9073,
+		"code" : "90440000-3",
+		"description" : null,
+		"description_ee" : "Heitmekogumiskaevude käitlusteenused",
+		"description_en" : "Treatment services of cesspools",
+		"description_lt" : "Atliekų duobių valymo paslaugos",
+		"description_lv" : "Atkritumu bedru attīrīšanas pakalpojumi",
+		"description_ru" : "Услуги по очистке выгребных ям"
+	},
+	{
+		"id" : 9074,
+		"code" : "90450000-6",
+		"description" : null,
+		"description_ee" : "Settekaevude käitlusteenused",
+		"description_en" : "Treatment services of septic tanks",
+		"description_lt" : "Septikų rezervuarų valymo paslaugos",
+		"description_lv" : "Septisko aku attīrīšanas pakalpojumi",
+		"description_ru" : "Услуги по очистке септиков"
+	},
+	{
+		"id" : 9075,
+		"code" : "90460000-9",
+		"description" : null,
+		"description_ee" : "Heitmekogumiskaevude või settekaevude tühjendamisteenused",
+		"description_en" : "Cesspool or septic tank emptying services",
+		"description_lt" : "Atliekų duobių arba septikų rezervuarų ištuštinimo paslaugos",
+		"description_lv" : "Atkritumu bedru un septisko aku iztukšošanas pakalpojumi",
+		"description_ru" : "Услуги по опорожнению выгребной ямы или септика"
+	},
+	{
+		"id" : 9076,
+		"code" : "90470000-2",
+		"description" : null,
+		"description_ee" : "Kanalisatsioonitorustiku puhastusteenused",
+		"description_en" : "Sewer cleaning services",
+		"description_lt" : "Nuotekų kolektorių valymo paslaugos",
+		"description_lv" : "Notekcauruļu tīrīšanas pakalpojumi",
+		"description_ru" : "Услуги по очистке канализации"
+	},
+	{
+		"id" : 9077,
+		"code" : "90480000-5",
+		"description" : null,
+		"description_ee" : "Kanalisatsioonivõrgu haldusteenused",
+		"description_en" : "Sewerage management services",
+		"description_lt" : "Kanalizacijos tvarkymo paslaugos",
+		"description_lv" : "Notekūdeņu apsaimniekošanas pakalpojumi",
+		"description_ru" : "Услуги по управлению канализацией"
+	},
+	{
+		"id" : 9078,
+		"code" : "90481000-2",
+		"description" : null,
+		"description_ee" : "Reoveepuhasti ekspluatatsioon",
+		"description_en" : "Operation of a sewage plant",
+		"description_lt" : "Nuotekų įrenginių eksploatavimas",
+		"description_lv" : "Notekūdeņu attīrīšanas iekārtu ekspluatācija",
+		"description_ru" : "Эксплуатация очистных сооружений"
+	},
+	{
+		"id" : 9079,
+		"code" : "90490000-8",
+		"description" : null,
+		"description_ee" : "Kanalisatsioonitorustiku järelevalve ja reoveekäitluse alased nõustamisteenused",
+		"description_en" : "Sewer survey and sewage treatment consultancy services",
+		"description_lt" : "Nuotekų kolektorių tikrinimo ir nuotekų valymo konsultacinės paslaugos",
+		"description_lv" : "Notekūdeņu sistēmas izpētes un notekūdeņu attīrīšanas konsultāciju pakalpojumi",
+		"description_ru" : "Консультационные услуги по обследованию и очистке сточных вод"
+	},
+	{
+		"id" : 9080,
+		"code" : "90491000-5",
+		"description" : null,
+		"description_ee" : "Kanalisatsioonitorustiku järelevalveteenused",
+		"description_en" : "Sewer survey services",
+		"description_lt" : "Nuotekų kolektorių tikrinimo paslaugos",
+		"description_lv" : "Notekūdeņu sistēmas izpētes pakalpojumi",
+		"description_ru" : "Услуги по обследованию канализации"
+	},
+	{
+		"id" : 9081,
+		"code" : "90492000-2",
+		"description" : null,
+		"description_ee" : "Jäätmekäitlusalased nõustamisteenused",
+		"description_en" : "Sewage treatment consultancy services",
+		"description_lt" : "Nuotekų valymo konsultacinės paslaugos",
+		"description_lv" : "Konsultāciju pakalpojumi notekūdeņu attīrīšanas jautājumos",
+		"description_ru" : "Консультационные услуги по очистке сточных вод"
+	},
+	{
+		"id" : 9082,
+		"code" : "90500000-2",
+		"description" : null,
+		"description_ee" : "Prügi ja jäätmetega seotud teenused",
+		"description_en" : "Refuse and waste related services",
+		"description_lt" : "Su atliekomis susijusios paslaugos",
+		"description_lv" : "Ar atkritumiem saistīti pakalpojumi",
+		"description_ru" : "Услуги, связанные с отходами и отходами"
+	},
+	{
+		"id" : 9083,
+		"code" : "90510000-5",
+		"description" : null,
+		"description_ee" : "Jäätmekõrvaldus- ja käitlusteenused",
+		"description_en" : "Refuse disposal and treatment",
+		"description_lt" : "Atliekų šalinimo ir apdorojimo paslaugos",
+		"description_lv" : "Atkritumu apglabāšana un pārstrāde",
+		"description_ru" : "Утилизация и обработка отходов"
+	},
+	{
+		"id" : 9084,
+		"code" : "90511000-2",
+		"description" : null,
+		"description_ee" : "Jäätmekogumisteenused",
+		"description_en" : "Refuse collection services",
+		"description_lt" : "Atliekų rinkimo paslaugos",
+		"description_lv" : "Atkritumu (sadzīves) savākšanas pakalpojumi",
+		"description_ru" : "Услуги по сбору мусора"
+	},
+	{
+		"id" : 9085,
+		"code" : "90511100-3",
+		"description" : null,
+		"description_ee" : "Tahkete asulajäätmete kogumisteenused",
+		"description_en" : "Urban solid-refuse collection services",
+		"description_lt" : "Miestų kietųjų atliekų rinkimo paslaugos",
+		"description_lv" : "Pilsētvides cieto atkritumu savākšanas pakalpojumi",
+		"description_ru" : "Услуги по вывозу твердых бытовых отходов"
+	},
+	{
+		"id" : 9086,
+		"code" : "90511200-4",
+		"description" : null,
+		"description_ee" : "Majapidamisjäätmete kogumisteenused",
+		"description_en" : "Household-refuse collection services",
+		"description_lt" : "Buitinių atliekų rinkimo paslaugos",
+		"description_lv" : "Mājsaimniecību atkritumu savākšanas pakalpojumi",
+		"description_ru" : "Услуги по вывозу бытовых отходов"
+	},
+	{
+		"id" : 9087,
+		"code" : "90511300-5",
+		"description" : null,
+		"description_ee" : "Prahikogumisteenused",
+		"description_en" : "Litter collection services",
+		"description_lt" : "Šiukšlių rinkimo paslaugos",
+		"description_lv" : "Atkritumu savākšanas pakalpojumi",
+		"description_ru" : "Услуги по сбору мусора"
+	},
+	{
+		"id" : 9088,
+		"code" : "90511400-6",
+		"description" : null,
+		"description_ee" : "Vanapaberi kogumisteenused",
+		"description_en" : "Paper collecting services",
+		"description_lt" : "Popieriaus rinkimo paslaugos",
+		"description_lv" : "Papīra savākšanas pakalpojumi",
+		"description_ru" : "Услуги по сбору бумаги"
+	},
+	{
+		"id" : 9089,
+		"code" : "90512000-9",
+		"description" : null,
+		"description_ee" : "Jäätmeveoteenused",
+		"description_en" : "Refuse transport services",
+		"description_lt" : "Atliekų vežimo paslaugos",
+		"description_lv" : "Atkritumu transporta pakalpojumi",
+		"description_ru" : "Отказаться от транспортных услуг"
+	},
+	{
+		"id" : 9090,
+		"code" : "90513000-6",
+		"description" : null,
+		"description_ee" : "Tavajäätmete käitlus- ja kõrvaldusteenused",
+		"description_en" : "Non-hazardous refuse and waste treatment and disposal services",
+		"description_lt" : "Nepavojingų atliekų apdorojimo ir šalinimo paslaugos",
+		"description_lv" : "Nebīstamu atkritumu pārstrādes un apglabāšanas pakalpojumi",
+		"description_ru" : "Услуги по переработке и утилизации неопасных отходов и отходов"
+	},
+	{
+		"id" : 9091,
+		"code" : "90513100-7",
+		"description" : null,
+		"description_ee" : "Majapidamisjäätmete kõrvaldusteenused",
+		"description_en" : "Household-refuse disposal services",
+		"description_lt" : "Buitinių atliekų šalinimo paslaugos",
+		"description_lv" : "Mājsaimniecību atkritumu apsaimniekošanas pakalpojumi",
+		"description_ru" : "Услуги по вывозу бытовых отходов"
+	},
+	{
+		"id" : 9092,
+		"code" : "90513200-8",
+		"description" : null,
+		"description_ee" : "Tahkete asulajäätmete kõrvaldusteenused",
+		"description_en" : "Urban solid-refuse disposal services",
+		"description_lt" : "Miestų kietųjų atliekų šalinimo paslaugos",
+		"description_lv" : "Pilsētvides cieto atkritumu apsaimniekošanas pakalpojumi",
+		"description_ru" : "Услуги по вывозу твердых бытовых отходов"
+	},
+	{
+		"id" : 9093,
+		"code" : "90513300-9",
+		"description" : null,
+		"description_ee" : "Jäätmepõletusteenused",
+		"description_en" : "Refuse incineration services",
+		"description_lt" : "Atliekų deginimo paslaugos",
+		"description_lv" : "Atkritumu sadedzināšanas pakalpojumi",
+		"description_ru" : "Услуги по сжиганию мусора"
+	},
+	{
+		"id" : 9094,
+		"code" : "90513400-0",
+		"description" : null,
+		"description_ee" : "Tuhakõrvaldusteenused",
+		"description_en" : "Ash disposal services",
+		"description_lt" : "Pelenų šalinimo paslaugos",
+		"description_lv" : "Pelnu likvidēšanas pakalpojumi",
+		"description_ru" : "Услуги по удалению золы"
+	},
+	{
+		"id" : 9095,
+		"code" : "90513500-1",
+		"description" : null,
+		"description_ee" : "Vedeljäätmete puhastus ja kõrvaldus",
+		"description_en" : "Treatment and disposal of foul liquids",
+		"description_lt" : "Srutų valymas ir šalinimas",
+		"description_lv" : "Piesārņoto šķidrumu attīrīšana un likvidēšana",
+		"description_ru" : "Обработка и утилизация грязных жидкостей"
+	},
+	{
+		"id" : 9096,
+		"code" : "90513600-2",
+		"description" : null,
+		"description_ee" : "Sette-eemaldusteenused",
+		"description_en" : "Sludge removal services",
+		"description_lt" : "Dumblo išgabenimo paslaugos",
+		"description_lv" : "Notekūdeņu nosēdumu aizvākšanas pakalpojumi",
+		"description_ru" : "Услуги по удалению шлама"
+	},
+	{
+		"id" : 9097,
+		"code" : "90513700-3",
+		"description" : null,
+		"description_ee" : "Setteveoteenused",
+		"description_en" : "Sludge transport services",
+		"description_lt" : "Dumblo vežimo paslaugos",
+		"description_lv" : "Notekūdeņu nosēdumu transporta pakalpojumi",
+		"description_ru" : "Услуги по транспортировке шлама"
+	},
+	{
+		"id" : 9098,
+		"code" : "90513800-4",
+		"description" : null,
+		"description_ee" : "Settekäitlusteenused",
+		"description_en" : "Sludge treatment services",
+		"description_lt" : "Dumblo tvarkymo paslaugos",
+		"description_lv" : "Notekūdeņu nosēdumu attīrīšanas pakalpojumi",
+		"description_ru" : "Услуги по обработке осадка"
+	},
+	{
+		"id" : 9099,
+		"code" : "90513900-5",
+		"description" : null,
+		"description_ee" : "Settekõrvaldusteenused",
+		"description_en" : "Sludge disposal services",
+		"description_lt" : "Dumblo šalinimo paslaugos",
+		"description_lv" : "Notekūdeņu nosēdumu likvidēšanas pakalpojumi",
+		"description_ru" : "Услуги по удалению шлама"
+	},
+	{
+		"id" : 9100,
+		"code" : "90514000-3",
+		"description" : null,
+		"description_ee" : "Jäätmete taaskasutusteenused",
+		"description_en" : "Refuse recycling services",
+		"description_lt" : "Atliekų perdirbimo paslaugos",
+		"description_lv" : "Atkritumu otrreizējās pārstrādes pakalpojumi",
+		"description_ru" : "Услуги по переработке отходов"
+	},
+	{
+		"id" : 9101,
+		"code" : "90520000-8",
+		"description" : null,
+		"description_ee" : "Radioaktiivsete, toksiliste, meditsiini- ja ohtlike jäätmete teenused",
+		"description_en" : "Radioactive-, toxic-, medical- and hazardous waste services",
+		"description_lt" : "Su radioaktyviosiomis, toksinėmis, medicininėmis ir pavojingomis atliekomis susijusios paslaugos",
+		"description_lv" : "Radioaktīvo, toksisko, medicīnisko un bīstamo atkritumu pakalpojumi",
+		"description_ru" : "Услуги по обращению с радиоактивными, токсичными, медицинскими и опасными отходами"
+	},
+	{
+		"id" : 9102,
+		"code" : "90521000-5",
+		"description" : null,
+		"description_ee" : "Radioaktiivsete jäätmete käitlusteenused",
+		"description_en" : "Radioactive waste treatment services",
+		"description_lt" : "Radioaktyviųjų atliekų tvarkymo paslaugos",
+		"description_lv" : "Radioaktīvo atkritumu apstrādes pakalpojumi",
+		"description_ru" : "Услуги по обращению с радиоактивными отходами"
+	},
+	{
+		"id" : 9103,
+		"code" : "90521100-6",
+		"description" : null,
+		"description_ee" : "Radioaktiivsete jäätmete kogumine",
+		"description_en" : "Collection of radioactive waste",
+		"description_lt" : "Radioaktyviųjų atliekų rinkimas",
+		"description_lv" : "Radioaktīvo atkritumu savākšana",
+		"description_ru" : "Сбор радиоактивных отходов"
+	},
+	{
+		"id" : 9104,
+		"code" : "90521200-7",
+		"description" : null,
+		"description_ee" : "Radioaktiivsete jäätmete ladustamisteenused",
+		"description_en" : "Radioactive waste storage services",
+		"description_lt" : "Radioaktyviųjų atliekų saugojimo paslaugos",
+		"description_lv" : "Radioaktīvo atkritumu uzglabāšanas pakalpojumi",
+		"description_ru" : "Услуги по хранению радиоактивных отходов"
+	},
+	{
+		"id" : 9105,
+		"code" : "90521300-8",
+		"description" : null,
+		"description_ee" : "Radioaktiivsete jäätmete kõrvaldamine",
+		"description_en" : "Disposal of radioactive waste",
+		"description_lt" : "Radioaktyviųjų atliekų šalinimas",
+		"description_lv" : "Radioaktīvo atkritumu apglabāšana",
+		"description_ru" : "Захоронение радиоактивных отходов"
+	},
+	{
+		"id" : 9106,
+		"code" : "90521400-9",
+		"description" : null,
+		"description_ee" : "Radioaktiivsete jäätmete vedu",
+		"description_en" : "Transport of radioactive waste",
+		"description_lt" : "Radioaktyviųjų atliekų vežimas",
+		"description_lv" : "Radioaktīvo atkritumu transports",
+		"description_ru" : "Перевозка радиоактивных отходов"
+	},
+	{
+		"id" : 9107,
+		"code" : "90521410-2",
+		"description" : null,
+		"description_ee" : "Madala radioaktiivsuse tasemega tuumajäätmete vedu",
+		"description_en" : "Transportation of low level nuclear waste",
+		"description_lt" : "Nedidelio aktyvumo branduolinių atliekų vežimas",
+		"description_lv" : "Mazas aktivitātes radioaktīvo atkritumu transportēšana",
+		"description_ru" : "Транспортировка низкоактивных ядерных отходов"
+	},
+	{
+		"id" : 9108,
+		"code" : "90521420-5",
+		"description" : null,
+		"description_ee" : "Keskmise radioaktiivsuse tasemega tuumajäätmete vedu",
+		"description_en" : "Transportation of intermediate level nuclear waste",
+		"description_lt" : "Vidutinio aktyvumo branduolinių atliekų vežimas",
+		"description_lv" : "Vidējas aktivitātes radioaktīvo atkritumu transportēšana",
+		"description_ru" : "Транспортировка среднеактивных ядерных отходов"
+	},
+	{
+		"id" : 9109,
+		"code" : "90521500-0",
+		"description" : null,
+		"description_ee" : "Tuumajäätmete pakendamine",
+		"description_en" : "Packaging of radioactive waste",
+		"description_lt" : "Radioaktyviųjų atliekų įpakavimas",
+		"description_lv" : "Radioaktīvo atkritumu iepakošana",
+		"description_ru" : "Упаковка радиоактивных отходов"
+	},
+	{
+		"id" : 9110,
+		"code" : "90521510-3",
+		"description" : null,
+		"description_ee" : "Madala radioaktiivsuse tasemega tuumajäätmete pakendamine",
+		"description_en" : "Packaging of low level nuclear waste",
+		"description_lt" : "Nedidelio aktyvumo branduolinių atliekų įpakavimas",
+		"description_lv" : "Mazas aktivitātes radioaktīvo atkritumu iepakošana",
+		"description_ru" : "Упаковка низкоактивных ядерных отходов"
+	},
+	{
+		"id" : 9111,
+		"code" : "90521520-6",
+		"description" : null,
+		"description_ee" : "Keskmise radioaktiivsuse tasemega tuumajäätmete pakendamine",
+		"description_en" : "Packaging of intermediate level nuclear waste",
+		"description_lt" : "Vidutinio aktyvumo branduolinių atliekų įpakavimas",
+		"description_lv" : "Vidējas aktivitātes radioaktīvo atkritumu iepakošana",
+		"description_ru" : "Упаковка среднеактивных ядерных отходов"
+	},
+	{
+		"id" : 9112,
+		"code" : "90522000-2",
+		"description" : null,
+		"description_ee" : "Saastatud pinnasega seotud teenused",
+		"description_en" : "Services relating to contaminated soil",
+		"description_lt" : "Paslaugos, susijusios su užterštu dirvožemiu",
+		"description_lv" : "Pakalpojumi, kas saistīti ar piesārņotu augsni",
+		"description_ru" : "Услуги, связанные с загрязненной почвой"
+	},
+	{
+		"id" : 9113,
+		"code" : "90522100-3",
+		"description" : null,
+		"description_ee" : "Saastatud pinnase eemaldamine",
+		"description_en" : "Removal of contaminated soil",
+		"description_lt" : "Užteršto dirvožemio nuėmimas",
+		"description_lv" : "Piesārņotas augsnes noņemšana",
+		"description_ru" : "Удаление загрязненного грунта"
+	},
+	{
+		"id" : 9114,
+		"code" : "90522200-4",
+		"description" : null,
+		"description_ee" : "Saastatud pinnase kõrvaldamine",
+		"description_en" : "Disposal of contaminated soil",
+		"description_lt" : "Užteršto dirvožemio šalinimas",
+		"description_lv" : "Piesārņotas augsnes apglabāšana",
+		"description_ru" : "Утилизация загрязненной почвы"
+	},
+	{
+		"id" : 9115,
+		"code" : "90522300-5",
+		"description" : null,
+		"description_ee" : "Saastatud pinnase käitlusteenused",
+		"description_en" : "Contaminated-soil treatment services",
+		"description_lt" : "Užteršto dirvožemio apdorojimo paslaugos",
+		"description_lv" : "Piesārņotas augsnes apstrādes pakalpojumi",
+		"description_ru" : "Услуги по обработке загрязненной почвы"
+	},
+	{
+		"id" : 9116,
+		"code" : "90522400-6",
+		"description" : null,
+		"description_ee" : "Pinnase puhastamine ja töötlemine",
+		"description_en" : "Cleaning and treatment of soil",
+		"description_lt" : "Dirvožemio valymas ir apdorojimas",
+		"description_lv" : "Augsnes attīrīšana un apstrāde",
+		"description_ru" : "Очистка и обработка почвы"
+	},
+	{
+		"id" : 9117,
+		"code" : "90523000-9",
+		"description" : null,
+		"description_ee" : "Toksiliste jäätmete, v.a radioaktiivsete jäätmete, ja saastatud pinnase kõrvaldamisteenused",
+		"description_en" : "Toxic waste disposal services except radioactive waste and contaminated soil",
+		"description_lt" : "Toksinių atliekų, išskyrus radioaktyviąsias atliekas ir užterštą dirvožemį, šalinimo paslaugos",
+		"description_lv" : "Toksisko atkritumu apglabāšanas pakalpojumi, izņemot radioaktīvos atkritumus un piesārņotu augsni",
+		"description_ru" : "Услуги по утилизации токсичных отходов, кроме радиоактивных отходов и загрязненной почвы"
+	},
+	{
+		"id" : 9118,
+		"code" : "90523100-0",
+		"description" : null,
+		"description_ee" : "Relvade ja laskemoona hävitusteenused",
+		"description_en" : "Weapons and ammunition disposal services",
+		"description_lt" : "Ginklų ir šaudmenų šalinimo paslaugos",
+		"description_lv" : "Ieroču un munīcijas iznīcināšanas pakalpojumi",
+		"description_ru" : "Услуги по утилизации оружия и боеприпасов"
+	},
+	{
+		"id" : 9119,
+		"code" : "90523200-1",
+		"description" : null,
+		"description_ee" : "Pommihävitusteenused",
+		"description_en" : "Bomb-disposal services",
+		"description_lt" : "Bombų šalinimo paslaugos",
+		"description_lv" : "Bumbu iznīcināšanas pakalpojumi",
+		"description_ru" : "Услуги по обезвреживанию бомб"
+	},
+	{
+		"id" : 9120,
+		"code" : "90523300-2",
+		"description" : null,
+		"description_ee" : "Miinihävitusteenused",
+		"description_en" : "Mine sweeping services",
+		"description_lt" : "Minų tralavimo paslaugos",
+		"description_lv" : "Mīnu tralēšanas pakalpojumi",
+		"description_ru" : "Услуги по тралению шахт"
+	},
+	{
+		"id" : 9121,
+		"code" : "90524000-6",
+		"description" : null,
+		"description_ee" : "Meditsiinijäätmete teenused",
+		"description_en" : "Medical waste services",
+		"description_lt" : "Paslaugos, susijusios su medicinos atliekomis",
+		"description_lv" : "Medicīnisko atkritumu savākšanas pakalpojumi",
+		"description_ru" : "Медицинские отходы"
+	},
+	{
+		"id" : 9122,
+		"code" : "90524100-7",
+		"description" : null,
+		"description_ee" : "Haiglajäätmete kogumisteenused",
+		"description_en" : "Clinical-waste collection services",
+		"description_lt" : "Klinikinių atliekų rinkimo paslaugos",
+		"description_lv" : "Klīnisko atkritumu savākšanas pakalpojumi",
+		"description_ru" : "Услуги по сбору медицинских отходов"
+	},
+	{
+		"id" : 9123,
+		"code" : "90524200-8",
+		"description" : null,
+		"description_ee" : "Haiglajäätmete kõrvaldusteenused",
+		"description_en" : "Clinical-waste disposal services",
+		"description_lt" : "Klinikinių atliekų šalinimo paslaugos",
+		"description_lv" : "Klīnisko atkritumu izvietošanas pakalpojumi",
+		"description_ru" : "Услуги по утилизации медицинских отходов"
+	},
+	{
+		"id" : 9124,
+		"code" : "90524300-9",
+		"description" : null,
+		"description_ee" : "Bioloogiliste jäätmete kõrvaldamisteenused",
+		"description_en" : "Removal services of biological waste",
+		"description_lt" : "Biologinių atliekų pašalinimo paslaugos",
+		"description_lv" : "Bioloģisko atkritumu aizvākšanas pakalpojumi",
+		"description_ru" : "Услуги по вывозу биологических отходов"
+	},
+	{
+		"id" : 9125,
+		"code" : "90524400-0",
+		"description" : null,
+		"description_ee" : "Haiglajäätmete kogumine, transport ja kõrvaldamine",
+		"description_en" : "Collection, transport and disposal of hospital waste",
+		"description_lt" : "Ligoninių atliekų rinkimas, vežimas ir šalinimas",
+		"description_lv" : "Slimnīcu atkritumu savākšana, transports un izvietošana",
+		"description_ru" : "Сбор, транспортировка и утилизация больничных отходов"
+	},
+	{
+		"id" : 9126,
+		"code" : "90530000-1",
+		"description" : null,
+		"description_ee" : "Prügila ekspluatatsioon",
+		"description_en" : "Operation of a refuse site",
+		"description_lt" : "Atliekų aikštelių eksploatavimas",
+		"description_lv" : "Atkritumu poligona ekspluatācija",
+		"description_ru" : "Эксплуатация мусорного полигона"
+	},
+	{
+		"id" : 9127,
+		"code" : "90531000-8",
+		"description" : null,
+		"description_ee" : "Prügila haldusteenused",
+		"description_en" : "Landfill management services",
+		"description_lt" : "Sąvartynų tvarkymo paslaugos",
+		"description_lv" : "Atkritumu poligona apsaimniekošanas pakalpojumi",
+		"description_ru" : "Услуги по управлению полигонами"
+	},
+	{
+		"id" : 9128,
+		"code" : "90532000-5",
+		"description" : null,
+		"description_ee" : "Kivisöekaevanduse jäätmaa haldusteenused",
+		"description_en" : "Coal-tip management services",
+		"description_lt" : "Akmens anglių aikštelių tvarkymo paslaugos",
+		"description_lv" : "Ogļu izgāztuves apsaimniekošanas pakalpojumi",
+		"description_ru" : "Услуги по управлению угольной шахтой"
+	},
+	{
+		"id" : 9129,
+		"code" : "90533000-2",
+		"description" : null,
+		"description_ee" : "Ulaprügila haldusteenused",
+		"description_en" : "Waste-tip management services",
+		"description_lt" : "Atliekų aikštelių tvarkymo paslaugos",
+		"description_lv" : "Atkritumu izgāztuves apsaimniekošanas pakalpojumi",
+		"description_ru" : "Услуги по обращению с мусором"
+	},
+	{
+		"id" : 9130,
+		"code" : "90600000-3",
+		"description" : null,
+		"description_ee" : "Puhastus- ja kanalisatsiooniteenused linna- ja maapiirkonnas ning nendega seonduvad teenused",
+		"description_en" : "Cleaning and sanitation services in urban or rural areas, and related services",
+		"description_lt" : "Valymo ir sanitarinės paslaugos miesto ir kaimo vietovėse bei kitos susijusios paslaugos",
+		"description_lv" : "Tīrīšanas un sanitārie pakalpojumi lauku apvidos vai pilsētu teritorijās un saistītie pakalpojumi",
+		"description_ru" : "Услуги по уборке и санитарии в городских или сельских районах и сопутствующие услуги"
+	},
+	{
+		"id" : 9131,
+		"code" : "90610000-6",
+		"description" : null,
+		"description_ee" : "Tänavapuhastus- ja tänavapühkimisteenused",
+		"description_en" : "Street-cleaning and sweeping services",
+		"description_lt" : "Gatvių valymo ir šlavimo paslaugos",
+		"description_lv" : "Ielu tīrīšanas un slaucīšanas pakalpojumi",
+		"description_ru" : "Услуги по уборке улиц и подметанию"
+	},
+	{
+		"id" : 9132,
+		"code" : "90611000-3",
+		"description" : null,
+		"description_ee" : "Tänavapuhastusteenused",
+		"description_en" : "Street-cleaning services",
+		"description_lt" : "Gatvių valymo paslaugos",
+		"description_lv" : "Ielu tīrīšanas pakalpojumi",
+		"description_ru" : "Услуги по уборке улиц"
+	},
+	{
+		"id" : 9133,
+		"code" : "90612000-0",
+		"description" : null,
+		"description_ee" : "Tänavapesemisteenused",
+		"description_en" : "Street-sweeping services",
+		"description_lt" : "Gatvių šlavimo paslaugos",
+		"description_lv" : "Ielu slaucīšanas pakalpojumi",
+		"description_ru" : "Услуги по подметанию улиц"
+	},
+	{
+		"id" : 9134,
+		"code" : "90620000-9",
+		"description" : null,
+		"description_ee" : "Lumekoristusteenused",
+		"description_en" : "Snow-clearing services",
+		"description_lt" : "Sniego valymo paslaugos",
+		"description_lv" : "Sniega tīrīšanas pakalpojumi",
+		"description_ru" : "Услуги по уборке снега"
+	},
+	{
+		"id" : 9135,
+		"code" : "90630000-2",
+		"description" : null,
+		"description_ee" : "Jääkoristusteenused",
+		"description_en" : "Ice-clearing services",
+		"description_lt" : "Ledo valymo paslaugos",
+		"description_lv" : "Ledus tīrīšanas pakalpojumi",
+		"description_ru" : "Услуги по очистке льда"
+	},
+	{
+		"id" : 9136,
+		"code" : "90640000-5",
+		"description" : null,
+		"description_ee" : "Kanalisatsioonikaevude puhastamise ja tühjendamise teenused",
+		"description_en" : "Gully cleaning and emptying services",
+		"description_lt" : "Nutekamojo vandens priimtuvų valymo ir ištuštinimo paslaugos",
+		"description_lv" : "Noteku tīrīšanas un iztukšošanas pakalpojumi",
+		"description_ru" : "Услуги по очистке и опорожнению оврагов"
+	},
+	{
+		"id" : 9137,
+		"code" : "90641000-2",
+		"description" : null,
+		"description_ee" : "Kanalisatsioonikaevude puhastamise teenused",
+		"description_en" : "Gully cleaning services",
+		"description_lt" : "Nutekamojo vandens priimtuvų valymo paslaugos",
+		"description_lv" : "Noteku tīrīšanas pakalpojumi",
+		"description_ru" : "Услуги по уборке оврагов"
+	},
+	{
+		"id" : 9138,
+		"code" : "90642000-9",
+		"description" : null,
+		"description_ee" : "Kanalisatsioonikaevude tühjendamise teenused",
+		"description_en" : "Gully emptying services",
+		"description_lt" : "Nutekamojo vandens priimtuvų ištuštinimo paslaugos",
+		"description_lv" : "Noteku iztukšošanas pakalpojumi",
+		"description_ru" : "Услуги по опорожнению оврагов"
+	},
+	{
+		"id" : 9139,
+		"code" : "90650000-8",
+		"description" : null,
+		"description_ee" : "Asbesti eemaldamisteenused",
+		"description_en" : "Asbestos removal services",
+		"description_lt" : "Asbesto šalinimo paslaugos",
+		"description_lv" : "Azbesta novākšanas pakalpojumi",
+		"description_ru" : "Услуги по удалению асбеста"
+	},
+	{
+		"id" : 9140,
+		"code" : "90660000-1",
+		"description" : null,
+		"description_ee" : "Plii eemaldamisteenused",
+		"description_en" : "Deleading services",
+		"description_lt" : "Švino šalinimo paslaugos",
+		"description_lv" : "Svina atdalīšanas pakalpojumi",
+		"description_ru" : "Делидинговые услуги"
+	},
+	{
+		"id" : 9141,
+		"code" : "90670000-4",
+		"description" : null,
+		"description_ee" : "Desinfektsioon ja kahjuritõrje linna- ja maapiirkonnas",
+		"description_en" : "Disinfecting and exterminating services in urban or rural areas",
+		"description_lt" : "Dezinfekavimo ir naikinimo paslaugos miesto arba kaimo vietovėse",
+		"description_lv" : "Dezinfekcijas un kaitēkļu apkarošanas pakalpojumi lauku apvidos vai pilsētu teritorijās",
+		"description_ru" : "Службы дезинфекции и уничтожения в городских или сельских районах"
+	},
+	{
+		"id" : 9142,
+		"code" : "90680000-7",
+		"description" : null,
+		"description_ee" : "Rannapuhastusteenused",
+		"description_en" : "Beach cleaning services",
+		"description_lt" : "Paplūdimių valymo paslaugos",
+		"description_lv" : "Pludmales uzkopšanas pakalpojumi",
+		"description_ru" : "Услуги по уборке пляжей"
+	},
+	{
+		"id" : 9143,
+		"code" : "90690000-0",
+		"description" : null,
+		"description_ee" : "Grafiti eemaldamise teenused",
+		"description_en" : "Graffiti removal services",
+		"description_lt" : "Grafičio valymo paslaugos",
+		"description_lv" : "Grafīti notīrīšanas pakalpojumi",
+		"description_ru" : "Услуги по удалению граффити"
+	},
+	{
+		"id" : 9144,
+		"code" : "90700000-4",
+		"description" : null,
+		"description_ee" : "Keskkonnateenused",
+		"description_en" : "Environmental services",
+		"description_lt" : "Aplinkosauginės paslaugos",
+		"description_lv" : "Vides pakalpojumi",
+		"description_ru" : "Экологические услуги"
+	},
+	{
+		"id" : 9145,
+		"code" : "90710000-7",
+		"description" : null,
+		"description_ee" : "Keskkonnajuhtimine",
+		"description_en" : "Environmental management",
+		"description_lt" : "Aplinkosaugos valdymas",
+		"description_lv" : "Vides pārvaldība",
+		"description_ru" : "Управление окружением"
+	},
+	{
+		"id" : 9146,
+		"code" : "90711000-4",
+		"description" : null,
+		"description_ee" : "Keskkonnamõju analüüs, v.a ehitusega seotud",
+		"description_en" : "Environmental impact assessment other than for construction",
+		"description_lt" : "Poveikio aplinkai vertinimas (ne statyboms)",
+		"description_lv" : "Ietekmes uz vidi novērtējums, izņemot būvniecībai",
+		"description_ru" : "Оценка воздействия на окружающую среду, кроме строительства"
+	},
+	{
+		"id" : 9147,
+		"code" : "90711100-5",
+		"description" : null,
+		"description_ee" : "Riskihinnang või ohutegurite analüüs, v.a ehitusega seotud",
+		"description_en" : "Risk or hazard assessment other than for construction",
+		"description_lt" : "Rizikos arba pavojaus vertinimas (ne statyboms)",
+		"description_lv" : "Risku vai bīstamības novērtējums, izņemot būvniecībai",
+		"description_ru" : "Оценка рисков или опасностей, кроме строительных"
+	},
+	{
+		"id" : 9148,
+		"code" : "90711200-6",
+		"description" : null,
+		"description_ee" : "Keskkonnanormatiivid, v.a ehitusega seotud",
+		"description_en" : "Environmental standards other than for construction",
+		"description_lt" : "Aplinkosaugos standartai (ne statyboms)",
+		"description_lv" : "Vides standarti, izņemot būvniecībai",
+		"description_ru" : "Экологические стандарты, кроме строительных"
+	},
+	{
+		"id" : 9149,
+		"code" : "90711300-7",
+		"description" : null,
+		"description_ee" : "Keskkonnanäitajate hindamine, v.a ehitusega seotud",
+		"description_en" : "Environmental indicators analysis other than for construction",
+		"description_lt" : "Aplinkos veiksnių analizė (ne statyboms)",
+		"description_lv" : "Vides rādītāju analīze, izņemot būvniecībai",
+		"description_ru" : "Анализ экологических показателей, кроме строительства"
+	},
+	{
+		"id" : 9150,
+		"code" : "90711400-8",
+		"description" : null,
+		"description_ee" : "Ehituse keskkonnamõju hindamise (KMH) teenused, v.a ehitusega seotud",
+		"description_en" : "Environmental Impact Assessment (EIA) services other than for construction",
+		"description_lt" : "Poveikio aplinkai vertinimo (EIA) paslaugos (ne statyboms)",
+		"description_lv" : "Ietekmes uz vidi novērtēšanas (EIA) pakalpojumi, izņemot būvniecībai",
+		"description_ru" : "Услуги по оценке воздействия на окружающую среду (ОВОС), кроме строительных"
+	},
+	{
+		"id" : 9151,
+		"code" : "90711500-9",
+		"description" : null,
+		"description_ee" : "Ehituse keskkonnaseire, v.a ehitusega seotud",
+		"description_en" : "Environmental monitoring other than for construction",
+		"description_lt" : "Aplinkos stebėjimas (ne statyboms)",
+		"description_lv" : "Vides monitorings, izņemot būvniecībai",
+		"description_ru" : "Мониторинг окружающей среды, кроме строительства"
+	},
+	{
+		"id" : 9152,
+		"code" : "90712000-1",
+		"description" : null,
+		"description_ee" : "Keskkonnaplaneerimine",
+		"description_en" : "Environmental planning",
+		"description_lt" : "Aplinkos planavimas",
+		"description_lv" : "Vides plānošana",
+		"description_ru" : "Экологическое планирование"
+	},
+	{
+		"id" : 9153,
+		"code" : "90712100-2",
+		"description" : null,
+		"description_ee" : "Linnakeskkonna arengukavad",
+		"description_en" : "Urban environmental development planning",
+		"description_lt" : "Miesto aplinkos plėtros planavimas",
+		"description_lv" : "Pilsētvides attīstības plānošana",
+		"description_ru" : "Планирование развития городской среды"
+	},
+	{
+		"id" : 9154,
+		"code" : "90712200-3",
+		"description" : null,
+		"description_ee" : "Metsakaitse strateegiline planeerimine",
+		"description_en" : "Forest conservation strategy planning",
+		"description_lt" : "Miškų išsaugojimo strategijų planavimas",
+		"description_lv" : "Mežu saglabāšanas stratēģijas plānošana",
+		"description_ru" : "Планирование стратегии сохранения лесов"
+	},
+	{
+		"id" : 9155,
+		"code" : "90712300-4",
+		"description" : null,
+		"description_ee" : "Merekaitse strateegiline planeerimine",
+		"description_en" : "Marine conservation strategy planning",
+		"description_lt" : "Jūrų išsaugojimo strategijų planavimas",
+		"description_lv" : "Jūras saglabāšanas stratēģijas plānošana",
+		"description_ru" : "Планирование стратегии сохранения морской среды"
+	},
+	{
+		"id" : 9156,
+		"code" : "90712400-5",
+		"description" : null,
+		"description_ee" : "Loodusvarade majandamise või kaitse strateegilise planeerimise teenused",
+		"description_en" : "Natural resources management or conservation strategy planning services",
+		"description_lt" : "Gamtos išteklių valdymo arba išsaugojimo strategijų planavimo paslaugos",
+		"description_lv" : "Dabas resursu pārvaldības vai saglabāšanas stratēģijas plānošanas pakalpojumi",
+		"description_ru" : "Услуги по управлению природными ресурсами или планированию стратегии сохранения"
+	},
+	{
+		"id" : 9157,
+		"code" : "90712500-6",
+		"description" : null,
+		"description_ee" : "Keskkonnastruktuuride loomine või planeerimine",
+		"description_en" : "Environmental institution building or planning",
+		"description_lt" : "Aplinkosaugos institucijų kūrimas arba planavimas",
+		"description_lv" : "Vides iestādes veidošana vai plānošana",
+		"description_ru" : "Создание или планирование природоохранного учреждения"
+	},
+	{
+		"id" : 9158,
+		"code" : "90713000-8",
+		"description" : null,
+		"description_ee" : "Keskkonnaküsimuste nõuandeteenused",
+		"description_en" : "Environmental issues consultancy services",
+		"description_lt" : "Konsultacijų aplinkosaugos klausimais paslaugos",
+		"description_lv" : "Vides jautājumu konsultāciju pakalpojumi",
+		"description_ru" : "Консультационные услуги по экологическим вопросам"
+	},
+	{
+		"id" : 9159,
+		"code" : "90713100-9",
+		"description" : null,
+		"description_ee" : "Veevarustuse ja reovee alased nõuandeteenused, v.a ehitusega seotud",
+		"description_en" : "Consulting services for water-supply and waste-water other than for construction",
+		"description_lt" : "Konsultavimo vandentiekio ir nuotekų klausimais paslaugos (ne statyboms)",
+		"description_lv" : "Konsultāciju pakalpojumi ūdens apgādes un notekūdeņu jautājumos, izņemot būvniecībai",
+		"description_ru" : "Консультационные услуги по водоснабжению и водоотведению, кроме строительных"
+	},
+	{
+		"id" : 9160,
+		"code" : "90714000-5",
+		"description" : null,
+		"description_ee" : "Keskonnanõuetele vastavuse kontrollimine",
+		"description_en" : "Environmental auditing",
+		"description_lt" : "Aplinkosaugos auditas",
+		"description_lv" : "Vides audits",
+		"description_ru" : "Экологический аудит"
+	},
+	{
+		"id" : 9161,
+		"code" : "90714100-6",
+		"description" : null,
+		"description_ee" : "Keskkonnaalased infosüsteemid",
+		"description_en" : "Environmental information systems",
+		"description_lt" : "Aplinkosaugos informacinės sistemos",
+		"description_lv" : "Vides informācijas sistēmas",
+		"description_ru" : "Системы экологической информации"
+	},
+	{
+		"id" : 9162,
+		"code" : "90714200-7",
+		"description" : null,
+		"description_ee" : "Ettevõtete keskkonnanõuetele vastavuse kontrolliteenused",
+		"description_en" : "Corporate environmental auditing services",
+		"description_lt" : "Įmonių aplinkosaugos audito paslaugos",
+		"description_lv" : "Korporatīvie vides audita pakalpojumi",
+		"description_ru" : "Услуги корпоративного экологического аудита"
+	},
+	{
+		"id" : 9163,
+		"code" : "90714300-8",
+		"description" : null,
+		"description_ee" : "Valdkonnapõhised keskkonnanõuetele vastavuse kontrolliteenused",
+		"description_en" : "Sectoral environmental auditing services",
+		"description_lt" : "Sektorių aplinkosaugos audito paslaugos",
+		"description_lv" : "Nozaru vides audita pakalpojumi",
+		"description_ru" : "Услуги отраслевого экологического аудита"
+	},
+	{
+		"id" : 9164,
+		"code" : "90714400-9",
+		"description" : null,
+		"description_ee" : "Tegevusalapõhised keskkonnanõuetele vastavuse kontrolliteenused",
+		"description_en" : "Activity specific environmental auditing services",
+		"description_lt" : "Su tam tikra veikla susijusio aplinkosaugos audito paslaugos",
+		"description_lv" : "Darbībai atbilstoši vides audita pakalpojumi",
+		"description_ru" : "Услуги экологического аудита для конкретных видов деятельности"
+	},
+	{
+		"id" : 9165,
+		"code" : "90714500-0",
+		"description" : null,
+		"description_ee" : "Keskkonna kvaliteedikontrolliteenused",
+		"description_en" : "Environmental quality control services",
+		"description_lt" : "Aplinkosaugos kokybės kontrolės paslaugos",
+		"description_lv" : "Vides kvalitātes kontroles pakalpojumi",
+		"description_ru" : "Услуги по контролю качества окружающей среды"
+	},
+	{
+		"id" : 9166,
+		"code" : "90714600-1",
+		"description" : null,
+		"description_ee" : "Keskkonnaohutuse järelevalveteenused",
+		"description_en" : "Environmental security control services",
+		"description_lt" : "Aplinkos apsaugos kontrolės paslaugos",
+		"description_lv" : "Vides drošības kontroles pakalpojumi",
+		"description_ru" : "Услуги по контролю экологической безопасности"
+	},
+	{
+		"id" : 9167,
+		"code" : "90715000-2",
+		"description" : null,
+		"description_ee" : "Reostuse uuringuteenused",
+		"description_en" : "Pollution investigation services",
+		"description_lt" : "Taršos tyrimo paslaugos",
+		"description_lv" : "Piesārņojuma izmeklēšanas pakalpojumi",
+		"description_ru" : "Услуги по расследованию загрязнения"
+	},
+	{
+		"id" : 9168,
+		"code" : "90715100-3",
+		"description" : null,
+		"description_ee" : "Kemikaalide ja õlireostusega seotud uuringuteenused",
+		"description_en" : "Chemicals and oil pollution investigation services",
+		"description_lt" : "Cheminių medžiagų ir oro taršos tyrimo paslaugos",
+		"description_lv" : "Ķīmisko vielu un naftas piesārņojuma izmeklēšanas pakalpojumi",
+		"description_ru" : "Услуги по расследованию химических и нефтяных загрязнений"
+	},
+	{
+		"id" : 9169,
+		"code" : "90715110-6",
+		"description" : null,
+		"description_ee" : "Gaasitootmiskohtade ehitusuuringud",
+		"description_en" : "Gasworks site investigation",
+		"description_lt" : "Dujų gamyklų vietų tyrimas",
+		"description_lv" : "Gāzes ražotņu izmeklēšana",
+		"description_ru" : "Обследование участка газового завода"
+	},
+	{
+		"id" : 9170,
+		"code" : "90715120-9",
+		"description" : null,
+		"description_ee" : "Kemikaalide või naftatöötlemistehaste jäätmehoidlate ehitusuuringud",
+		"description_en" : "Chemical works or oil refinery waste site investigation",
+		"description_lt" : "Chemijos gamyklų arba naftos perdirbimo atliekų vietų tyrimas",
+		"description_lv" : "Ķīmisko rūpnīcu vai naftas pārstrādes rūpnīcu izmeklēšana",
+		"description_ru" : "Химические работы или исследование места отходов нефтеперерабатывающего завода"
+	},
+	{
+		"id" : 9171,
+		"code" : "90715200-4",
+		"description" : null,
+		"description_ee" : "Muu reostuse uuringuteenused",
+		"description_en" : "Other pollution investigation services",
+		"description_lt" : "Kitos taršos tyrimo paslaugos",
+		"description_lv" : "Citi piesārņojuma izmeklēšanas pakalpojumi",
+		"description_ru" : "Другие услуги по расследованию загрязнения"
+	},
+	{
+		"id" : 9172,
+		"code" : "90715210-7",
+		"description" : null,
+		"description_ee" : "Naftadepoode või -terminalide ehitusuuringud",
+		"description_en" : "Oil depot or terminal site investigation",
+		"description_lt" : "Naftos saugyklų arba terminalų vietų tyrimas",
+		"description_lv" : "Naftas glabātavas vai termināļa izmeklēšana",
+		"description_ru" : "Исследование нефтебазы или терминала"
+	},
+	{
+		"id" : 9173,
+		"code" : "90715220-0",
+		"description" : null,
+		"description_ee" : "Tööstuslikud ehitusuuringud",
+		"description_en" : "Industrial site investigation",
+		"description_lt" : "Pramoninių vietų tyrimas",
+		"description_lv" : "Ražošanas vietas izmeklēšana",
+		"description_ru" : "Исследование промышленной площадки"
+	},
+	{
+		"id" : 9174,
+		"code" : "90715230-3",
+		"description" : null,
+		"description_ee" : "Tööstuslike jäätmete hoidlate ehitusuuringud",
+		"description_en" : "Industrial waste site investigation",
+		"description_lt" : "Pramoninių atliekų vietų tyrimas",
+		"description_lv" : "Ražošanas atkritumu poligona izmeklēšana",
+		"description_ru" : "Обследование полигонов промышленных отходов"
+	},
+	{
+		"id" : 9175,
+		"code" : "90715240-6",
+		"description" : null,
+		"description_ee" : "Puidukäitlemisrajatiste ehitusuuringud",
+		"description_en" : "Wood treatment plant site investigation",
+		"description_lt" : "Medienos apdorojimo įmonių vietų tyrimas",
+		"description_lv" : "Kokapstrādes rūpnīcas izmeklēšana",
+		"description_ru" : "Обследование участка завода по переработке древесины"
+	},
+	{
+		"id" : 9176,
+		"code" : "90715250-9",
+		"description" : null,
+		"description_ee" : "Keemilise puhastuse rajatiste ehitusuuringud",
+		"description_en" : "Dry cleaning plants site investigation",
+		"description_lt" : "Cheminio valymo įmonių vietų tyrimas",
+		"description_lv" : "Ķīmisko tīrītavu izmeklēšana",
+		"description_ru" : "Обследование территории химчистки"
+	},
+	{
+		"id" : 9177,
+		"code" : "90715260-2",
+		"description" : null,
+		"description_ee" : "Valutöökodade ehitusuuringud",
+		"description_en" : "Foundry site investigation",
+		"description_lt" : "Liejyklų vietų tyrimas",
+		"description_lv" : "Lietuves izmeklēšana",
+		"description_ru" : "Исследование литейного завода"
+	},
+	{
+		"id" : 9178,
+		"code" : "90715270-5",
+		"description" : null,
+		"description_ee" : "Taaskasutuskäitiste ehitusuuringud",
+		"description_en" : "Recycling plant site investigation",
+		"description_lt" : "Perdirbimo įmonių vietų tyrimas",
+		"description_lv" : "Otrreizējās pārstrādes uzņēmuma izmeklēšana",
+		"description_ru" : "Исследование площадки завода по переработке"
+	},
+	{
+		"id" : 9179,
+		"code" : "90715280-8",
+		"description" : null,
+		"description_ee" : "Toidutöötlemiskäitiste ehitusuuringud",
+		"description_en" : "Food processing plant site investigation",
+		"description_lt" : "Maisto perdirbimo įmonių vietų tyrimas",
+		"description_lv" : "Pārtikas pārstrādes uzņēmuma izmeklēšana",
+		"description_ru" : "Обследование территории завода по переработке пищевых продуктов"
+	},
+	{
+		"id" : 9180,
+		"code" : "90720000-0",
+		"description" : null,
+		"description_ee" : "Keskkonnakaitse",
+		"description_en" : "Environmental protection",
+		"description_lt" : "Aplinkosauga",
+		"description_lv" : "Vides aizsardzība",
+		"description_ru" : "Защита окружающей среды"
+	},
+	{
+		"id" : 9181,
+		"code" : "90721000-7",
+		"description" : null,
+		"description_ee" : "Keskkonnaohutusteenused",
+		"description_en" : "Environmental safety services",
+		"description_lt" : "Aplinkosaugos paslaugos",
+		"description_lv" : "Vides drošuma pakalpojumi",
+		"description_ru" : "Услуги по экологической безопасности"
+	},
+	{
+		"id" : 9182,
+		"code" : "90721100-8",
+		"description" : null,
+		"description_ee" : "Maastikukaitseteenused",
+		"description_en" : "Landscape protection services",
+		"description_lt" : "Kraštovaizdžio apsaugos paslaugos",
+		"description_lv" : "Ainavu aizsardzības pakalpojumi",
+		"description_ru" : "Услуги по охране ландшафта"
+	},
+	{
+		"id" : 9183,
+		"code" : "90721200-9",
+		"description" : null,
+		"description_ee" : "Osoonikihi kaitse teenused",
+		"description_en" : "Ozone protection services",
+		"description_lt" : "Ozono sluoksnio apsaugos paslaugos",
+		"description_lv" : "Ozona slāņa aizsardzības pakalpojumi",
+		"description_ru" : "Услуги по защите от озона"
+	},
+	{
+		"id" : 9184,
+		"code" : "90721300-0",
+		"description" : null,
+		"description_ee" : "Toidu- või sööda saastekaitseteenused",
+		"description_en" : "Food or feed contamination protection services",
+		"description_lt" : "Apsaugos nuo maisto arba pašarų taršos paslaugos",
+		"description_lv" : "Pārtikas vai barības piesārņojuma aizsardzības pakalpojumi",
+		"description_ru" : "Услуги по защите пищевых продуктов или кормов от загрязнения"
+	},
+	{
+		"id" : 9185,
+		"code" : "90721400-1",
+		"description" : null,
+		"description_ee" : "Geneetiliste ressursside kaitseteenused",
+		"description_en" : "Genetic resources protection services",
+		"description_lt" : "Genetinių išteklių apsaugos paslaugos",
+		"description_lv" : "Ģenētisko resursu aizsardzības pakalpojumi",
+		"description_ru" : "Услуги по защите генетических ресурсов"
+	},
+	{
+		"id" : 9186,
+		"code" : "90721500-2",
+		"description" : null,
+		"description_ee" : "Toksiliste ainete vastased kaitseteenused",
+		"description_en" : "Toxic substances protection services",
+		"description_lt" : "Apsaugos nuo toksinių medžiagų paslaugos",
+		"description_lv" : "Toksisko vielu aizsardzības pakalpojumi",
+		"description_ru" : "Услуги по защите от токсичных веществ"
+	},
+	{
+		"id" : 9187,
+		"code" : "90721600-3",
+		"description" : null,
+		"description_ee" : "Kiirguskaitseteenused",
+		"description_en" : "Radiation protection services",
+		"description_lt" : "Apsaugos nuo radiacijos paslaugos",
+		"description_lv" : "Starojuma aizsardzības pakalpojumi",
+		"description_ru" : "Услуги по радиационной защите"
+	},
+	{
+		"id" : 9188,
+		"code" : "90721700-4",
+		"description" : null,
+		"description_ee" : "Ohustatud liikide kaitseteenused",
+		"description_en" : "Endangered species protection services",
+		"description_lt" : "Nykstančių rūšių apsaugos paslaugos",
+		"description_lv" : "Apdraudēto sugu aizsardzības pakalpojumi",
+		"description_ru" : "Услуги по защите исчезающих видов"
+	},
+	{
+		"id" : 9189,
+		"code" : "90721800-5",
+		"description" : null,
+		"description_ee" : "Loodusriskide või looduslike ohutegurite vastased kaitseteenused",
+		"description_en" : "Natural risks or hazards protection services",
+		"description_lt" : "Apsaugos nuo gamtinių pavojų paslaugos",
+		"description_lv" : "Dabas risku vai draudu aizsardzības pakalpojumi",
+		"description_ru" : "Услуги по защите от природных рисков или опасностей"
+	},
+	{
+		"id" : 9190,
+		"code" : "90722000-4",
+		"description" : null,
+		"description_ee" : "Keskkonna saneerimine",
+		"description_en" : "Environmental rehabilitation",
+		"description_lt" : "Aplinkos atkūrimas",
+		"description_lv" : "Vides rehabilitācija",
+		"description_ru" : "Экологическая реабилитация"
+	},
+	{
+		"id" : 9191,
+		"code" : "90722100-5",
+		"description" : null,
+		"description_ee" : "Tööstusobjekti saneerimine",
+		"description_en" : "Industrial site rehabilitation",
+		"description_lt" : "Pramoninių zonų aplinkos atkūrimas",
+		"description_lv" : "Ražošanas vietas rehabilitācija",
+		"description_ru" : "Реабилитация промышленных площадок"
+	},
+	{
+		"id" : 9192,
+		"code" : "90722200-6",
+		"description" : null,
+		"description_ee" : "Keskkonna puhastusteenused",
+		"description_en" : "Environmental decontamination services",
+		"description_lt" : "Aplinkos teršalų valymo paslaugos",
+		"description_lv" : "Vides atsārņošanas pakalpojumi",
+		"description_ru" : "Услуги по дезактивации окружающей среды"
+	},
+	{
+		"id" : 9193,
+		"code" : "90722300-7",
+		"description" : null,
+		"description_ee" : "Rekultiveerimistööd",
+		"description_en" : "Land reclamation services",
+		"description_lt" : "Žemės melioravimo paslaugos",
+		"description_lv" : "Zemes meliorācijas pakalpojumi",
+		"description_ru" : "Мелиоративные услуги"
+	},
+	{
+		"id" : 9194,
+		"code" : "90730000-3",
+		"description" : null,
+		"description_ee" : "Saaste jälitus, seire ja eelnenud seisundi taastamine",
+		"description_en" : "Pollution tracking and monitoring and rehabilitation",
+		"description_lt" : "Taršos stebėjimas ir užterštų zonų atkūrimas",
+		"description_lv" : "Piesārņojuma noteikšana un monitorings, un rehabilitācija",
+		"description_ru" : "Отслеживание загрязнения, мониторинг и реабилитация"
+	},
+	{
+		"id" : 9195,
+		"code" : "90731000-0",
+		"description" : null,
+		"description_ee" : "Õhusaastega seotud teenused",
+		"description_en" : "Services related to air pollution",
+		"description_lt" : "Su oro tarša susijusios paslaugos",
+		"description_lv" : "Ar gaisa piesārņojumu saistīti pakalpojumi",
+		"description_ru" : "Услуги, связанные с загрязнением воздуха"
+	},
+	{
+		"id" : 9196,
+		"code" : "90731100-1",
+		"description" : null,
+		"description_ee" : "Õhukvaliteedi juhtimine",
+		"description_en" : "Air quality management",
+		"description_lt" : "Oro kokybės valdymas",
+		"description_lv" : "Gaisa kvalitātes pārvaldība",
+		"description_ru" : "Управление качеством воздуха"
+	},
+	{
+		"id" : 9197,
+		"code" : "90731200-2",
+		"description" : null,
+		"description_ee" : "Piiriülese saaste juhtimis- või järelevalveteenused",
+		"description_en" : "Transboundary air pollution management or control services",
+		"description_lt" : "Tarpvalstybinės oro taršos valdymo arba kontrolės paslaugos",
+		"description_lv" : "Pārrobežu gaisa piesārņojuma pārvaldības vai kontroles pakalpojumi",
+		"description_ru" : "Услуги по регулированию или контролю трансграничного загрязнения воздуха"
+	},
+	{
+		"id" : 9198,
+		"code" : "90731210-5",
+		"description" : null,
+		"description_ee" : "Süsinikdioksiidi heitkoguste ostmine",
+		"description_en" : "Purchase of CO2 emission credits",
+		"description_lt" : "CO2 išmetalų leidimų pirkimas",
+		"description_lv" : "CO2 emisijas kredītu iegāde",
+		"description_ru" : "Покупка квот на выбросы CO2"
+	},
+	{
+		"id" : 9199,
+		"code" : "90731300-3",
+		"description" : null,
+		"description_ee" : "Õhusaaste kaitseteenused",
+		"description_en" : "Air pollution protection services",
+		"description_lt" : "Apsaugos nuo oro taršos paslaugos",
+		"description_lv" : "Gaisa piesārņojuma aizsardzības pakalpojumi",
+		"description_ru" : "Услуги по защите от загрязнения воздуха"
+	},
+	{
+		"id" : 9200,
+		"code" : "90731400-4",
+		"description" : null,
+		"description_ee" : "Õhusaaste seire- või mõõtmisteenused",
+		"description_en" : "Air pollution monitoring or measurement services",
+		"description_lt" : "Oro taršos stebėjimo arba matavimo paslaugos",
+		"description_lv" : "Gaisa piesārņojuma monitoringa vai mērīšanas pakalpojumi",
+		"description_ru" : "Услуги по мониторингу или измерению загрязнения воздуха"
+	},
+	{
+		"id" : 9201,
+		"code" : "90731500-5",
+		"description" : null,
+		"description_ee" : "Toksiliste gaaside tuvastusteenused",
+		"description_en" : "Toxic gas detection services",
+		"description_lt" : "Toksinių dujų aptikimo paslaugos",
+		"description_lv" : "Toksisko gāzu noteikšanas pakalpojumi",
+		"description_ru" : "Услуги по обнаружению токсичных газов"
+	},
+	{
+		"id" : 9202,
+		"code" : "90731600-6",
+		"description" : null,
+		"description_ee" : "Metaaniseire",
+		"description_en" : "Methane monitoring",
+		"description_lt" : "Metano stebėjimas",
+		"description_lv" : "Metāna uzraudzība",
+		"description_ru" : "Мониторинг метана"
+	},
+	{
+		"id" : 9203,
+		"code" : "90731700-7",
+		"description" : null,
+		"description_ee" : "Süsinikdioksiidi seireteenused",
+		"description_en" : "Carbon dioxide monitoring services",
+		"description_lt" : "Anglies dvideginio stebėjimo paslaugos",
+		"description_lv" : "Oglekļa dioksīda monitoringa pakalpojumi",
+		"description_ru" : "Услуги по мониторингу углекислого газа"
+	},
+	{
+		"id" : 9204,
+		"code" : "90731800-8",
+		"description" : null,
+		"description_ee" : "Õhuosakeste seire",
+		"description_en" : "Airborne particle monitoring",
+		"description_lt" : "Ore esančių kietųjų dalelių stebėjimas",
+		"description_lv" : "Gaisa daļiņu monitorings",
+		"description_ru" : "Мониторинг частиц в воздухе"
+	},
+	{
+		"id" : 9205,
+		"code" : "90731900-9",
+		"description" : null,
+		"description_ee" : "Osooni kahanemise seireteenused",
+		"description_en" : "Ozone depletion monitoring services",
+		"description_lt" : "Ozono sluoksnio plonėjimo stebėjimo paslaugos",
+		"description_lv" : "Ozona slāņa noārdīšanās monitoringa pakalpojumi",
+		"description_ru" : "Услуги по мониторингу истощения озонового слоя"
+	},
+	{
+		"id" : 9206,
+		"code" : "90732000-7",
+		"description" : null,
+		"description_ee" : "Pinnasesaastega seotud teenused",
+		"description_en" : "Services related to soil pollution",
+		"description_lt" : "Su dirvos tarša susijusios paslaugos",
+		"description_lv" : "Pakalpojumi, kas saistīti ar augsnes piesārņojumu",
+		"description_ru" : "Услуги, связанные с загрязнением почвы"
+	},
+	{
+		"id" : 9207,
+		"code" : "90732100-8",
+		"description" : null,
+		"description_ee" : "Pinnasesaaste kaitseteenused",
+		"description_en" : "Soil pollution protection services",
+		"description_lt" : "Apsaugos nuo dirvos taršos paslaugos",
+		"description_lv" : "Augsnes piesārņošanas aizsardzības pakalpojumi",
+		"description_ru" : "Услуги по защите почвы от загрязнения"
+	},
+	{
+		"id" : 9208,
+		"code" : "90732200-9",
+		"description" : null,
+		"description_ee" : "Saastatud pinnase eemaldamisteenused",
+		"description_en" : "Polluted soil removal services",
+		"description_lt" : "Užterštos dirvos pašalinimo paslaugos",
+		"description_lv" : "Piesārņotas augsnes noņemšanas pakalpojumi",
+		"description_ru" : "Услуги по вывозу загрязненного грунта"
+	},
+	{
+		"id" : 9209,
+		"code" : "90732300-0",
+		"description" : null,
+		"description_ee" : "Saastatud pinnase puhastamine või taastamine",
+		"description_en" : "Polluted soil treatment or rehabilitation",
+		"description_lt" : "Užterštos dirvos apdorojimas arba atkūrimas",
+		"description_lv" : "Piesārņotas augsnes attīrīšana vai rehabilitācija",
+		"description_ru" : "Обработка или восстановление загрязненной почвы"
+	},
+	{
+		"id" : 9210,
+		"code" : "90732400-1",
+		"description" : null,
+		"description_ee" : "Pinnasesaaste nõuandeteenused",
+		"description_en" : "Soil pollution advisory services",
+		"description_lt" : "Konsultacijų dirvos taršos klausimais paslaugos",
+		"description_lv" : "Augsnes piesārņojuma konsultāciju pakalpojumi",
+		"description_ru" : "Консультационные услуги по загрязнению почвы"
+	},
+	{
+		"id" : 9211,
+		"code" : "90732500-2",
+		"description" : null,
+		"description_ee" : "Pinnasesaaste kaardistamine",
+		"description_en" : "Soil pollution mapping",
+		"description_lt" : "Dirvos taršos kartografavimas",
+		"description_lv" : "Augsnes piesārņojuma kartēšana",
+		"description_ru" : "Картирование загрязнения почвы"
+	},
+	{
+		"id" : 9212,
+		"code" : "90732600-3",
+		"description" : null,
+		"description_ee" : "Pinnasesaaste seire või mõõtmine",
+		"description_en" : "Soil pollution measurement or monitoring",
+		"description_lt" : "Dirvos taršos matavimas arba stebėjimas",
+		"description_lv" : "Augsnes piesārņojuma mērīšana vai monitorings",
+		"description_ru" : "Измерение или мониторинг загрязнения почвы"
+	},
+	{
+		"id" : 9213,
+		"code" : "90732700-4",
+		"description" : null,
+		"description_ee" : "Orgaaniliste väetiste põhjustatud saaste hindamine",
+		"description_en" : "Organic fertilizer pollution assessment",
+		"description_lt" : "Taršos organinėmis trąšomis įvertinimas",
+		"description_lv" : "Organisko mēslošanas līdzekļu piesārņojuma novērtēšana",
+		"description_ru" : "Оценка загрязнения органическими удобрениями"
+	},
+	{
+		"id" : 9214,
+		"code" : "90732800-5",
+		"description" : null,
+		"description_ee" : "Pestitsiidide põhjustatud saaste hindamine",
+		"description_en" : "Pesticides pollution assessment",
+		"description_lt" : "Taršos pesticidais įvertinimas",
+		"description_lv" : "Pesticīdu piesārņojuma novērtēšana",
+		"description_ru" : "Оценка загрязнения пестицидами"
+	},
+	{
+		"id" : 9215,
+		"code" : "90732900-6",
+		"description" : null,
+		"description_ee" : "Nitraatide ja fosfaatide põhjustatud saaste hindamine",
+		"description_en" : "Nitrates and phosphates pollution assessment",
+		"description_lt" : "Taršos nitratais ir fosfatais įvertinimas",
+		"description_lv" : "Nitrātu un fosfātu piesārņojuma novērtēšana",
+		"description_ru" : "Оценка загрязнения нитратами и фосфатами"
+	},
+	{
+		"id" : 9216,
+		"code" : "90732910-9",
+		"description" : null,
+		"description_ee" : "Nitraatide põhjustatud saaste hindamine",
+		"description_en" : "Nitrates pollution assessment",
+		"description_lt" : "Taršos nitratais įvertinimas",
+		"description_lv" : "Nitrātu piesārņojuma novērtēšana",
+		"description_ru" : "Оценка загрязнения нитратами"
+	},
+	{
+		"id" : 9217,
+		"code" : "90732920-2",
+		"description" : null,
+		"description_ee" : "Fosfaatide põhjustatud saaste hindamine",
+		"description_en" : "Phosphates pollution assessment",
+		"description_lt" : "Taršos fosfatais įvertinimas",
+		"description_lv" : "Fosfātu piesārņojuma novērtēšana",
+		"description_ru" : "Оценка загрязнения фосфатами"
+	},
+	{
+		"id" : 9218,
+		"code" : "90733000-4",
+		"description" : null,
+		"description_ee" : "Veesaastega seotud teenused",
+		"description_en" : "Services related to water pollution",
+		"description_lt" : "Su vandens tarša susijusios paslaugos",
+		"description_lv" : "Ar ūdens piesārņojumu saistīti pakalpojumi",
+		"description_ru" : "Услуги, связанные с загрязнением воды"
+	},
+	{
+		"id" : 9219,
+		"code" : "90733100-5",
+		"description" : null,
+		"description_ee" : "Pinnavee saaste seire või järelevalveteenused",
+		"description_en" : "Surface water pollution monitoring or control services",
+		"description_lt" : "Paviršinių vandenų taršos stebėjimo arba kontrolės paslaugos",
+		"description_lv" : "Virszemes ūdeņu piesārņojuma monitoringa vai kontroles pakalpojumi",
+		"description_ru" : "Услуги по мониторингу или контролю загрязнения поверхностных вод"
+	},
+	{
+		"id" : 9220,
+		"code" : "90733200-6",
+		"description" : null,
+		"description_ee" : "Pinnavee saastega seotud taastamisteenused",
+		"description_en" : "Surface water pollution rehabilitation services",
+		"description_lt" : "Užterštų paviršinių vandenų atkūrimo paslaugos",
+		"description_lv" : "Virszemes ūdeņu piesārņojuma rehabilitācijas pakalpojumi",
+		"description_ru" : "Услуги по реабилитации загрязненных поверхностных вод"
+	},
+	{
+		"id" : 9221,
+		"code" : "90733300-7",
+		"description" : null,
+		"description_ee" : "Pinnavee saastega seotud kaitseteenused",
+		"description_en" : "Surface water pollution protection services",
+		"description_lt" : "Apsaugos nuo paviršinių vandenų taršos paslaugos",
+		"description_lv" : "Virszemes ūdeņu piesārņojuma aizsardzības pakalpojumi",
+		"description_ru" : "Услуги по охране поверхностных вод от загрязнения"
+	},
+	{
+		"id" : 9222,
+		"code" : "90733400-8",
+		"description" : null,
+		"description_ee" : "Pinnavee saaste puhastusteenused",
+		"description_en" : "Surface water treatment services",
+		"description_lt" : "Paviršinių vandenų valymo paslaugos",
+		"description_lv" : "Virszemes ūdeņu piesārņojuma attīrīšanas pakalpojumi",
+		"description_ru" : "Услуги по очистке поверхностных вод"
+	},
+	{
+		"id" : 9223,
+		"code" : "90733500-9",
+		"description" : null,
+		"description_ee" : "Pinnavee saaste äravooluteenused",
+		"description_en" : "Surface water pollution drainage services",
+		"description_lt" : "Užterštų paviršinių vandenų drenavimo paslaugos",
+		"description_lv" : "Virsmas ūdens piesārņojuma novadīšanas pakalpojumi",
+		"description_ru" : "Услуги по отводу загрязнений поверхностных вод"
+	},
+	{
+		"id" : 9224,
+		"code" : "90733600-0",
+		"description" : null,
+		"description_ee" : "Piiriülese veesaaste juhtimis- või järelevalveteenused",
+		"description_en" : "Transboundary water pollution management or control services",
+		"description_lt" : "Tarpvalstybinės vandens taršos valdymo arba kontrolės paslaugos",
+		"description_lv" : "Pārrobežu ūdens piesārņojuma pārvaldības vai kontroles pakalpojumi",
+		"description_ru" : "Услуги по регулированию или контролю загрязнения трансграничных вод"
+	},
+	{
+		"id" : 9225,
+		"code" : "90733700-1",
+		"description" : null,
+		"description_ee" : "Põhjavee saaste juhtimis- või järelevalveteenused",
+		"description_en" : "Groundwater pollution monitoring or control services",
+		"description_lt" : "Gruntinio vandens taršos stebėjimo arba kontrolės paslaugos",
+		"description_lv" : "Gruntsūdens piesārņojuma monitoringa vai kontroles pakalpojumi",
+		"description_ru" : "Услуги по мониторингу или контролю загрязнения подземных вод"
+	},
+	{
+		"id" : 9226,
+		"code" : "90733800-2",
+		"description" : null,
+		"description_ee" : "Põhjavee saaste äravooluteenused",
+		"description_en" : "Groundwater pollution drainage services",
+		"description_lt" : "Užteršto gruntinio vandens drenavimo paslaugos",
+		"description_lv" : "Gruntsūdens piesārņojuma novadīšanas pakalpojumi",
+		"description_ru" : "Услуги по отводу загрязнений подземных вод"
+	},
+	{
+		"id" : 9227,
+		"code" : "90733900-3",
+		"description" : null,
+		"description_ee" : "Põhjavee saastest puhastamine või taastamine",
+		"description_en" : "Groundwater pollution treatment or rehabilitation",
+		"description_lt" : "Užteršto gruntinio vandens valymas arba atkūrimas",
+		"description_lv" : "Gruntsūdens piesārņojuma attīrīšana vai rehabilitācija",
+		"description_ru" : "Очистка или реабилитация загрязнения подземных вод"
+	},
+	{
+		"id" : 9228,
+		"code" : "90740000-6",
+		"description" : null,
+		"description_ee" : "Saasteaine jälitamis-, seire- ja eelnenud olukorra taastamise teenused",
+		"description_en" : "Pollutants tracking and monitoring and rehabilitation services",
+		"description_lt" : "Teršalų stebėjimo ir užterštų zonų atkūrimo paslaugos",
+		"description_lv" : "Piesārņotāju noteikšanas un monitoringa, un rehabilitācijas pakalpojumi",
+		"description_ru" : "Услуги по отслеживанию, мониторингу и реабилитации загрязнителей"
+	},
+	{
+		"id" : 9229,
+		"code" : "90741000-3",
+		"description" : null,
+		"description_ee" : "Õlireostusega seotud teenused",
+		"description_en" : "Services related to oil pollution",
+		"description_lt" : "Su naftos tarša susijusios paslaugos",
+		"description_lv" : "Ar naftas piesārņojumu saistīti pakalpojumi",
+		"description_ru" : "Услуги, связанные с загрязнением нефтью"
+	},
+	{
+		"id" : 9230,
+		"code" : "90741100-4",
+		"description" : null,
+		"description_ee" : "Õilreostuse seireteenused",
+		"description_en" : "Oil spillage monitoring services",
+		"description_lt" : "Naftos išsiliejimo stebėjimo paslaugos",
+		"description_lv" : "Naftas noplūdes monitoringa pakalpojumi",
+		"description_ru" : "Услуги по мониторингу разливов нефти"
+	},
+	{
+		"id" : 9231,
+		"code" : "90741200-5",
+		"description" : null,
+		"description_ee" : "Õilreostuse järelevalveteenused",
+		"description_en" : "Oil spillage control services",
+		"description_lt" : "Naftos išsiliejimo kontrolės paslaugos",
+		"description_lv" : "Naftas noplūdes kontroles pakalpojumi",
+		"description_ru" : "Услуги по ликвидации разливов нефти"
+	},
+	{
+		"id" : 9232,
+		"code" : "90741300-6",
+		"description" : null,
+		"description_ee" : "Õilreostusega seotud taastusteenused",
+		"description_en" : "Oil spillage rehabilitation services",
+		"description_lt" : "Dėl naftos išsiliejimo užterštų zonų atkūrimo paslaugos",
+		"description_lv" : "Naftas noplūdes rehabilitācijas pakalpojumi",
+		"description_ru" : "Услуги по ликвидации разливов нефти"
+	},
+	{
+		"id" : 9233,
+		"code" : "90742000-0",
+		"description" : null,
+		"description_ee" : "Mürareostusega seotud teenused",
+		"description_en" : "Services related to noise pollution",
+		"description_lt" : "Su triukšmu susijusios paslaugos",
+		"description_lv" : "Ar skaņas piesārņojumu saistīti pakalpojumi",
+		"description_ru" : "Услуги, связанные с шумовым загрязнением"
+	},
+	{
+		"id" : 9234,
+		"code" : "90742100-1",
+		"description" : null,
+		"description_ee" : "Müra järelevalveteenused",
+		"description_en" : "Noise control services",
+		"description_lt" : "Triukšmo kontrolės paslaugos",
+		"description_lv" : "Skaņas kontroles pakalpojumi",
+		"description_ru" : "Услуги по контролю шума"
+	},
+	{
+		"id" : 9235,
+		"code" : "90742200-2",
+		"description" : null,
+		"description_ee" : "Mürareostuse kaitseteenused",
+		"description_en" : "Noise pollution protection services",
+		"description_lt" : "Apsaugos nuo triukšmo paslaugos",
+		"description_lv" : "Skaņas piesārņojuma aizsardzības pakalpojumi",
+		"description_ru" : "Услуги по защите от шумового загрязнения"
+	},
+	{
+		"id" : 9236,
+		"code" : "90742300-3",
+		"description" : null,
+		"description_ee" : "Mürareostuse seireteenused",
+		"description_en" : "Noise pollution monitoring services",
+		"description_lt" : "Triukšmo stebėjimo paslaugos",
+		"description_lv" : "Skaņas piesārņojuma monitoringa pakalpojumi",
+		"description_ru" : "Услуги по мониторингу шумового загрязнения"
+	},
+	{
+		"id" : 9237,
+		"code" : "90742400-4",
+		"description" : null,
+		"description_ee" : "Mürareostuse nõuandeteenused",
+		"description_en" : "Noise pollution advisory services",
+		"description_lt" : "Triukšmo stebėjimo konsultacinės paslaugos",
+		"description_lv" : "Skaņas piesārņojuma konsultāciju pakalpojumi",
+		"description_ru" : "Консультационные услуги по шумовому загрязнению"
+	},
+	{
+		"id" : 9238,
+		"code" : "90743000-7",
+		"description" : null,
+		"description_ee" : "Toksiliste ainete reostusega seotud teenused",
+		"description_en" : "Services related to toxic substances pollution",
+		"description_lt" : "Su tarša toksinėmis medžiagomis susijusios paslaugos",
+		"description_lv" : "Ar toksisko vielu piesārņojumu saistīti pakalpojumi",
+		"description_ru" : "Услуги, связанные с загрязнением токсичными веществами"
+	},
+	{
+		"id" : 9239,
+		"code" : "90743100-8",
+		"description" : null,
+		"description_ee" : "Toksiliste ainete seireteenused",
+		"description_en" : "Toxic substances monitoring services",
+		"description_lt" : "Taršos toksinėmis medžiagomis stebėjimo paslaugos",
+		"description_lv" : "Toksisko vielu monitoringa pakalpojumi",
+		"description_ru" : "Услуги по мониторингу токсичных веществ"
+	},
+	{
+		"id" : 9240,
+		"code" : "90743200-9",
+		"description" : null,
+		"description_ee" : "Toksiliste ainetega seotud taastusteenused",
+		"description_en" : "Toxic substances rehabilitation services",
+		"description_lt" : "Toksinėmis medžiagomis užterštų zonų atkūrimo paslaugos",
+		"description_lv" : "Toksisko vielu rehabilitācijas pakalpojumi",
+		"description_ru" : "Услуги по реабилитации токсичных веществ"
+	},
+	{
+		"id" : 9241,
+		"code" : "90900000-6",
+		"description" : null,
+		"description_ee" : "Puhastus- ja desinfitseerimisteenused",
+		"description_en" : "Cleaning and sanitation services",
+		"description_lt" : "Valymo ir sanitarinės paslaugos",
+		"description_lv" : "Tīrīšanas un sanitārijas pakalpojumi",
+		"description_ru" : "Услуги по уборке и санитарии"
+	},
+	{
+		"id" : 9242,
+		"code" : "90910000-9",
+		"description" : null,
+		"description_ee" : "Puhastusteenused",
+		"description_en" : "Cleaning services",
+		"description_lt" : "Valymo paslaugos",
+		"description_lv" : "Uzkopšanas pakalpojumi",
+		"description_ru" : "Услуги по уборке"
+	},
+	{
+		"id" : 9243,
+		"code" : "90911000-6",
+		"description" : null,
+		"description_ee" : "Ruumide, hoonete ja akende puhastusteenused",
+		"description_en" : "Accommodation, building and window cleaning services",
+		"description_lt" : "Apgyvendinimo patalpų, pastatų ir langų valymo paslaugos",
+		"description_lv" : "Dzīvojamo telpu, ēku un logu tīrīšanas pakalpojumi",
+		"description_ru" : "Услуги по размещению, мытью зданий и окон"
+	},
+	{
+		"id" : 9244,
+		"code" : "90911100-7",
+		"description" : null,
+		"description_ee" : "Ruumide puhastusteenused",
+		"description_en" : "Accommodation cleaning services",
+		"description_lt" : "Apgyvendinimo patalpų valymo paslaugos",
+		"description_lv" : "Dzīvojamo telpu uzkopšanas pakalpojumi",
+		"description_ru" : "Услуги по уборке помещений"
+	},
+	{
+		"id" : 9245,
+		"code" : "90911200-8",
+		"description" : null,
+		"description_ee" : "Hoonete puhastusteenused",
+		"description_en" : "Building-cleaning services",
+		"description_lt" : "Pastatų valymo paslaugos",
+		"description_lv" : "Ēku tīrīšanas pakalpojumi",
+		"description_ru" : "Услуги по уборке зданий"
+	},
+	{
+		"id" : 9246,
+		"code" : "90911300-9",
+		"description" : null,
+		"description_ee" : "Aknapuhastusteenus",
+		"description_en" : "Window-cleaning services",
+		"description_lt" : "Langų valymo paslaugos",
+		"description_lv" : "Logu tīrīšanas pakalpojumi",
+		"description_ru" : "Мойка окон"
+	},
+	{
+		"id" : 9247,
+		"code" : "90912000-3",
+		"description" : null,
+		"description_ee" : "Liivaprits-puhastusteenused",
+		"description_en" : "Blast-cleaning services for tubular structures",
+		"description_lt" : "Vamzdinių konstrukcijų valymo prapūtimo būdu paslaugos",
+		"description_lv" : "Cauruļveida struktūru vilkmes tīrīšanas pakalpojumi",
+		"description_ru" : "Услуги по дробеструйной очистке трубчатых конструкций"
+	},
+	{
+		"id" : 9248,
+		"code" : "90913000-0",
+		"description" : null,
+		"description_ee" : "Vedelikupaagi ja reservuaari puhastusteenused",
+		"description_en" : "Tank and reservoir cleaning services",
+		"description_lt" : "Cisternų ir rezervuarų valymo paslaugos",
+		"description_lv" : "Cisternu un rezervuāru tīrīšanas pakalpojumi",
+		"description_ru" : "Услуги по очистке резервуаров и резервуаров"
+	},
+	{
+		"id" : 9249,
+		"code" : "90913100-1",
+		"description" : null,
+		"description_ee" : "Vedelikupaagi puhastusteenused",
+		"description_en" : "Tank-cleaning services",
+		"description_lt" : "Cisternų valymo paslaugos",
+		"description_lv" : "Cisternu tīrīšanas pakalpojumi",
+		"description_ru" : "Услуги по очистке резервуаров"
+	},
+	{
+		"id" : 9250,
+		"code" : "90913200-2",
+		"description" : null,
+		"description_ee" : "Reservuaaripuhastusteenused",
+		"description_en" : "Reservoir cleaning services",
+		"description_lt" : "Rezervuarų valymo paslaugos",
+		"description_lv" : "Rezervuāru tīrīšanas pakalpojumi",
+		"description_ru" : "Услуги по очистке водоемов"
+	},
+	{
+		"id" : 9251,
+		"code" : "90914000-7",
+		"description" : null,
+		"description_ee" : "Autoparklate puhastusteenused",
+		"description_en" : "Car park cleaning services",
+		"description_lt" : "Automobilių stovėjimo aikštelių valymo paslaugos",
+		"description_lv" : "Autostāvvietu tīrīšanas pakalpojumi",
+		"description_ru" : "Услуги по уборке парковки"
+	},
+	{
+		"id" : 9252,
+		"code" : "90915000-4",
+		"description" : null,
+		"description_ee" : "Ahju- ja korstnapuhastusteenused",
+		"description_en" : "Furnace and chimney cleaning services",
+		"description_lt" : "Krosnių ir kaminų valymo paslaugos",
+		"description_lv" : "Krāšņu un skursteņu tīrīšanas pakalpojumi",
+		"description_ru" : "Услуги по чистке печей и дымоходов"
+	},
+	{
+		"id" : 9253,
+		"code" : "90916000-1",
+		"description" : null,
+		"description_ee" : "Telefoniseadmete puhastusteenused",
+		"description_en" : "Cleaning services of telephone equipment",
+		"description_lt" : "Telefono ryšio įrangos valymo paslaugos",
+		"description_lv" : "Telefonierīču tīrīšanas pakalpojumi",
+		"description_ru" : "Услуги по очистке телефонного оборудования"
+	},
+	{
+		"id" : 9254,
+		"code" : "90917000-8",
+		"description" : null,
+		"description_ee" : "Transpordiseadmete puhastusteenused",
+		"description_en" : "Cleaning services of transport equipment",
+		"description_lt" : "Transporto įrenginių valymo paslaugos",
+		"description_lv" : "Transportlīdzekļu tīrīšanas pakalpojumi",
+		"description_ru" : "Услуги по очистке транспортного оборудования"
+	},
+	{
+		"id" : 9255,
+		"code" : "90918000-5",
+		"description" : null,
+		"description_ee" : "Prügikastide puhastusteenused",
+		"description_en" : "Bin-cleaning services",
+		"description_lt" : "Šiukšlių dėžių valymo paslaugos",
+		"description_lv" : "Atkritumu urnu tīrīšanas pakalpojumi",
+		"description_ru" : "Услуги по очистке мусорных ведер"
+	},
+	{
+		"id" : 9256,
+		"code" : "90919000-2",
+		"description" : null,
+		"description_ee" : "Büroode, koolide ja bürooseadmete puhastusteenused",
+		"description_en" : "Office, school and office equipment cleaning services",
+		"description_lt" : "Biurų, mokyklų ir biuro įrangos valymo paslaugos",
+		"description_lv" : "Biroju, skolu un biroja iekārtu tīrīšanas pakalpojumi",
+		"description_ru" : "Услуги по уборке офиса, школы и оргтехники"
+	},
+	{
+		"id" : 9257,
+		"code" : "90919100-3",
+		"description" : null,
+		"description_ee" : "Bürooseadmete puhastusteenused",
+		"description_en" : "Cleaning services of office equipment",
+		"description_lt" : "Biurų įrangos valymo paslaugos",
+		"description_lv" : "Biroja iekārtu tīrīšanas pakalpojumi",
+		"description_ru" : "Услуги по уборке оргтехники"
+	},
+	{
+		"id" : 9258,
+		"code" : "90919200-4",
+		"description" : null,
+		"description_ee" : "Büroopuhastusteenused",
+		"description_en" : "Office cleaning services",
+		"description_lt" : "Biurų valymo paslaugos",
+		"description_lv" : "Biroju uzkopšanas pakalpojumi",
+		"description_ru" : "Услуги по уборке офисов"
+	},
+	{
+		"id" : 9259,
+		"code" : "90919300-5",
+		"description" : null,
+		"description_ee" : "Koolipuhastusteenused",
+		"description_en" : "School cleaning services",
+		"description_lt" : "Mokyklų valymo paslaugos",
+		"description_lv" : "Skolu uzkopšanas pakalpojumi",
+		"description_ru" : "Услуги по уборке школ"
+	},
+	{
+		"id" : 9260,
+		"code" : "90920000-2",
+		"description" : null,
+		"description_ee" : "Rajatistega seotud desinfitseerimisteenused",
+		"description_en" : "Facility related sanitation services",
+		"description_lt" : "Su įrenginiais susijusios sanitarinės paslaugos",
+		"description_lv" : "Ar telpām saistīti sanitārijas pakalpojumi",
+		"description_ru" : "Санитарные услуги, связанные с объектами"
+	},
+	{
+		"id" : 9261,
+		"code" : "90921000-9",
+		"description" : null,
+		"description_ee" : "Desinfitseerimis- ja hävitamisteenused",
+		"description_en" : "Disinfecting and exterminating services",
+		"description_lt" : "Dezinfekavimo ir naikinimo paslaugos",
+		"description_lv" : "Dezinfekcijas un kaitēkļu apkarošanas pakalpojumi",
+		"description_ru" : "Услуги по дезинфекции и уничтожению"
+	},
+	{
+		"id" : 9262,
+		"code" : "90922000-6",
+		"description" : null,
+		"description_ee" : "Kahjuritõrje teenused",
+		"description_en" : "Pest-control services",
+		"description_lt" : "Kovos su kenkėjais paslaugos",
+		"description_lv" : "Kaitēkļu apkarošanas pakalpojumi",
+		"description_ru" : "Услуги по борьбе с вредителями"
+	},
+	{
+		"id" : 9263,
+		"code" : "90923000-3",
+		"description" : null,
+		"description_ee" : "Rottide hävitamisteenused",
+		"description_en" : "Rat-disinfestation services",
+		"description_lt" : "Žiurkių naikinimo paslaugos",
+		"description_lv" : "Žurku iznīdēšanas pakalpojumi",
+		"description_ru" : "Услуги по дезинсекции от крыс"
+	},
+	{
+		"id" : 9264,
+		"code" : "90924000-0",
+		"description" : null,
+		"description_ee" : "Fumigatsiooniteenused (suitsuga hävitamine)",
+		"description_en" : "Fumigation services",
+		"description_lt" : "Fumigavimo paslaugos",
+		"description_lv" : "Fumigācijas pakalpojumi",
+		"description_ru" : "Фумигационные услуги"
+	},
+	{
+		"id" : 9265,
+		"code" : "92000000-1",
+		"description" : null,
+		"description_ee" : "Vabaaja-, kultuuri- ja sporditeenused",
+		"description_en" : "Recreational, cultural and sporting services",
+		"description_lt" : "Poilsio, kultūros ir sporto paslaugos",
+		"description_lv" : "Atpūtas, kultūras un sporta pakalpojumi",
+		"description_ru" : "Развлекательные, культурные и спортивные услуги"
+	},
+	{
+		"id" : 9266,
+		"code" : "92100000-2",
+		"description" : null,
+		"description_ee" : "Kino- ja videoteenused",
+		"description_en" : "Motion picture and video services",
+		"description_lt" : "Kino ir videofilmų paslaugos",
+		"description_lv" : "Kinofilmu un videofilmu pakalpojumi",
+		"description_ru" : "Услуги кино и видео"
+	},
+	{
+		"id" : 9267,
+		"code" : "92110000-5",
+		"description" : null,
+		"description_ee" : "Kino- ja videofilmide tootmine ja sellega seotud teenused",
+		"description_en" : "Motion picture and video tape production and related services",
+		"description_lt" : "Kino filmų ir vaizdajuosčių gamybos bei susijusios paslaugos",
+		"description_lv" : "Kinofilmu un videofilmu ražošana un saistītie pakalpojumi",
+		"description_ru" : "Производство кино- и видеокассет и сопутствующие услуги"
+	},
+	{
+		"id" : 9268,
+		"code" : "92111000-2",
+		"description" : null,
+		"description_ee" : "Kino- ja videofilmide tootmisteenused",
+		"description_en" : "Motion picture and video production services",
+		"description_lt" : "Kino filmų ir videofilmų gamybos paslaugos",
+		"description_lv" : "Kinofilmu un videofilmu ražošanas pakalpojumi",
+		"description_ru" : "Услуги кино- и видеопроизводства"
+	},
+	{
+		"id" : 9269,
+		"code" : "92111100-3",
+		"description" : null,
+		"description_ee" : "Õppe- ja videofilmide tootmine",
+		"description_en" : "Training-film and video-tape production",
+		"description_lt" : "Mokomųjų filmų ir vaizdajuosčių gamyba",
+		"description_lv" : "Mācību filmu un videofilmu ražošana",
+		"description_ru" : "Производство обучающих фильмов и видеокассет"
+	},
+	{
+		"id" : 9270,
+		"code" : "92111200-4",
+		"description" : null,
+		"description_ee" : "Reklaam-, propaganda- ja infofilmide ning videofilmide tootmine",
+		"description_en" : "Advertising, propaganda and information film and video-tape production",
+		"description_lt" : "Reklaminių, propagandinių ir informacinių filmų bei vaizdajuosčių gamyba",
+		"description_lv" : "Reklāmas, propagandas un informatīvo filmu un videofilmu ražošana",
+		"description_ru" : "Производство рекламных, пропагандистских и информационных фильмов и видеокассет"
+	},
+	{
+		"id" : 9271,
+		"code" : "92111210-7",
+		"description" : null,
+		"description_ee" : "Reklaamfilmide tootmine",
+		"description_en" : "Advertising film production",
+		"description_lt" : "Reklaminių filmų gamyba",
+		"description_lv" : "Reklāmas filmu ražošana",
+		"description_ru" : "Производство рекламных фильмов"
+	},
+	{
+		"id" : 9272,
+		"code" : "92111220-0",
+		"description" : null,
+		"description_ee" : "Reklaamvideofilmide tootmine",
+		"description_en" : "Advertising video-tape production",
+		"description_lt" : "Reklaminių vaizdajuosčių gamyba",
+		"description_lv" : "Reklāmas videofilmu ražošana",
+		"description_ru" : "Производство рекламных видеороликов"
+	},
+	{
+		"id" : 9273,
+		"code" : "92111230-3",
+		"description" : null,
+		"description_ee" : "Propagandafilmide tootmine",
+		"description_en" : "Propaganda film production",
+		"description_lt" : "Propagandinių filmų gamyba",
+		"description_lv" : "Propagandas filmu ražošana",
+		"description_ru" : "Производство пропагандистских фильмов"
+	},
+	{
+		"id" : 9274,
+		"code" : "92111240-6",
+		"description" : null,
+		"description_ee" : "Propagandavideofilmide tootmine",
+		"description_en" : "Propaganda video-tape production",
+		"description_lt" : "Propagandinių vaizdajuosčių gamyba",
+		"description_lv" : "Propagandas videofilmu ražošana",
+		"description_ru" : "Производство пропагандистских видеокассет"
+	},
+	{
+		"id" : 9275,
+		"code" : "92111250-9",
+		"description" : null,
+		"description_ee" : "Infofilmide tootmine",
+		"description_en" : "Information film production",
+		"description_lt" : "Informacinių filmų gamyba",
+		"description_lv" : "Informatīvo filmu ražošana",
+		"description_ru" : "Производство информационных фильмов"
+	},
+	{
+		"id" : 9276,
+		"code" : "92111260-2",
+		"description" : null,
+		"description_ee" : "Infovideofilmide tootmine",
+		"description_en" : "Information video-tape production",
+		"description_lt" : "Informacinių vaizdajuosčių gamyba",
+		"description_lv" : "Informatīvo videofilmu ražošana",
+		"description_ru" : "Производство информационных видеокассет"
+	},
+	{
+		"id" : 9277,
+		"code" : "92111300-5",
+		"description" : null,
+		"description_ee" : "Meelelahutusfilmide ja -videofilmide tootmine",
+		"description_en" : "Entertainment film and video-tape production",
+		"description_lt" : "Pramoginių filmų ir vaizdajuosčių gamyba",
+		"description_lv" : "Izklaides filmu un videofilmu ražošana",
+		"description_ru" : "Производство развлекательных фильмов и видеокассет"
+	},
+	{
+		"id" : 9278,
+		"code" : "92111310-8",
+		"description" : null,
+		"description_ee" : "Meelelahutusfilmide tootmine",
+		"description_en" : "Entertainment film production",
+		"description_lt" : "Pramoginių filmų gamyba",
+		"description_lv" : "Izklaides filmu ražošana",
+		"description_ru" : "Производство развлекательных фильмов"
+	},
+	{
+		"id" : 9279,
+		"code" : "92111320-1",
+		"description" : null,
+		"description_ee" : "Meelelahutusvideofilmide tootmine",
+		"description_en" : "Entertainment video-tape production",
+		"description_lt" : "Pramoginių vaizdajuosčių gamyba",
+		"description_lv" : "Izklaides videofilmu ražošana",
+		"description_ru" : "Производство развлекательных видеокассет"
+	},
+	{
+		"id" : 9280,
+		"code" : "92112000-9",
+		"description" : null,
+		"description_ee" : "Kino- ja videofilmide tootmisega seotud teenused",
+		"description_en" : "Services in connection with motion-picture and video-tape production",
+		"description_lt" : "Paslaugos, susijusios su kino filmų ir vaizdajuosčių gamyba",
+		"description_lv" : "Pakalpojumi, kas saistīti ar kinofilmu un videofilmu ražošanu",
+		"description_ru" : "Услуги по производству кино- и видеокассет"
+	},
+	{
+		"id" : 9281,
+		"code" : "92120000-8",
+		"description" : null,
+		"description_ee" : "Kino- ja videofilmide levitamisteenused",
+		"description_en" : "Motion-picture or video-tape distribution services",
+		"description_lt" : "Kino filmų ar vaizdajuosčių platinimo paslaugos",
+		"description_lv" : "Kinofilmu un videofilmu izplatīšanas pakalpojumi",
+		"description_ru" : "Услуги по распространению кино- или видеокассет"
+	},
+	{
+		"id" : 9282,
+		"code" : "92121000-5",
+		"description" : null,
+		"description_ee" : "Videofilmide levitamisteenused",
+		"description_en" : "Video-tape distribution services",
+		"description_lt" : "Vaizdajuosčių platinimo paslaugos",
+		"description_lv" : "Videofilmu izplatīšanas pakalpojumi",
+		"description_ru" : "Услуги по распространению видеокассет"
+	},
+	{
+		"id" : 9283,
+		"code" : "92122000-2",
+		"description" : null,
+		"description_ee" : "Kinofilmide levitamisteenused",
+		"description_en" : "Motion picture distribution services",
+		"description_lt" : "Kino filmų platinimo paslaugos",
+		"description_lv" : "Kinofilmu izplatīšanas pakalpojumi",
+		"description_ru" : "Услуги по распространению кинофильмов"
+	},
+	{
+		"id" : 9284,
+		"code" : "92130000-1",
+		"description" : null,
+		"description_ee" : "Kinofilmide linastamisteenused",
+		"description_en" : "Motion picture projection services",
+		"description_lt" : "Kino filmų rodymo paslaugos",
+		"description_lv" : "Kinofilmu demonstrēšanas pakalpojumi",
+		"description_ru" : "Услуги кинопроекции"
+	},
+	{
+		"id" : 9285,
+		"code" : "92140000-4",
+		"description" : null,
+		"description_ee" : "Videofilmide linastamisteenused",
+		"description_en" : "Video-tape projection services",
+		"description_lt" : "Vaizdajuosčių rodymo paslaugos",
+		"description_lv" : "Videofilmu demonstrēšanas pakalpojumi",
+		"description_ru" : "Услуги видеопроекции"
+	},
+	{
+		"id" : 9286,
+		"code" : "92200000-3",
+		"description" : null,
+		"description_ee" : "Raadio- ja televisiooniteenused",
+		"description_en" : "Radio and television services",
+		"description_lt" : "Radijo ir televizijos paslaugos",
+		"description_lv" : "Radio un televīzijas pakalpojumi",
+		"description_ru" : "Услуги радио и телевидения"
+	},
+	{
+		"id" : 9287,
+		"code" : "92210000-6",
+		"description" : null,
+		"description_ee" : "Raadioteenused",
+		"description_en" : "Radio services",
+		"description_lt" : "Radijo paslaugos",
+		"description_lv" : "Radio pakalpojumi",
+		"description_ru" : "Радиоуслуги"
+	},
+	{
+		"id" : 9288,
+		"code" : "92211000-3",
+		"description" : null,
+		"description_ee" : "Raadiosaadete tootmise teenused",
+		"description_en" : "Radio production services",
+		"description_lt" : "Radijo laidų kūrimo paslaugos",
+		"description_lv" : "Radioraidījumu veidošanas pakalpojumi",
+		"description_ru" : "Услуги радиопроизводства"
+	},
+	{
+		"id" : 9289,
+		"code" : "92213000-7",
+		"description" : null,
+		"description_ee" : "Väikese ulatusega raadiosüsteemi teenused",
+		"description_en" : "Small scale radio systems services",
+		"description_lt" : "Nedidelio masto radijo sistemų paslaugos",
+		"description_lv" : "Mazo radiosistēmu pakalpojumi",
+		"description_ru" : "Услуги малых радиосистем"
+	},
+	{
+		"id" : 9290,
+		"code" : "92214000-4",
+		"description" : null,
+		"description_ee" : "Raadiostuudio või raadiovarustuse teenused",
+		"description_en" : "Radio studio or equipment services",
+		"description_lt" : "Radijo studijų arba įrangos paslaugos",
+		"description_lv" : "Radiostudiju vai iekārtu pakalpojumi",
+		"description_ru" : "Услуги радиостудии или оборудования"
+	},
+	{
+		"id" : 9291,
+		"code" : "92215000-1",
+		"description" : null,
+		"description_ee" : "Üldised mobiilsed raadioteenused (GMRS)",
+		"description_en" : "General Mobile Radio Services (GMRS)",
+		"description_lt" : "Bendrojo judriojo radijo ryšio paslaugos (GMRS)",
+		"description_lv" : "Vispārējie mobilie radiopakalpojumi (GMRS)",
+		"description_ru" : "Общие службы мобильной радиосвязи (GMRS)"
+	},
+	{
+		"id" : 9292,
+		"code" : "92216000-8",
+		"description" : null,
+		"description_ee" : "Pereraadioteenused (FRS)",
+		"description_en" : "Family Radio Services (FRS)",
+		"description_lt" : "Šeimos radijo paslaugos (FRS)",
+		"description_lv" : "Ģimenes radiopakalpojumi (FRS)",
+		"description_ru" : "Службы семейного радио (FRS)"
+	},
+	{
+		"id" : 9293,
+		"code" : "92217000-5",
+		"description" : null,
+		"description_ee" : "Üldised mobiilsed raadioteenused/pereraadioteenused (GMRS/FRS)",
+		"description_en" : "General Mobile Radio Services/Family Radio Services (GMRS/FRS)",
+		"description_lt" : "Bendrojo judriojo radijo ryšio/šeimos radijo paslaugos (GMRS/FRS)",
+		"description_lv" : "Vispārējie mobilie radiopakalpojumi/Ģimenes radiopakalpojumi (GMRS/FRS)",
+		"description_ru" : "Общие службы мобильной радиосвязи / семейные радиослужбы (GMRS / FRS)"
+	},
+	{
+		"id" : 9294,
+		"code" : "92220000-9",
+		"description" : null,
+		"description_ee" : "Televisiooniteenused",
+		"description_en" : "Television services",
+		"description_lt" : "Televizijos paslaugos",
+		"description_lv" : "Televīzijas pakalpojumi",
+		"description_ru" : "Телевизионные услуги"
+	},
+	{
+		"id" : 9295,
+		"code" : "92221000-6",
+		"description" : null,
+		"description_ee" : "Televisioonisaadete tootmise teenused",
+		"description_en" : "Television production services",
+		"description_lt" : "Televizijos laidų kūrimo paslaugos",
+		"description_lv" : "Televīzijas raidījumu veidošanas pakalpojumi",
+		"description_ru" : "Услуги телевизионного производства"
+	},
+	{
+		"id" : 9296,
+		"code" : "92222000-3",
+		"description" : null,
+		"description_ee" : "Sisetelevisioonisüsteemi teenused",
+		"description_en" : "Closed circuit television services",
+		"description_lt" : "Uždarosios grandinės televizijos paslaugos",
+		"description_lv" : "Slēgtā cikla televīzijas pakalpojumi",
+		"description_ru" : "Услуги замкнутого телевидения"
+	},
+	{
+		"id" : 9297,
+		"code" : "92224000-7",
+		"description" : null,
+		"description_ee" : "Digitaalne televisoon",
+		"description_en" : "Digital television",
+		"description_lt" : "Skaitmeninė televizija",
+		"description_lv" : "Digitālā televīzija",
+		"description_ru" : "Цифровое телевидение"
+	},
+	{
+		"id" : 9298,
+		"code" : "92225000-4",
+		"description" : null,
+		"description_ee" : "Interaktiivne televisoon",
+		"description_en" : "Interactive television",
+		"description_lt" : "Interaktyvioji televizija",
+		"description_lv" : "Interaktīvā televīzija",
+		"description_ru" : "Интерактивное телевидение"
+	},
+	{
+		"id" : 9299,
+		"code" : "92225100-7",
+		"description" : null,
+		"description_ee" : "Tellitava filmi televisiooni teenus",
+		"description_en" : "Film-on-demand television",
+		"description_lt" : "Filmų pagal pareikalavimą televizija",
+		"description_lv" : "Filmu pēc pieprasījuma televīzija",
+		"description_ru" : "Телевидение по запросу"
+	},
+	{
+		"id" : 9300,
+		"code" : "92226000-1",
+		"description" : null,
+		"description_ee" : "Teleprogrammeerimine",
+		"description_en" : "Teleprogrammation",
+		"description_lt" : "Teleprogramavimas",
+		"description_lv" : "Televīzijas programmu plānošana",
+		"description_ru" : "Телепрограммирование"
+	},
+	{
+		"id" : 9301,
+		"code" : "92230000-2",
+		"description" : null,
+		"description_ee" : "Kaabelraadio ja -televisiooni teenused",
+		"description_en" : "Radio and television cable services",
+		"description_lt" : "Radijo ir televizijos kabelinės paslaugos",
+		"description_lv" : "Radio un televīzijas kabeļu pakalpojumi",
+		"description_ru" : "Кабельное радио и телевидение"
+	},
+	{
+		"id" : 9302,
+		"code" : "92231000-9",
+		"description" : null,
+		"description_ee" : "Rahvusvahelised kahesuunalised teenused ja rahvusvahelised erapüsiliinid",
+		"description_en" : "International bilateral services and international private leased lines",
+		"description_lt" : "Tarptautinės dvišalės paslaugos ir tarptautinės privačios išnuomojamos linijos",
+		"description_lv" : "Starptautiskie divpusējie pakalpojumi un starptautiskās privātās nomātās līnijas",
+		"description_ru" : "Международные двусторонние услуги и международные частные выделенные линии"
+	},
+	{
+		"id" : 9303,
+		"code" : "92232000-6",
+		"description" : null,
+		"description_ee" : "Kaabeltelevisoon",
+		"description_en" : "Cable TV",
+		"description_lt" : "Kabelinė televizija",
+		"description_lv" : "Kabeļu televīzija",
+		"description_ru" : "Кабельное ТВ"
+	},
+	{
+		"id" : 9304,
+		"code" : "92300000-4",
+		"description" : null,
+		"description_ee" : "Meelelahutusteenused",
+		"description_en" : "Entertainment services",
+		"description_lt" : "Pramoginės paslaugos",
+		"description_lv" : "Izklaides pakalpojumi",
+		"description_ru" : "Развлекательные услуги"
+	},
+	{
+		"id" : 9305,
+		"code" : "92310000-7",
+		"description" : null,
+		"description_ee" : "Kunsti- ja kirjandusloomingu ning selle esitamise teenused",
+		"description_en" : "Artistic and literary creation and interpretation services",
+		"description_lt" : "Meninės ir literatūrinės kūrybos bei interpretavimo paslaugos",
+		"description_lv" : "Mākslinieciskās un literārās jaunrades un interpretācijas pakalpojumi",
+		"description_ru" : "Услуги художественного и литературного творчества и интерпретации"
+	},
+	{
+		"id" : 9306,
+		"code" : "92311000-4",
+		"description" : null,
+		"description_ee" : "Kunstiteosed",
+		"description_en" : "Works of art",
+		"description_lt" : "Meno kūriniai",
+		"description_lv" : "Mākslas darbi",
+		"description_ru" : "Произведения искусства"
+	},
+	{
+		"id" : 9307,
+		"code" : "92312000-1",
+		"description" : null,
+		"description_ee" : "Kunstiteenused",
+		"description_en" : "Artistic services",
+		"description_lt" : "Meninės paslaugos",
+		"description_lv" : "Mākslinieciskie pakalpojumi",
+		"description_ru" : "Художественные услуги"
+	},
+	{
+		"id" : 9308,
+		"code" : "92312100-2",
+		"description" : null,
+		"description_ee" : "Teatrilavastajate, laulukollektiivide, ansamblite ja orkestrite meelelahutusteenused",
+		"description_en" : "Theatrical producers', singer groups', bands' and orchestras' entertainment services",
+		"description_lt" : "Teatro prodiuserių, dainininkų grupių, ansamblių ir orkestrų pramoginės paslaugos",
+		"description_lv" : "Teātra producentu, dziedātāju grupu, ansambļu un orķestru izklaides pakalpojumi",
+		"description_ru" : "Развлекательные услуги театральных постановщиков, певческих коллективов, групп и оркестров"
+	},
+	{
+		"id" : 9309,
+		"code" : "92312110-5",
+		"description" : null,
+		"description_ee" : "Teatrilavastajateenused",
+		"description_en" : "Theatrical producer entertainment services",
+		"description_lt" : "Teatro prodiuserių pramoginės paslaugos",
+		"description_lv" : "Teātra producentu izklaides pakalpojumi",
+		"description_ru" : "Развлекательные услуги театрального продюсера"
+	},
+	{
+		"id" : 9310,
+		"code" : "92312120-8",
+		"description" : null,
+		"description_ee" : "Laulukollektiivide meelelahutusteenused",
+		"description_en" : "Singer group entertainment services",
+		"description_lt" : "Dainininkų grupių pramoginės paslaugos",
+		"description_lv" : "Dziedātāju grupu izklaides pakalpojumi",
+		"description_ru" : "Развлекательные услуги певческой группы"
+	},
+	{
+		"id" : 9311,
+		"code" : "92312130-1",
+		"description" : null,
+		"description_ee" : "Ansamblite meelelahutusteenused",
+		"description_en" : "Band entertainment services",
+		"description_lt" : "Ansamblių pramoginės paslaugos",
+		"description_lv" : "Ansambļu izklaides pakalpojumi",
+		"description_ru" : "Развлекательные услуги группы"
+	},
+	{
+		"id" : 9312,
+		"code" : "92312140-4",
+		"description" : null,
+		"description_ee" : "Orkestrite meelelahutusteenused",
+		"description_en" : "Orchestral entertainment services",
+		"description_lt" : "Orkestrų pramoginės paslaugos",
+		"description_lv" : "Orķestru izklaides pakalpojumi",
+		"description_ru" : "Оркестровые развлекательные услуги"
+	},
+	{
+		"id" : 9313,
+		"code" : "92312200-3",
+		"description" : null,
+		"description_ee" : "Kirjanike, heliloojate, skulptorite, estraadikunstnike jt üksikartistide pakutavad teenused",
+		"description_en" : "Services provided by authors, composers, sculptors, entertainers and other individual artists",
+		"description_lt" : "Autorių, kompozitorių, skulptorių, estrados artistų ir kitų atskirų menininkų teikiamos paslaugos",
+		"description_lv" : "Autoru, komponistu, tēlnieku, izklaides mākslinieku un citu individuālo mākslinieku sniegtie pakalpojumi",
+		"description_ru" : "Услуги, предоставляемые авторами, композиторами, скульпторами, артистами и другими индивидуальными артистами"
+	},
+	{
+		"id" : 9314,
+		"code" : "92312210-6",
+		"description" : null,
+		"description_ee" : "Kirjanike pakutavad teenused",
+		"description_en" : "Services provided by authors",
+		"description_lt" : "Autorių teikiamos paslaugos",
+		"description_lv" : "Autoru sniegtie pakalpojumi",
+		"description_ru" : "Услуги, предоставляемые авторами"
+	},
+	{
+		"id" : 9315,
+		"code" : "92312211-3",
+		"description" : null,
+		"description_ee" : "Kirjastuste teenused",
+		"description_en" : "Writing agency services",
+		"description_lt" : "Rašymo agentūrų paslaugos",
+		"description_lv" : "Rakstnieku aģentūru sniegtie pakalpojumi",
+		"description_ru" : "Услуги писательского агентства"
+	},
+	{
+		"id" : 9316,
+		"code" : "92312212-0",
+		"description" : null,
+		"description_ee" : "Koolituskäsiraamatute koostamise teenused",
+		"description_en" : "Services related to the preparation of training manuals",
+		"description_lt" : "Paslaugos, susijusios su vadovėlių rengimu",
+		"description_lv" : "Pakalpojumi, kas saistīti ar mācību rokasgrāmatu sagatavošanu",
+		"description_ru" : "Услуги, связанные с подготовкой учебных пособий"
+	},
+	{
+		"id" : 9317,
+		"code" : "92312213-7",
+		"description" : null,
+		"description_ee" : "Tehniliste tekstide koostamisteenused",
+		"description_en" : "Technical author services",
+		"description_lt" : "Techninės autorinės paslaugos",
+		"description_lv" : "Tehnisko autoru sniegtie pakalpojumi",
+		"description_ru" : "Услуги технического автора"
+	},
+	{
+		"id" : 9318,
+		"code" : "92312220-9",
+		"description" : null,
+		"description_ee" : "Heliloojate poolt pakutavad teenused",
+		"description_en" : "Services provided by composers",
+		"description_lt" : "Kompozitorių teikiamos paslaugos",
+		"description_lv" : "Komponistu sniegtie pakalpojumi",
+		"description_ru" : "Услуги, предоставляемые композиторами"
+	},
+	{
+		"id" : 9319,
+		"code" : "92312230-2",
+		"description" : null,
+		"description_ee" : "Skulptorite poolt pakutavad teenused",
+		"description_en" : "Services provided by sculptors",
+		"description_lt" : "Skulptorių teikiamos paslaugos",
+		"description_lv" : "Tēlnieku sniegtie pakalpojumi",
+		"description_ru" : "Услуги скульпторов"
+	},
+	{
+		"id" : 9320,
+		"code" : "92312240-5",
+		"description" : null,
+		"description_ee" : "Estraadikunstnike poolt pakutavad teenused",
+		"description_en" : "Services provided by entertainers",
+		"description_lt" : "Estrados artistų teikiamos paslaugos",
+		"description_lv" : "Izklaides mākslinieku sniegtie pakalpojumi",
+		"description_ru" : "Услуги, предоставляемые аниматорами"
+	},
+	{
+		"id" : 9321,
+		"code" : "92312250-8",
+		"description" : null,
+		"description_ee" : "Üksikartistide poolt pakutavad teenused",
+		"description_en" : "Services provided by individual artists",
+		"description_lt" : "Atskirų menininkų teikiamos paslaugos",
+		"description_lv" : "Individuālo mākslinieku sniegtie pakalpojumi",
+		"description_ru" : "Услуги, предоставляемые отдельными артистами"
+	},
+	{
+		"id" : 9322,
+		"code" : "92312251-5",
+		"description" : null,
+		"description_ee" : "Diskoriteenused",
+		"description_en" : "Disk-jockey services",
+		"description_lt" : "Pramoginių laidų ir vakarų vedėjų paslaugos",
+		"description_lv" : "Diskžokeju pakalpojumi",
+		"description_ru" : "Услуги диск-жокея"
+	},
+	{
+		"id" : 9323,
+		"code" : "92320000-0",
+		"description" : null,
+		"description_ee" : "Kunstirajatiste käitusteenused",
+		"description_en" : "Arts-facility operation services",
+		"description_lt" : "Meno patalpų eksploatavimo paslaugos",
+		"description_lv" : "Mākslas iestāžu uzturēšanas un vadības pakalpojumi",
+		"description_ru" : "Услуги по эксплуатации арт-объектов"
+	},
+	{
+		"id" : 9324,
+		"code" : "92330000-3",
+		"description" : null,
+		"description_ee" : "Puhkealade teenused",
+		"description_en" : "Recreational-area services",
+		"description_lt" : "Poilsio zonų paslaugos",
+		"description_lv" : "Atpūtas jomas pakalpojumi",
+		"description_ru" : "Услуги зоны отдыха"
+	},
+	{
+		"id" : 9325,
+		"code" : "92331000-0",
+		"description" : null,
+		"description_ee" : "Laatade ja lõbustusparkide teenused",
+		"description_en" : "Fair and amusement park services",
+		"description_lt" : "Mugių ir pramogų parkų paslaugos",
+		"description_lv" : "Gadatirgu un atrakciju parku pakalpojumi",
+		"description_ru" : "Услуги ярмарок и парков развлечений"
+	},
+	{
+		"id" : 9326,
+		"code" : "92331100-1",
+		"description" : null,
+		"description_ee" : "Laatade teenused",
+		"description_en" : "Fair services",
+		"description_lt" : "Mugių paslaugos",
+		"description_lv" : "Gadatirgu pakalpojumi",
+		"description_ru" : "Справедливые услуги"
+	},
+	{
+		"id" : 9327,
+		"code" : "92331200-2",
+		"description" : null,
+		"description_ee" : "Lõbustusparkide teenused",
+		"description_en" : "Amusement park services",
+		"description_lt" : "Pramogų parkų paslaugos",
+		"description_lv" : "Atrakciju parku pakalpojumi",
+		"description_ru" : "Услуги парка развлечений"
+	},
+	{
+		"id" : 9328,
+		"code" : "92331210-5",
+		"description" : null,
+		"description_ee" : "Laste joonisfilmide teenused",
+		"description_en" : "Children animation services",
+		"description_lt" : "Vaikų aktyvios veiklos skatinimo paslaugos",
+		"description_lv" : "Bērnu pasākumu organizēšanas pakalpojumi",
+		"description_ru" : "Услуги детской анимации"
+	},
+	{
+		"id" : 9329,
+		"code" : "92332000-7",
+		"description" : null,
+		"description_ee" : "Supelrandade teenused",
+		"description_en" : "Beach services",
+		"description_lt" : "Paplūdimių paslaugos",
+		"description_lv" : "Pludmales pakalpojumi",
+		"description_ru" : "Пляжные услуги"
+	},
+	{
+		"id" : 9330,
+		"code" : "92340000-6",
+		"description" : null,
+		"description_ee" : "Tantsu- ja meelelahutusetenduste teenused",
+		"description_en" : "Dance and performance entertainment services",
+		"description_lt" : "Šokių ir vaidinimų pramoginės paslaugos",
+		"description_lv" : "Deju un izrāžu izklaides pasākumi",
+		"description_ru" : "Танцевально-развлекательные услуги"
+	},
+	{
+		"id" : 9331,
+		"code" : "92341000-3",
+		"description" : null,
+		"description_ee" : "Tsirkuseteenused",
+		"description_en" : "Circus services",
+		"description_lt" : "Cirko paslaugos",
+		"description_lv" : "Cirka pakalpojumi",
+		"description_ru" : "Услуги цирка"
+	},
+	{
+		"id" : 9332,
+		"code" : "92342000-0",
+		"description" : null,
+		"description_ee" : "Tantsuõpetuse teenused",
+		"description_en" : "Dance-instruction services",
+		"description_lt" : "Šokių mokymo paslaugos",
+		"description_lv" : "Deju skolotāju pakalpojumi",
+		"description_ru" : "Услуги по обучению танцам"
+	},
+	{
+		"id" : 9333,
+		"code" : "92342100-1",
+		"description" : null,
+		"description_ee" : "Peotantsuõpetuse teenused",
+		"description_en" : "Ballroom dance-instruction services",
+		"description_lt" : "Pramoginių šokių mokymo paslaugos",
+		"description_lv" : "Balles deju skolotāju pakalpojumi",
+		"description_ru" : "Услуги по обучению бальным танцам"
+	},
+	{
+		"id" : 9334,
+		"code" : "92342200-2",
+		"description" : null,
+		"description_ee" : "Diskotantsuõpetuse teenused",
+		"description_en" : "Discotheque dance-instruction services",
+		"description_lt" : "Diskotekinių šokių mokymo paslaugos",
+		"description_lv" : "Diskodeju skolotāju pakalpojumi",
+		"description_ru" : "Услуги танцевального обучения на дискотеке"
+	},
+	{
+		"id" : 9335,
+		"code" : "92350000-9",
+		"description" : null,
+		"description_ee" : "Hasartmängude ja kihlvedude teenused",
+		"description_en" : "Gambling and betting services",
+		"description_lt" : "Azartinių lošimų ir lažybų organizavimo paslaugos",
+		"description_lv" : "Azartspēļu un derību pakalpojumi",
+		"description_ru" : "Азартные игры и букмекерские услуги"
+	},
+	{
+		"id" : 9336,
+		"code" : "92351000-6",
+		"description" : null,
+		"description_ee" : "Hasartmängude teenused",
+		"description_en" : "Gambling services",
+		"description_lt" : "Azartinių lošimų organizavimo paslaugos",
+		"description_lv" : "Azartspēļu pakalpojumi",
+		"description_ru" : "Игорные услуги"
+	},
+	{
+		"id" : 9337,
+		"code" : "92351100-7",
+		"description" : null,
+		"description_ee" : "Loteriide korraldamisteenused",
+		"description_en" : "Lottery operating services",
+		"description_lt" : "Loterijų organizavimo paslaugos",
+		"description_lv" : "Loterijas darbības pakalpojumi",
+		"description_ru" : "Услуги по проведению лотерей"
+	},
+	{
+		"id" : 9338,
+		"code" : "92351200-8",
+		"description" : null,
+		"description_ee" : "Kasiinoteenused",
+		"description_en" : "Casino operating services",
+		"description_lt" : "Kazino organizavimo paslaugos",
+		"description_lv" : "Kazino darbības pakalpojumi",
+		"description_ru" : "Операционные услуги казино"
+	},
+	{
+		"id" : 9339,
+		"code" : "92352000-3",
+		"description" : null,
+		"description_ee" : "Kihlvedude sõlmimise teenused",
+		"description_en" : "Betting services",
+		"description_lt" : "Lažybų organizavimo paslaugos",
+		"description_lv" : "Derību pakalpojumi",
+		"description_ru" : "Букмекерские услуги"
+	},
+	{
+		"id" : 9340,
+		"code" : "92352100-4",
+		"description" : null,
+		"description_ee" : "Totalisaatoril mängimise teenused",
+		"description_en" : "Totalisator operating services",
+		"description_lt" : "Totalizatorių organizavimo paslaugos",
+		"description_lv" : "Totalizatora darbības pakalpojumi",
+		"description_ru" : "Услуги по эксплуатации тотализатора"
+	},
+	{
+		"id" : 9341,
+		"code" : "92352200-5",
+		"description" : null,
+		"description_ee" : "Kihlvedude vahendusteenused",
+		"description_en" : "Bookmaking services",
+		"description_lt" : "Bukmekerių paslaugos",
+		"description_lv" : "Bukmeikeru pakalpojumi",
+		"description_ru" : "Букмекерские услуги"
+	},
+	{
+		"id" : 9342,
+		"code" : "92360000-2",
+		"description" : null,
+		"description_ee" : "Pürotehnilised teenused",
+		"description_en" : "Pyrotechnic services",
+		"description_lt" : "Pirotechninės paslaugos",
+		"description_lv" : "Pirotehnikas pakalpojumi",
+		"description_ru" : "Пиротехнические услуги"
+	},
+	{
+		"id" : 9343,
+		"code" : "92370000-5",
+		"description" : null,
+		"description_ee" : "Helitehnikuteenused",
+		"description_en" : "Sound technician",
+		"description_lt" : "Garso specialistų paslaugos",
+		"description_lv" : "Skaņas tehniķis",
+		"description_ru" : "Звукорежиссер"
+	},
+	{
+		"id" : 9344,
+		"code" : "92400000-5",
+		"description" : null,
+		"description_ee" : "Uudisteagentuuride teenused",
+		"description_en" : "News-agency services",
+		"description_lt" : "Žinių agentūrų paslaugos",
+		"description_lv" : "Ziņu aģentūru pakalpojumi",
+		"description_ru" : "Услуги информационного агентства"
+	},
+	{
+		"id" : 9345,
+		"code" : "92500000-6",
+		"description" : null,
+		"description_ee" : "Raamatukogu-, arhiivi-, muuseumi- ja muud kultuuriteenused",
+		"description_en" : "Library, archives, museums and other cultural services",
+		"description_lt" : "Bibliotekų, archyvų, muziejų ir kitos kultūrinės paslaugos",
+		"description_lv" : "Bibliotēku, arhīvu, muzeju un citi kultūras pakalpojumi",
+		"description_ru" : "Библиотеки, архивы, музеи и другие культурные услуги"
+	},
+	{
+		"id" : 9346,
+		"code" : "92510000-9",
+		"description" : null,
+		"description_ee" : "Raamatukogu- ja arhiiviteenused",
+		"description_en" : "Library and archive services",
+		"description_lt" : "Bibliotekų ir archyvų paslaugos",
+		"description_lv" : "Bibliotēku un arhīvu pakalpojumi",
+		"description_ru" : "Библиотечно-архивные услуги"
+	},
+	{
+		"id" : 9347,
+		"code" : "92511000-6",
+		"description" : null,
+		"description_ee" : "Raamatukoguteenused",
+		"description_en" : "Library services",
+		"description_lt" : "Bibliotekų paslaugos",
+		"description_lv" : "Bibliotēku pakalpojumi",
+		"description_ru" : "Библиотечные услуги"
+	},
+	{
+		"id" : 9348,
+		"code" : "92512000-3",
+		"description" : null,
+		"description_ee" : "Arhiiviteenused",
+		"description_en" : "Archive services",
+		"description_lt" : "Archyvų paslaugos",
+		"description_lv" : "Arhīvu pakalpojumi",
+		"description_ru" : "Архивные услуги"
+	},
+	{
+		"id" : 9349,
+		"code" : "92512100-4",
+		"description" : null,
+		"description_ee" : "Arhiivide hävitamise teenused",
+		"description_en" : "Archive destruction services",
+		"description_lt" : "Archyvų naikinimo paslaugos",
+		"description_lv" : "Arhīvu iznīcināšanas pakalpojumi",
+		"description_ru" : "Услуги по уничтожению архивов"
+	},
+	{
+		"id" : 9350,
+		"code" : "92520000-2",
+		"description" : null,
+		"description_ee" : "Muuseumi- ja ajalooliste kohtade ning ehitiste säilitamise teenused",
+		"description_en" : "Museum services and preservation services of historical sites and buildings",
+		"description_lt" : "Muziejų paslaugos ir istorinių vietų bei pastatų išsaugojimo paslaugos",
+		"description_lv" : "Muzeju pakalpojumi un vēsturisko objektu un ēku saglabāšanas pakalpojumi",
+		"description_ru" : "Услуги музеев и услуги по сохранению исторических мест и зданий"
+	},
+	{
+		"id" : 9351,
+		"code" : "92521000-9",
+		"description" : null,
+		"description_ee" : "Muuseumiteenused",
+		"description_en" : "Museum services",
+		"description_lt" : "Muziejų paslaugos",
+		"description_lv" : "Muzeju pakalpojumi",
+		"description_ru" : "Услуги музея"
+	},
+	{
+		"id" : 9352,
+		"code" : "92521100-0",
+		"description" : null,
+		"description_ee" : "Muuseumi väljapanekute teenused",
+		"description_en" : "Museum-exhibition services",
+		"description_lt" : "Muziejų parodų paslaugos",
+		"description_lv" : "Muzeju izstāžu pakalpojumi",
+		"description_ru" : "Музейно-выставочные услуги"
+	},
+	{
+		"id" : 9353,
+		"code" : "92521200-1",
+		"description" : null,
+		"description_ee" : "Eksponaatide ja eksemplaride säilitamisteenused",
+		"description_en" : "Preservation services of exhibits and specimens",
+		"description_lt" : "Eksponatų ir pavyzdžių išsaugojimo paslaugos",
+		"description_lv" : "Eksponātu un eksemplāru paraugu saglabāšanas pakalpojumi",
+		"description_ru" : "Услуги по консервации экспонатов и образцов"
+	},
+	{
+		"id" : 9354,
+		"code" : "92521210-4",
+		"description" : null,
+		"description_ee" : "Eksponaatide säilitamisteenused",
+		"description_en" : "Preservation services of exhibits",
+		"description_lt" : "Eksponatų išsaugojimo paslaugos",
+		"description_lv" : "Eksponātu saglabāšanas pakalpojumi",
+		"description_ru" : "Услуги по консервации экспонатов"
+	},
+	{
+		"id" : 9355,
+		"code" : "92521220-7",
+		"description" : null,
+		"description_ee" : "Eksemplaride säilitamisteenused",
+		"description_en" : "Preservation services of specimens",
+		"description_lt" : "Pavyzdžių išsaugojimo paslaugos",
+		"description_lv" : "Eksemplāru paraugu saglabāšanas pakalpojumi",
+		"description_ru" : "Услуги по консервации образцов"
+	},
+	{
+		"id" : 9356,
+		"code" : "92522000-6",
+		"description" : null,
+		"description_ee" : "Ajalooliste kohtade ja ehitiste säilitamisteenused",
+		"description_en" : "Preservation services of historical sites and buildings",
+		"description_lt" : "Istorinių vietų ir pastatų išsaugojimo paslaugos",
+		"description_lv" : "Vēsturisko objektu un ēku saglabāšanas pakalpojumi",
+		"description_ru" : "Услуги по сохранению исторических мест и зданий"
+	},
+	{
+		"id" : 9357,
+		"code" : "92522100-7",
+		"description" : null,
+		"description_ee" : "Ajalooliste kohtade säilitamisteenused",
+		"description_en" : "Preservation services of historical sites",
+		"description_lt" : "Istorinių vietų išsaugojimo paslaugos",
+		"description_lv" : "Vēsturisko objektu saglabāšanas pakalpojumi",
+		"description_ru" : "Услуги по сохранению исторических мест"
+	},
+	{
+		"id" : 9358,
+		"code" : "92522200-8",
+		"description" : null,
+		"description_ee" : "Ajalooliste ehitiste säilitamisteenused",
+		"description_en" : "Preservation services of historical buildings",
+		"description_lt" : "Istorinių pastatų išsaugojimo paslaugos",
+		"description_lv" : "Vēsturisko ēku saglabāšanas pakalpojumi",
+		"description_ru" : "Услуги по консервации исторических зданий"
+	},
+	{
+		"id" : 9359,
+		"code" : "92530000-5",
+		"description" : null,
+		"description_ee" : "Botaanika- ja loomaaedade teenused ning looduskaitsealade teenused",
+		"description_en" : "Botanical and zoological garden services and nature reserve services",
+		"description_lt" : "Botanikos ir zoologijos sodų bei gamtos draustinių paslaugos",
+		"description_lv" : "Botānisko un zooloģisko dārzu pakalpojumi, dabas rezervātu pakalpojumi",
+		"description_ru" : "Услуги ботанических и зоологических садов и заповедников"
+	},
+	{
+		"id" : 9360,
+		"code" : "92531000-2",
+		"description" : null,
+		"description_ee" : "Botaanikaaedade teenused",
+		"description_en" : "Botanical garden services",
+		"description_lt" : "Botanikos sodų paslaugos",
+		"description_lv" : "Botānisko dārzu pakalpojumi",
+		"description_ru" : "Услуги ботанического сада"
+	},
+	{
+		"id" : 9361,
+		"code" : "92532000-9",
+		"description" : null,
+		"description_ee" : "Loomaaedade teenused",
+		"description_en" : "Zoological garden services",
+		"description_lt" : "Zoologijos sodų paslaugos",
+		"description_lv" : "Zooloģisko dārzu pakalpojumi",
+		"description_ru" : "Услуги зоологического сада"
+	},
+	{
+		"id" : 9362,
+		"code" : "92533000-6",
+		"description" : null,
+		"description_ee" : "Looduskaitsealade teenused",
+		"description_en" : "Nature reserve services",
+		"description_lt" : "Gamtos draustinių paslaugos",
+		"description_lv" : "Dabas rezervātu pakalpojumi",
+		"description_ru" : "Услуги заповедника"
+	},
+	{
+		"id" : 9363,
+		"code" : "92534000-3",
+		"description" : null,
+		"description_ee" : "Looma- ja linnukaitsealade teenused",
+		"description_en" : "Wildlife preservation services",
+		"description_lt" : "Laukinės gyvūnijos ir augalijos išsaugojimo paslaugos",
+		"description_lv" : "Savvaļas dzīvnieku aizsardzības pakalpojumi",
+		"description_ru" : "Услуги по охране дикой природы"
+	},
+	{
+		"id" : 9364,
+		"code" : "92600000-7",
+		"description" : null,
+		"description_ee" : "Sporditeenused",
+		"description_en" : "Sporting services",
+		"description_lt" : "Sportinės paslaugos",
+		"description_lv" : "Sporta pakalpojumi",
+		"description_ru" : "Спортивные услуги"
+	},
+	{
+		"id" : 9365,
+		"code" : "92610000-0",
+		"description" : null,
+		"description_ee" : "Spordirajatiste käitamisteenused",
+		"description_en" : "Sports facilities operation services",
+		"description_lt" : "Sporto patalpų eksploatavimo paslaugos",
+		"description_lv" : "Sporta iestāžu darbības pakalpojumi",
+		"description_ru" : "Услуги по эксплуатации спортивных сооружений"
+	},
+	{
+		"id" : 9366,
+		"code" : "92620000-3",
+		"description" : null,
+		"description_ee" : "Spordiga seotud teenused",
+		"description_en" : "Sport-related services",
+		"description_lt" : "Paslaugos, susijusios su sportu",
+		"description_lv" : "Ar sportu saistītie pakalpojumi",
+		"description_ru" : "Услуги, связанные со спортом"
+	},
+	{
+		"id" : 9367,
+		"code" : "92621000-0",
+		"description" : null,
+		"description_ee" : "Spordiürituste reklaamiteenused",
+		"description_en" : "Sports-event promotion services",
+		"description_lt" : "Sporto renginių reklamos paslaugos",
+		"description_lv" : "Sporta pasākumu reklamēšanas pakalpojumi",
+		"description_ru" : "Услуги по продвижению спортивных мероприятий"
+	},
+	{
+		"id" : 9368,
+		"code" : "92622000-7",
+		"description" : null,
+		"description_ee" : "Spordiürituste korraldamisteenused",
+		"description_en" : "Sports-event organisation services",
+		"description_lt" : "Sporto renginių organizavimo paslaugos",
+		"description_lv" : "Sporta pasākumu organizēšanas pakalpojumi",
+		"description_ru" : "Услуги по организации спортивных мероприятий"
+	},
+	{
+		"id" : 9369,
+		"code" : "92700000-8",
+		"description" : null,
+		"description_ee" : "Internetikohvikute teenused",
+		"description_en" : "Cybercafé services",
+		"description_lt" : "Interneto kavinių paslaugos",
+		"description_lv" : "Kiberkafejnīcas pakalpojumi",
+		"description_ru" : "Услуги интернет-кафе"
+	},
+	{
+		"id" : 9370,
+		"code" : "98000000-3",
+		"description" : null,
+		"description_ee" : "Muud ühiskondlikud, sotsiaal- ja isikuteenused",
+		"description_en" : "Other community, social and personal services",
+		"description_lt" : "Kitos bendruomeninės, socialinės ir asmeninės aptarnavimo paslaugos",
+		"description_lv" : "Citi kopienas, sociālie un personālie pakalpojumi",
+		"description_ru" : "Прочие общественные, социальные и личные услуги"
+	},
+	{
+		"id" : 9371,
+		"code" : "98100000-4",
+		"description" : null,
+		"description_ee" : "Organisatsioonide teenused",
+		"description_en" : "Membership organisation services",
+		"description_lt" : "Narystės organizacijų paslaugos",
+		"description_lv" : "Biedru organizāciju pakalpojumi",
+		"description_ru" : "Услуги организации членства"
+	},
+	{
+		"id" : 9372,
+		"code" : "98110000-7",
+		"description" : null,
+		"description_ee" : "Äri-, kutse- ja erialaorganisatsioonide teenused",
+		"description_en" : "Services furnished by business, professional and specialist organisations",
+		"description_lt" : "Verslo, profesinių ir specialistų organizacijų teikiamos paslaugos",
+		"description_lv" : "Pakalpojumi, ko sniedz uzņēmējdarbības, profesionālās un speciālistu organizācijas",
+		"description_ru" : "Услуги, предоставляемые коммерческими, профессиональными и специализированными организациями"
+	},
+	{
+		"id" : 9373,
+		"code" : "98111000-4",
+		"description" : null,
+		"description_ee" : "Äriorganisatsioonide teenused",
+		"description_en" : "Services furnished by business organisations",
+		"description_lt" : "Verslo organizacijų teikiamos paslaugos",
+		"description_lv" : "Pakalpojumi, ko sniedz uzņēmējdarbības organizācijas",
+		"description_ru" : "Услуги, предоставляемые коммерческими организациями"
+	},
+	{
+		"id" : 9374,
+		"code" : "98112000-1",
+		"description" : null,
+		"description_ee" : "Kutseorganisatsioonide teenused",
+		"description_en" : "Services furnished by professional organisations",
+		"description_lt" : "Profesinių organizacijų teikiamos paslaugos",
+		"description_lv" : "Pakalpojumi, ko sniedz profesionālās organizācijas",
+		"description_ru" : "Услуги, предоставляемые профессиональными организациями"
+	},
+	{
+		"id" : 9375,
+		"code" : "98113000-8",
+		"description" : null,
+		"description_ee" : "Erialaorganisatsioonide teenused",
+		"description_en" : "Services furnished by specialist organisations",
+		"description_lt" : "Specialistų organizacijų teikiamos paslaugos",
+		"description_lv" : "Pakalpojumi, ko sniedz speciālistu organizācijas",
+		"description_ru" : "Услуги специализированных организаций"
+	},
+	{
+		"id" : 9376,
+		"code" : "98113100-9",
+		"description" : null,
+		"description_ee" : "Tuumaohutusega seotud teenused",
+		"description_en" : "Nuclear safety services",
+		"description_lt" : "Branduolinės saugos paslaugos",
+		"description_lv" : "Kodoldrošības pakalpojumi",
+		"description_ru" : "Услуги по ядерной безопасности"
+	},
+	{
+		"id" : 9377,
+		"code" : "98120000-0",
+		"description" : null,
+		"description_ee" : "Ametiühingute teenused",
+		"description_en" : "Services furnished by trade unions",
+		"description_lt" : "Profesinių sąjungų teikiamos paslaugos",
+		"description_lv" : "Arodbiedrību sniegtie pakalpojumi",
+		"description_ru" : "Услуги, предоставляемые профсоюзами"
+	},
+	{
+		"id" : 9378,
+		"code" : "98130000-3",
+		"description" : null,
+		"description_ee" : "Mitmesuguste organisatsioonide teenused",
+		"description_en" : "Miscellaneous membership organisations services",
+		"description_lt" : "Įvairios narystės organizacijų paslaugos",
+		"description_lv" : "Dažādi biedru organizāciju pakalpojumi",
+		"description_ru" : "Разные услуги членских организаций"
+	},
+	{
+		"id" : 9379,
+		"code" : "98131000-0",
+		"description" : null,
+		"description_ee" : "Usuorganisatsioonide teenused",
+		"description_en" : "Religious services",
+		"description_lt" : "Religinės paslaugos",
+		"description_lv" : "Reliģiskie pakalpojumi",
+		"description_ru" : "Религиозные услуги"
+	},
+	{
+		"id" : 9380,
+		"code" : "98132000-7",
+		"description" : null,
+		"description_ee" : "Poliitiliste organisatsioonide teenused",
+		"description_en" : "Services furnished by political organisations",
+		"description_lt" : "Politinių organizacijų teikiamos paslaugos",
+		"description_lv" : "Politisko organizāciju sniegtie pakalpojumi",
+		"description_ru" : "Услуги, предоставляемые политическими организациями"
+	},
+	{
+		"id" : 9381,
+		"code" : "98133000-4",
+		"description" : null,
+		"description_ee" : "Ühiskondlike organisatsioonide teenused",
+		"description_en" : "Services furnished by social membership organisations",
+		"description_lt" : "Narystės organizacijų teikiamos paslaugos",
+		"description_lv" : "Sociālo biedrību sniegtie pakalpojumi",
+		"description_ru" : "Услуги, предоставляемые общественными организациями"
+	},
+	{
+		"id" : 9382,
+		"code" : "98133100-5",
+		"description" : null,
+		"description_ee" : "Ühiskondlikke heaolusüsteeme toetavad teenused",
+		"description_en" : "Civic betterment and community facility support services",
+		"description_lt" : "Paslaugos, skirtos padėti piliečiams ir remti bendruomeninę veiklą",
+		"description_lv" : "Sabiedriskās pāraudzināšanas un palīdzības pakalpojumi",
+		"description_ru" : "Услуги по благоустройству и поддержке общественных объектов"
+	},
+	{
+		"id" : 9383,
+		"code" : "98133110-8",
+		"description" : null,
+		"description_ee" : "Noorteühenduste teenused",
+		"description_en" : "Services provided by youth associations",
+		"description_lt" : "Jaunimo asociacijų teikiamos paslaugos",
+		"description_lv" : "Jauniešu biedrību sniegtie pakalpojumi",
+		"description_ru" : "Услуги, предоставляемые молодежными объединениями"
+	},
+	{
+		"id" : 9384,
+		"code" : "98200000-5",
+		"description" : null,
+		"description_ee" : "Võrdsete võimaluste nõuandeteenused",
+		"description_en" : "Equal opportunities consultancy services",
+		"description_lt" : "Konsultavimo lygių galimybių klausimais paslaugos",
+		"description_lv" : "Konsultāciju pakalpojumi par iespēju vienlīdzību",
+		"description_ru" : "Консультационные услуги по равным возможностям"
+	},
+	{
+		"id" : 9385,
+		"code" : "98300000-6",
+		"description" : null,
+		"description_ee" : "Mitmesugused teenused",
+		"description_en" : "Miscellaneous services",
+		"description_lt" : "Įvairios paslaugos",
+		"description_lv" : "Dažādi pakalpojumi",
+		"description_ru" : "Разные услуги"
+	},
+	{
+		"id" : 9386,
+		"code" : "98310000-9",
+		"description" : null,
+		"description_ee" : "Pesupesemis- ja kuivpuhastusteenused",
+		"description_en" : "Washing and dry-cleaning services",
+		"description_lt" : "Skalbimo ir sauso valymo paslaugos",
+		"description_lv" : "Mazgāšanas un ķīmiskās tīrīšanas pakalpojumi",
+		"description_ru" : "Услуги стирки и химчистки"
+	},
+	{
+		"id" : 9387,
+		"code" : "98311000-6",
+		"description" : null,
+		"description_ee" : "Pesu vastuvõtuteenused",
+		"description_en" : "Laundry-collection services",
+		"description_lt" : "Skalbinių surinkimo paslaugos",
+		"description_lv" : "Mazgājamās veļas savākšanas pakalpojumi",
+		"description_ru" : "Услуги прачечной"
+	},
+	{
+		"id" : 9388,
+		"code" : "98311100-7",
+		"description" : null,
+		"description_ee" : "Pesumaja haldusteenused",
+		"description_en" : "Laundry-management services",
+		"description_lt" : "Skalbyklų valdymo paslaugos",
+		"description_lv" : "Veļas mazgātavas apsaimniekošanas pakalpojumi",
+		"description_ru" : "Услуги прачечной"
+	},
+	{
+		"id" : 9389,
+		"code" : "98311200-8",
+		"description" : null,
+		"description_ee" : "Pesumaja tegevuse teenused",
+		"description_en" : "Laundry-operation services",
+		"description_lt" : "Skalbyklų eksploatavimo paslaugos",
+		"description_lv" : "Veļas mazgātavas darbības pakalpojumi",
+		"description_ru" : "Услуги прачечной"
+	},
+	{
+		"id" : 9390,
+		"code" : "98312000-3",
+		"description" : null,
+		"description_ee" : "Tekstiili puhastusteenused",
+		"description_en" : "Textile-cleaning services",
+		"description_lt" : "Tekstilės valymo paslaugos",
+		"description_lv" : "Audumu tīrīšanas pakalpojumi",
+		"description_ru" : "Услуги по чистке текстиля"
+	},
+	{
+		"id" : 9391,
+		"code" : "98312100-4",
+		"description" : null,
+		"description_ee" : "Tekstiili impregneerimisteenused",
+		"description_en" : "Textile-impregnation services",
+		"description_lt" : "Tekstilės impregnavimo paslaugos",
+		"description_lv" : "Audumu impregnēšanas pakalpojumi",
+		"description_ru" : "Услуги по пропитке текстиля"
+	},
+	{
+		"id" : 9392,
+		"code" : "98313000-0",
+		"description" : null,
+		"description_ee" : "Karusnahatoodete puhastusteenused",
+		"description_en" : "Fur-products cleaning services",
+		"description_lt" : "Kailinių gaminių valymo paslaugos",
+		"description_lv" : "Kažokādu izstrādājumu tīrīšanas pakalpojumi",
+		"description_ru" : "Услуги по чистке меховых изделий"
+	},
+	{
+		"id" : 9393,
+		"code" : "98314000-7",
+		"description" : null,
+		"description_ee" : "Värvimisteenused",
+		"description_en" : "Colouring services",
+		"description_lt" : "Spalvinimo paslaugos",
+		"description_lv" : "Tonēšanas pakalpojumi",
+		"description_ru" : "Услуги по окраске"
+	},
+	{
+		"id" : 9394,
+		"code" : "98315000-4",
+		"description" : null,
+		"description_ee" : "Triikimisteenused",
+		"description_en" : "Pressing services",
+		"description_lt" : "Lyginimo paslaugos",
+		"description_lv" : "Gludināšanas pakalpojumi",
+		"description_ru" : "Прессовые услуги"
+	},
+	{
+		"id" : 9395,
+		"code" : "98316000-1",
+		"description" : null,
+		"description_ee" : "Värvimine",
+		"description_en" : "Dyeing services",
+		"description_lt" : "Dažymo paslaugos",
+		"description_lv" : "Krāsošanas pakalpojumi",
+		"description_ru" : "Услуги по окрашиванию"
+	},
+	{
+		"id" : 9396,
+		"code" : "98320000-2",
+		"description" : null,
+		"description_ee" : "Juuksuri- ja iluraviteenused",
+		"description_en" : "Hairdressing and beauty treatment services",
+		"description_lt" : "Kirpyklų ir grožio salonų paslaugos",
+		"description_lv" : "Frizētavu un skaistumkopšanas pakalpojumi",
+		"description_ru" : "Парикмахерские и косметические услуги"
+	},
+	{
+		"id" : 9397,
+		"code" : "98321000-9",
+		"description" : null,
+		"description_ee" : "Juuksuriteenused",
+		"description_en" : "Hairdressing services",
+		"description_lt" : "Kirpyklų paslaugos",
+		"description_lv" : "Sieviešu frizētavu pakalpojumi",
+		"description_ru" : "Парикмахерские услуги"
+	},
+	{
+		"id" : 9398,
+		"code" : "98321100-0",
+		"description" : null,
+		"description_ee" : "Meestejuuksuriteenused",
+		"description_en" : "Barbers' services",
+		"description_lt" : "Vyrų kirpėjų paslaugos",
+		"description_lv" : "Vīriešu frizētavu pakalpojumi",
+		"description_ru" : "Услуги парикмахера"
+	},
+	{
+		"id" : 9399,
+		"code" : "98322000-6",
+		"description" : null,
+		"description_ee" : "Iluraviteenused",
+		"description_en" : "Beauty treatment services",
+		"description_lt" : "Grožio salonų paslaugos",
+		"description_lv" : "Skaistumkopšanas pakalpojumi",
+		"description_ru" : "Косметические услуги"
+	},
+	{
+		"id" : 9400,
+		"code" : "98322100-7",
+		"description" : null,
+		"description_ee" : "Kosmeetilise hoolduse, maniküüri ja pediküüri teenused",
+		"description_en" : "Cosmetic treatment, manicuring and pedicuring services",
+		"description_lt" : "Kosmetinės, manikiūro ir pedikiūro paslaugos",
+		"description_lv" : "Kosmētiskie, manikīra un pedikīra pakalpojumi",
+		"description_ru" : "Косметологические услуги, маникюр и педикюр"
+	},
+	{
+		"id" : 9401,
+		"code" : "98322110-0",
+		"description" : null,
+		"description_ee" : "Kosmeetilise hoolduse teenused",
+		"description_en" : "Cosmetic treatment services",
+		"description_lt" : "Kosmetinės paslaugos",
+		"description_lv" : "Kosmētiskās kopšanas pakalpojumi",
+		"description_ru" : "Косметические услуги"
+	},
+	{
+		"id" : 9402,
+		"code" : "98322120-3",
+		"description" : null,
+		"description_ee" : "Maniküüriteenused",
+		"description_en" : "Manicuring services",
+		"description_lt" : "Manikiūro paslaugos",
+		"description_lv" : "Manikīra pakalpojumi",
+		"description_ru" : "Услуги маникюра"
+	},
+	{
+		"id" : 9403,
+		"code" : "98322130-6",
+		"description" : null,
+		"description_ee" : "Pediküüriteenused",
+		"description_en" : "Pedicuring services",
+		"description_lt" : "Pedikiūro paslaugos",
+		"description_lv" : "Pedikīra pakalpojumi",
+		"description_ru" : "Услуги педикюра"
+	},
+	{
+		"id" : 9404,
+		"code" : "98322140-9",
+		"description" : null,
+		"description_ee" : "Dekoratiivkosmeetikateenused",
+		"description_en" : "Make-up services",
+		"description_lt" : "Makiažo paslaugos",
+		"description_lv" : "Dekoratīvās kosmētikas pakalpojumi",
+		"description_ru" : "Услуги макияжа"
+	},
+	{
+		"id" : 9405,
+		"code" : "98330000-5",
+		"description" : null,
+		"description_ee" : "Füüsilise heaolu teenused",
+		"description_en" : "Physical well-being services",
+		"description_lt" : "Fizinės gerovės paslaugos",
+		"description_lv" : "Fiziskās labklājības pakalpojumi",
+		"description_ru" : "Услуги физического благополучия"
+	},
+	{
+		"id" : 9406,
+		"code" : "98331000-2",
+		"description" : null,
+		"description_ee" : "Türgi sauna teenused",
+		"description_en" : "Turkish bath services",
+		"description_lt" : "Turkiškų pirčių paslaugos",
+		"description_lv" : "Turku pirts pakalpojumi",
+		"description_ru" : "Услуги турецкой бани"
+	},
+	{
+		"id" : 9407,
+		"code" : "98332000-9",
+		"description" : null,
+		"description_ee" : "Vesiravilate teenused",
+		"description_en" : "Spa services",
+		"description_lt" : "Mineralinių vandenų kurortų paslaugos",
+		"description_lv" : "Minerālavotu kūrorta pakalpojumi",
+		"description_ru" : "Спа-услуги"
+	},
+	{
+		"id" : 9408,
+		"code" : "98333000-6",
+		"description" : null,
+		"description_ee" : "Massaažiteenused",
+		"description_en" : "Massage services",
+		"description_lt" : "Masažo paslaugos",
+		"description_lv" : "Masāžas pakalpojumi",
+		"description_ru" : "Услуги массажа"
+	},
+	{
+		"id" : 9409,
+		"code" : "98334000-3",
+		"description" : null,
+		"description_ee" : "Hea enesetunde (wellness-) teenused",
+		"description_en" : "Wellness services",
+		"description_lt" : "Sveikatingumo paslaugos",
+		"description_lv" : "Fiziskās labsajūtas [wellness] pakalpojumi",
+		"description_ru" : "Велнес услуги"
+	},
+	{
+		"id" : 9410,
+		"code" : "98336000-7",
+		"description" : null,
+		"description_ee" : "Treeningu-, harjutuste või aeroobikateenused",
+		"description_en" : "Training, workout or aerobic services",
+		"description_lt" : "Treniruočių, mankštos arba aerobikos paslaugos",
+		"description_lv" : "Treniņu vai aerobikas pakalpojumi",
+		"description_ru" : "Тренировки, тренировки или аэробика"
+	},
+	{
+		"id" : 9411,
+		"code" : "98340000-8",
+		"description" : null,
+		"description_ee" : "Majutus- ja kontoriteenused",
+		"description_en" : "Accommodation and office services",
+		"description_lt" : "Apgyvendinimo ir biuro paslaugos",
+		"description_lv" : "Izmitināšanas un biroju pakalpojumi",
+		"description_ru" : "Размещение и офисные услуги"
+	},
+	{
+		"id" : 9412,
+		"code" : "98341000-5",
+		"description" : null,
+		"description_ee" : "Majutusteenused",
+		"description_en" : "Accommodation services",
+		"description_lt" : "Apgyvendinimo paslaugos",
+		"description_lv" : "Izmitināšanas pakalpojumi",
+		"description_ru" : "Услуги по размещению"
+	},
+	{
+		"id" : 9413,
+		"code" : "98341100-6",
+		"description" : null,
+		"description_ee" : "Majutushaldusteenused",
+		"description_en" : "Accommodation management services",
+		"description_lt" : "Apgyvendinimo patalpų valdymo paslaugos",
+		"description_lv" : "Mājvietu apsaimniekošanas pakalpojumi",
+		"description_ru" : "Услуги по управлению размещением"
+	},
+	{
+		"id" : 9414,
+		"code" : "98341110-9",
+		"description" : null,
+		"description_ee" : "Majapidamisteenused",
+		"description_en" : "Housekeeping services",
+		"description_lt" : "Namų ruošos paslaugos",
+		"description_lv" : "Mājsaimniecības pakalpojumi",
+		"description_ru" : "Услуги по уборке"
+	},
+	{
+		"id" : 9415,
+		"code" : "98341120-2",
+		"description" : null,
+		"description_ee" : "Uksehoidjateenused",
+		"description_en" : "Portering services",
+		"description_lt" : "Durininkų paslaugos",
+		"description_lv" : "Portjē pakalpojumi",
+		"description_ru" : "Услуги носильщика"
+	},
+	{
+		"id" : 9416,
+		"code" : "98341130-5",
+		"description" : null,
+		"description_ee" : "Majahoidjateenused",
+		"description_en" : "Janitorial services",
+		"description_lt" : "Sargų paslaugos",
+		"description_lv" : "Sētnieku pakalpojumi",
+		"description_ru" : "Услуги по уборке помещений"
+	},
+	{
+		"id" : 9417,
+		"code" : "98341140-8",
+		"description" : null,
+		"description_ee" : "Majavalvuriteenused",
+		"description_en" : "Caretaker services",
+		"description_lt" : "Prižiūrėtojų paslaugos",
+		"description_lv" : "Sarga pakalpojumi",
+		"description_ru" : "Услуги смотрителя"
+	},
+	{
+		"id" : 9418,
+		"code" : "98342000-2",
+		"description" : null,
+		"description_ee" : "Töökeskkonnateenused",
+		"description_en" : "Work environment services",
+		"description_lt" : "Darbo aplinkos paslaugos",
+		"description_lv" : "Darba vides pakalpojumi",
+		"description_ru" : "Услуги по рабочей среде"
+	},
+	{
+		"id" : 9419,
+		"code" : "98350000-1",
+		"description" : null,
+		"description_ee" : "Ühiskommunikatsioonide teenused",
+		"description_en" : "Civic-amenity services",
+		"description_lt" : "Miesto aplinkotvarkos paslaugos",
+		"description_lv" : "Sabiedrisko ērtību pakalpojumi",
+		"description_ru" : "Услуги по благоустройству"
+	},
+	{
+		"id" : 9420,
+		"code" : "98351000-8",
+		"description" : null,
+		"description_ee" : "Autoparklate haldusteenused",
+		"description_en" : "Car park management services",
+		"description_lt" : "Automobilių stovėjimo aikštelių valdymo paslaugos",
+		"description_lv" : "Autostāvvietu pārvaldības pakalpojumi",
+		"description_ru" : "Услуги по управлению автостоянкой"
+	},
+	{
+		"id" : 9421,
+		"code" : "98351100-9",
+		"description" : null,
+		"description_ee" : "Autoparklateenused",
+		"description_en" : "Car park services",
+		"description_lt" : "Automobilių stovėjimo aikštelių paslaugos",
+		"description_lv" : "Autostāvvietu pakalpojumi",
+		"description_ru" : "Услуги автостоянки"
+	},
+	{
+		"id" : 9422,
+		"code" : "98351110-2",
+		"description" : null,
+		"description_ee" : "Parkimiskorralduse teenused",
+		"description_en" : "Parking enforcement services",
+		"description_lt" : "Automobilių aikštelių sustiprinimo paslaugos",
+		"description_lv" : "Autostāvvietu noteikumu ievērošanas nodrošināšanas pakalpojumi",
+		"description_ru" : "Службы контроля за парковкой"
+	},
+	{
+		"id" : 9423,
+		"code" : "98360000-4",
+		"description" : null,
+		"description_ee" : "Merendusteenused",
+		"description_en" : "Marine services",
+		"description_lt" : "Jūrinės paslaugos",
+		"description_lv" : "Jūrniecības pakalpojumi",
+		"description_ru" : "Морские услуги"
+	},
+	{
+		"id" : 9424,
+		"code" : "98361000-1",
+		"description" : null,
+		"description_ee" : "Allveeteenused",
+		"description_en" : "Aquatic marine services",
+		"description_lt" : "Vandens jūrinės paslaugos",
+		"description_lv" : "Okeanoloģijas pakalpojumi",
+		"description_ru" : "Водные морские услуги"
+	},
+	{
+		"id" : 9425,
+		"code" : "98362000-8",
+		"description" : null,
+		"description_ee" : "Sadamahaldusteenused",
+		"description_en" : "Port management services",
+		"description_lt" : "Uostų valdymo paslaugos",
+		"description_lv" : "Ostu pārvaldības pakalpojumi",
+		"description_ru" : "Услуги по управлению портом"
+	},
+	{
+		"id" : 9426,
+		"code" : "98362100-9",
+		"description" : null,
+		"description_ee" : "Laevastikubaasi tugiteenused",
+		"description_en" : "Marine-base support services",
+		"description_lt" : "Jūrinių bazių pagalbinės paslaugos",
+		"description_lv" : "Jūras bāzes palīgpakalpojumi",
+		"description_ru" : "Службы поддержки морской базы"
+	},
+	{
+		"id" : 9427,
+		"code" : "98363000-5",
+		"description" : null,
+		"description_ee" : "Sukeldumisteenused",
+		"description_en" : "Diving services",
+		"description_lt" : "Narų paslaugos",
+		"description_lv" : "Niršanas pakalpojumi",
+		"description_ru" : "Дайвинг услуги"
+	},
+	{
+		"id" : 9428,
+		"code" : "98370000-7",
+		"description" : null,
+		"description_ee" : "Matuse- ja matusega seotud teenused",
+		"description_en" : "Funeral and related services",
+		"description_lt" : "Laidotuvių ir susijusios paslaugos",
+		"description_lv" : "Apbedīšanas un saistītie pakalpojumi",
+		"description_ru" : "Похоронные и сопутствующие услуги"
+	},
+	{
+		"id" : 9429,
+		"code" : "98371000-4",
+		"description" : null,
+		"description_ee" : "Matuseteenused",
+		"description_en" : "Funeral services",
+		"description_lt" : "Laidotuvių paslaugos",
+		"description_lv" : "Apbedīšanas pakalpojumi",
+		"description_ru" : "Ритуальные услуги"
+	},
+	{
+		"id" : 9430,
+		"code" : "98371100-5",
+		"description" : null,
+		"description_ee" : "Kalmistu- ja krematsiooniteenused",
+		"description_en" : "Cemetery services and cremation services",
+		"description_lt" : "Kapinių ir kremavimo paslaugos",
+		"description_lv" : "Kapsētu un kremēšanas pakalpojumi",
+		"description_ru" : "Кладбищенские услуги и услуги кремации"
+	},
+	{
+		"id" : 9431,
+		"code" : "98371110-8",
+		"description" : null,
+		"description_ee" : "Kalmistuteenused",
+		"description_en" : "Cemetery services",
+		"description_lt" : "Kapinių paslaugos",
+		"description_lv" : "Kapsētu pakalpojumi",
+		"description_ru" : "Услуги кладбища"
+	},
+	{
+		"id" : 9432,
+		"code" : "98371111-5",
+		"description" : null,
+		"description_ee" : "Kalmistuhooldusteenused",
+		"description_en" : "Cemetery maintenance services",
+		"description_lt" : "Kapinių priežiūros paslaugos",
+		"description_lv" : "Kapsētu uzturēšanas pakalpojumi",
+		"description_ru" : "Услуги по уходу за кладбищем"
+	},
+	{
+		"id" : 9433,
+		"code" : "98371120-1",
+		"description" : null,
+		"description_ee" : "Krematsiooniteenused",
+		"description_en" : "Cremation services",
+		"description_lt" : "Kremavimo paslaugos",
+		"description_lv" : "Kremēšanas pakalpojumi",
+		"description_ru" : "Услуги кремации"
+	},
+	{
+		"id" : 9434,
+		"code" : "98371200-6",
+		"description" : null,
+		"description_ee" : "Matmisteenused",
+		"description_en" : "Undertaking services",
+		"description_lt" : "Laidojimo biurų paslaugos",
+		"description_lv" : "Apbedīšanas biroju pakalpojumi",
+		"description_ru" : "Предоставление услуг"
+	},
+	{
+		"id" : 9435,
+		"code" : "98380000-0",
+		"description" : null,
+		"description_ee" : "Koerakasvanduste teenused",
+		"description_en" : "Dog kennel services",
+		"description_lt" : "Šunidžių paslaugos",
+		"description_lv" : "Suņu viesnīcu pakalpojumi",
+		"description_ru" : "Услуги питомника собак"
+	},
+	{
+		"id" : 9436,
+		"code" : "98390000-3",
+		"description" : null,
+		"description_ee" : "Muud teenused",
+		"description_en" : "Other services",
+		"description_lt" : "Kitos paslaugos",
+		"description_lv" : "Citi pakalpojumi",
+		"description_ru" : "Другие услуги"
+	},
+	{
+		"id" : 9437,
+		"code" : "98391000-0",
+		"description" : null,
+		"description_ee" : "Kasutamisest mahavõtmise ja lammutamise teenused",
+		"description_en" : "Decommissioning services",
+		"description_lt" : "Eksploatacijos nutraukimo paslaugos",
+		"description_lv" : "Ekspluatācijas pārtraukšanas pakalpojumi",
+		"description_ru" : "Услуги по выводу из эксплуатации"
+	},
+	{
+		"id" : 9438,
+		"code" : "98392000-7",
+		"description" : null,
+		"description_ee" : "Kolimisteenused",
+		"description_en" : "Relocation services",
+		"description_lt" : "Perkėlimo paslaugos",
+		"description_lv" : "Pārvietošanas pakalpojumi",
+		"description_ru" : "Услуги по переезду"
+	},
+	{
+		"id" : 9439,
+		"code" : "98393000-4",
+		"description" : null,
+		"description_ee" : "Rätsepateenused",
+		"description_en" : "Tailoring services",
+		"description_lt" : "Siuvimo paslaugos",
+		"description_lv" : "Drēbnieku pakalpojumi",
+		"description_ru" : "Услуги по пошиву одежды"
+	},
+	{
+		"id" : 9440,
+		"code" : "98394000-1",
+		"description" : null,
+		"description_ee" : "Polsterdamisteenused",
+		"description_en" : "Upholstering services",
+		"description_lt" : "Apmušimo paslaugos",
+		"description_lv" : "Polsterēšanas pakalpojumi",
+		"description_ru" : "Услуги по обивке"
+	},
+	{
+		"id" : 9441,
+		"code" : "98395000-8",
+		"description" : null,
+		"description_ee" : "Lukksepateenused",
+		"description_en" : "Locksmith services",
+		"description_lt" : "Šaltkalvių paslaugos",
+		"description_lv" : "Atslēdznieka pakalpojumi",
+		"description_ru" : "Слесарные услуги"
+	},
+	{
+		"id" : 9442,
+		"code" : "98396000-5",
+		"description" : null,
+		"description_ee" : "Muusikariistade häälestamise teenused",
+		"description_en" : "Instrument tuning services",
+		"description_lt" : "Instrumentų derinimo paslaugos",
+		"description_lv" : "Instrumentu regulēšanas pakalpojumi",
+		"description_ru" : "Услуги по настройке инструментов"
+	},
+	{
+		"id" : 9443,
+		"code" : "98500000-8",
+		"description" : null,
+		"description_ee" : "Palgatöötajatega kodumajapidamised",
+		"description_en" : "Private households with employed persons",
+		"description_lt" : "Privatūs namų ūkiai, samdantys namų ūkio darbininkus",
+		"description_lv" : "Privātās mājsaimniecības ar nodarbinātajām personām",
+		"description_ru" : "Частные домохозяйства с наемными работниками"
+	},
+	{
+		"id" : 9444,
+		"code" : "98510000-1",
+		"description" : null,
+		"description_ee" : "Kaubandus- ja tööstustöötajate teenused",
+		"description_en" : "Services of commercial and industrial workers",
+		"description_lt" : "Prekybos ir pramonės darbuotojų paslaugos",
+		"description_lv" : "Tirdzniecībā un rūpniecībā nodarbināto pakalpojumi",
+		"description_ru" : "Услуги торгово-промышленных работников"
+	},
+	{
+		"id" : 9445,
+		"code" : "98511000-8",
+		"description" : null,
+		"description_ee" : "Kaubandustöötajate teenused",
+		"description_en" : "Services of commercial workers",
+		"description_lt" : "Prekybos darbuotojų paslaugos",
+		"description_lv" : "Komercdarbinieku pakalpojumi",
+		"description_ru" : "Услуги торговых работников"
+	},
+	{
+		"id" : 9446,
+		"code" : "98512000-5",
+		"description" : null,
+		"description_ee" : "Tööstustöötajate teenused",
+		"description_en" : "Services of industrial workers",
+		"description_lt" : "Pramonės darbuotojų paslaugos",
+		"description_lv" : "Rūpniecībā strādājošo pakalpojumi",
+		"description_ru" : "Услуги промышленных рабочих"
+	},
+	{
+		"id" : 9447,
+		"code" : "98513000-2",
+		"description" : null,
+		"description_ee" : "Tööjõuteenused kodumajapidamiste jaoks",
+		"description_en" : "Manpower services for households",
+		"description_lt" : "Namų ūkių darbo jėgos paslaugos",
+		"description_lv" : "Darbaspēka pakalpojumi mājsaimniecībām",
+		"description_ru" : "Услуги рабочей силы для домашних хозяйств"
+	},
+	{
+		"id" : 9448,
+		"code" : "98513100-3",
+		"description" : null,
+		"description_ee" : "Personali vahendamise teenused kodumajapidamiste jaoks",
+		"description_en" : "Agency staff services for households",
+		"description_lt" : "Namų ūkių agentūrų darbuotojų paslaugos",
+		"description_lv" : "Aģentūru personāla pakalpojumi mājsaimniecībām",
+		"description_ru" : "Услуги персонала агентства для домохозяйств"
+	},
+	{
+		"id" : 9449,
+		"code" : "98513200-4",
+		"description" : null,
+		"description_ee" : "Bürootöötajad kodumajapidamiste jaoks",
+		"description_en" : "Clerical staff services for households",
+		"description_lt" : "Namų ūkių raštinės darbuotojų paslaugos",
+		"description_lv" : "Kalpotāju pakalpojumi mājsaimniecībām",
+		"description_ru" : "Услуги канцелярского персонала для домашних хозяйств"
+	},
+	{
+		"id" : 9450,
+		"code" : "98513300-5",
+		"description" : null,
+		"description_ee" : "Ajutine personal kodumajapidamiste jaoks",
+		"description_en" : "Temporary staff for households",
+		"description_lt" : "Namų ūkių laikinųjų darbuotojų paslaugos",
+		"description_lv" : "Pagaidu personāls mājsaimniecībām",
+		"description_ru" : "Временный персонал для домашнего хозяйства"
+	},
+	{
+		"id" : 9451,
+		"code" : "98513310-8",
+		"description" : null,
+		"description_ee" : "Koduabiteenused",
+		"description_en" : "Home-help services",
+		"description_lt" : "Pagalbos namuose paslaugos",
+		"description_lv" : "Mājas palīdzības pakalpojumi",
+		"description_ru" : "Услуги по дому"
+	},
+	{
+		"id" : 9452,
+		"code" : "98514000-9",
+		"description" : null,
+		"description_ee" : "Koduteenused",
+		"description_en" : "Domestic services",
+		"description_lt" : "Namų ūkio paslaugos",
+		"description_lv" : "Mājas saimniecības pakalpojumi",
+		"description_ru" : "Бытовые услуги"
+	},
+	{
+		"id" : 9453,
+		"code" : "98900000-2",
+		"description" : null,
+		"description_ee" : "Eksterritoriaalsete organisatsioonide ja üksuste teenused",
+		"description_en" : "Services provided by extra-territorial organisations and bodies",
+		"description_lt" : "Ekstrateritorialių organizacijų ir įstaigų paslaugos",
+		"description_lv" : "Ārpusteritoriālo organizāciju un institūciju sniegtie pakalpojumi",
+		"description_ru" : "Услуги, предоставляемые экстерриториальными организациями и органами"
+	},
+	{
+		"id" : 9454,
+		"code" : "98910000-5",
+		"description" : null,
+		"description_ee" : "Rahvusvaheliste organisatsioonide ja üksuste eriteenused",
+		"description_en" : "Services specific to international organisations and bodies",
+		"description_lt" : "Specifinės tarptautinių organizacijų ir institucijų paslaugos",
+		"description_lv" : "Starptautiskām organizācijām un struktūrām raksturīgi pakalpojumi",
+		"description_ru" : "Услуги, специфичные для международных организаций и органов"
+	}
+]

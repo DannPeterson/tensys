@@ -1,0 +1,25 @@
+#hero {
+  height: 100vh;
+}
+
+.hero-container {
+  height: 100%;
+  width: 100%;
+}
+
+.hero-row {
+  width: 100%;
+}
+
+.container-lg {
+  max-width: 1100px;
+} 
+
+.feature {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.feature1 {
+  padding-bottom: 6rem;
+}

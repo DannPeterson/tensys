@@ -1,0 +1,25 @@
+.price-section {
+    background-color: #fbf5e5;
+}
+
+.text-primary {
+    color: #c29938 !important;
+}
+
+.btn-lg {
+    --bs-btn-color: #c29938;
+    --bs-btn-border-color: #c29938;
+    --bs-btn-hover-bg: #c29938;
+    --bs-btn-hover-border-color: #c29938;
+    --bs-btn-hover-color: black;
+    --bs-btn-active-bg: #c29938;
+    --bs-btn-active-border-color: #c29938;
+}
+
+.card {
+    --bs-card-border-color: #c29938;
+}
+
+.container-lg {
+    max-width: 1100px;
+}

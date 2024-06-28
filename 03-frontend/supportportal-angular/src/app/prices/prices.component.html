@@ -1,0 +1,82 @@
+<app-navbar></app-navbar>
+<!-- HEADER -->
+<section class="price-section">
+    <div class="container-lg text-center mt-5 pt-5 p-3"> 
+        <div class="display-2 pt-5 pb-2">{{ "PRICES_PAGE.PRICING" | translate }}</div>
+        <p *ngIf="!authenticationService.isUserLoggedIn()" class="lead text-muted pt-3"> {{ "PRICES_PAGE.SUB_HEADER_1" | translate }} <strong> {{
+                "PRICES_PAGE.SUB_HEADER_2" | translate }} </strong> {{ "PRICES_PAGE.SUB_HEADER_3" | translate }} </p>
+        <p *ngIf="authenticationService.isUserLoggedIn()" class="lead text-muted pt-3"> {{ "PRICES_PAGE.ACCOUNT_VALID_UNTIL" | translate }} <strong>
+                {{ user.paidUntil | date: " dd.MM.yy" }} </strong></p>
+        <p *ngIf="authenticationService.isUserLoggedIn()" class="lead text-muted" [innerHTML]="('PRICES_PAGE.DESCR' | translate) | sanitizeHtml"></p>
+    </div>
+    <div class="container-lg">
+        <div class="row mt-1 mb-5 pb-3 g-0 align-items-center justify-content-center">
+
+            <div class="col-8 col-lg-4 col-xl-4">
+                <div class="card border-0">
+                    <div class="card-body text-center py-4">
+                        <h4 class="card-title">{{ "PRICES_PAGE.BASE_NAME" | translate }}</h4>
+                        <p class="lead card-subtitle">{{ "PRICES_PAGE.BASE_TIME" | translate }}</p>
+                        <p class="display-5 my-4 text-primary fw-bold">9 €</p>
+                        <p class="card-text mx-5 text-muted d-lg-block">{{ "PRICES_PAGE.SUBSCRIPTION_ONE_ACCOUNT" | translate }}</p>
+                        <a *ngIf="!authenticationService.isUserLoggedIn()" href="register" routerLink="/register"
+                            class="btn btn-outline-primary btn-lg mt-3"> {{ "PRICES_PAGE.REGISTRATION" | translate }}
+                        </a>
+
+                        <button [disabled]="buttonsDisabled || showLoadingPlan1" *ngIf="authenticationService.isUserLoggedIn()"
+                            class="btn btn-outline-primary btn-lg mt-3" (click)="onRenewalRequest('month')">
+                            <span *ngIf="showLoadingPlan1" class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                            {{ "PRICES_PAGE.SELECT" | translate }}
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-9 col-lg-4">
+                <div class="card border-2">
+                    <div class="card-header text-center text-primary">{{ "PRICES_PAGE.SUBSCRIPTION_2_HEADER" | translate }}</div>
+                    <div class="card-body text-center py-5">
+                        <h4 class="card-title">{{ "PRICES_PAGE.ECONOMY" | translate }}</h4>
+                        <p class="lead card-subtitle">{{ "PRICES_PAGE.SUBSCRIPTION_YEAR" | translate }}</p>
+                        <p class="display-4 my-4 text-primary fw-bold">85 €</p>
+                        <p class="card-text mx-5 text-muted d-lg-block" [innerHTML]="('PRICES_PAGE.ECONOMY_DESCR' | translate) | sanitizeHtml"></p>
+                        <p class="card-text mx-5 text-muted d-lg-block">{{ "PRICES_PAGE.SUBSCRIPTION_ONE_ACCOUNT" | translate }}</p>
+
+                        <a *ngIf="!authenticationService.isUserLoggedIn()" href="register" routerLink="/register"
+                            class="btn btn-outline-primary btn-lg mt-3"> {{ "PRICES_PAGE.REGISTRATION" | translate }}
+                        </a>
+                        <button [disabled]="buttonsDisabled || showLoadingPlan2" *ngIf="authenticationService.isUserLoggedIn()"
+                            class="btn btn-outline-primary btn-lg mt-3" (click)="onRenewalRequest('year')">
+                            <span *ngIf="showLoadingPlan2" class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                            {{ "PRICES_PAGE.SELECT" | translate }}
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-8 col-lg-4 col-xl-4">
+                <div class="card border-0">
+                    <div class="card-body text-center py-4">
+                        <h4 class="card-title">{{ "PRICES_PAGE.SUBSCRIPTION_3" | translate }}</h4>
+                        <p class="lead card-subtitle">{{ "PRICES_PAGE.SUBSCRIPTION_YEAR" | translate }}</p>
+                        <p class="display-5 my-4 text-primary fw-bold">{{ "PRICES_PAGE.CORPORATE_PRICE" | translate }}</p>
+                        <p class="card-text mx-5 text-muted d-lg-block">{{ "PRICES_PAGE.CORPORATE_ACCOUNTS" | translate }}</p>
+
+                        <a *ngIf="!authenticationService.isUserLoggedIn()" href="register" routerLink="/register"
+                            class="btn btn-outline-primary btn-lg mt-3"> {{ "PRICES_PAGE.REGISTRATION" | translate }}
+                        </a>    
+                        <button [disabled]="buttonsDisabled || showLoadingPlan3" *ngIf="authenticationService.isUserLoggedIn()"
+                            class="btn btn-outline-primary btn-lg mt-3" (click)="onRenewalRequest('corporative')">
+                            <span *ngIf="showLoadingPlan3" class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                            {{ "PRICES_PAGE.SELECT" | translate }}
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="text-center pb-5">
+        <p class="lead"></p>
+    </div>
+</section>

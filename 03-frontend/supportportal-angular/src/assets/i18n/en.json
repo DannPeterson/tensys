@@ -1,0 +1,374 @@
+{
+    "NAVIGATION": {
+        "TENDERS": "Tenders",
+        "ALL_TENDERS": "All Tenders",
+        "SHOW_CPV": "Filters «show CPV»",
+        "NOT_SHOW_CPV": "Filters «hide CPV»",
+        "SOURCES": "Sources",
+        "GUIDE": "How to use", 
+        "PRICING": "Pricing",
+        "CONTACT": "Contact",
+        "LOGOUT": "Log Out",
+        "PAID_UNTIL": "Account paid until:",
+        "LOGIN": "Log in",
+        "NO_FILTERS_MODE": "No filters", 
+        "SHOW_CPV_MODE": "Show CPV",
+        "HIDE_CPV_MODE": "Hide CPV",
+        "REGISTRATION": "Registration"
+    },
+    "HEADER": {
+        "ALL_TENDERS": "All Tenders",
+        "NOT_SHOW_CPV": "Tenders without CPV",
+        "SHOW_CPV": "Tenders with CPV"
+    },
+    "SOURCES_MODAL": {
+        "SETTINGS": "Settings",
+        "TITLE_CPV_NOT_SHOW": "Show all CPV except filtered ones",
+        "ADD_CUSTOM": "Create",
+        "SELECT_SOURCES": "Choose Data Sources",
+        "APPLY": "Apply"
+    },
+    "CPV_MODAL": {
+        "TITLE_CPV_SHOW": "Show tenders with specific CPV codes",
+        "DESRIPTION": "Add/remove filter codes in this window",
+        "TITLE_CPV_NOT_SHOW": "Show tenders without specific CPV codes",
+        "ADD_CPV": "Add",
+        "ADD_CUSTOM": "Create",
+        "APPLY_FILTERS": "Show",
+        "FIND_CPV_HEADER": "Search CPV code",
+        "SEARCH": "Search",
+        "PLUS_CODE": "+ code",
+        "PLUS_GROUP": "+ group",
+        "ADD_CODE": "Add code",
+        "ADD_GROUP": "Add group",
+        "APPLY": "Apply",
+        "APPLY_SM": "apply",
+        "SEARCH_ADDED": "Search added"
+    },
+    "CUSTOM_CPV_HELP": {
+        "HEADER": "Create code group filter",
+        "CATALOG": "Directory of CPV codes",
+        "p1": "You can add a CPV filter for a whole group of codes using the * symbol.",
+        "p2": "For example:",
+        "p3": "24* - Chemical products",
+        "p4": "03* - Agriculture, Fishing, Forestry and Related Products",
+        "p5": "Or a more specific group:",
+        "p6": "03332* - Wool",
+        "p7": "etc.",
+        "p8": "The list of codes can be found here:",
+        "CODE": "Code",
+        "DESCRIPTION": "Description"
+    },
+    "SEARCH": {
+        "CLIENT": "Client",
+        "TITLE": "Title",
+        "DESCRIPTION": "Description",
+        "CPV_CODE": "CPV Code",
+        "SEARCH": "Search",
+        "RESET": "Clear"
+    },
+    "TENDER": {
+        "SOURCE": "Source: ",
+        "REF": "Code: ",
+        "DATE": "Date:  ",
+        "TIME": "Time: ",
+        "DEADLINE": "Deadline: ",
+        "CPV_CODES": "CPV Codes:",
+        "PAGE": "Tender page",
+        "CATEGORY": "Category: "
+    },
+    "TENDER_NEW": {
+        "PUBLICATION": "Published",
+        "DEADLINE": "Deadline",
+        "COUNTRY": "Country",
+        "CATEGORY": "Category"
+    },
+    "TO_FILTER": {
+        "TO_SHOW": "add to <b>«show CPV»</b>",
+        "TO_NOT_SHOW": "add to <b>«hide CPV»</b>"
+    },
+    "NOTIFICATION": {
+        "TENDERS_LOADED": "tenders loaded",
+        "FILTER_REMOVED": "Filter removed",
+        "FILTER_ADDED": " filter added",
+        "SEARCH_FIELDS_CLEARED": "Search fields cleared",
+        "TENDERS_SHOWN": " tenders shown",
+        "TENDERS_FOUND": " tenders found",
+        "LOGGED_OUT": "You have successfully logged out",
+        "ERROR_OCCURED": "An error has occurred. try again",
+        "CPV_EMPTY": "CPV code is not correct! Must be at least 1 number and symbol *",
+        "NO_DATA_SOURCE_SELECTED": "No data source selected! Please select at least one",
+        "SOURCES_UPDATED": "Data sources updated",
+        "CPV_FOUND": " CPV found",
+        "ACCOUNT_EXPIRED": "Your account expired",
+        "NEED_TO_LOG_IN": "You must be logged in to access this page"
+    },
+    "TOOLTIP": {
+        "SOURCE": "Data source",
+        "COUNTRY": "Tender country",
+        "REF_NUMBER": "Tender ID",
+        "DATE": "Publication date",
+        "TIME": "Publication time",
+        "DEADLINE": "Tender deadline",
+        "FUNCTIONALITY": "Login to open functionality",
+        "GO_TO_TENDER_PAGE": "Go to the 'All Tenders' page to open the functionality"
+    },
+    "LOGIN_PAGE": {
+        "LOGIN": "Log In",
+        "USERNAME": "Username",
+        "PASSWORD": "Password",
+        "OR": "Or",
+        "DONT_HAVE_ACCOUNT": "Don't have an account?",
+        "REGISTER": "Register",
+        "FORGOT_PASSWORD": "I forgot my password",
+        "PROCESSING": "Loading..."
+    },
+    "REGISTER_PAGE": {
+        "FIRST_NAME": "First Name",
+        "LAST_NAME": "Last Name",
+        "USERNAME": "Username",
+        "COMPANY": "Company (optional)",
+        "NEW_USER_REGISTRATION": "New User Registration",
+        "CREATE_AN_ACCOUNT": "Create an account",
+        "PARAGRAPH_1": "Create a new account with a ",
+        "PARAGRAPH_2": "2-week free trial",
+        "PARAGRAPH_3": " to experience the full benefits of Tensys.",
+        "ENTER_FIRST_NAME": "Enter first name",
+        "ENTER_LAST_NAME": "Enter last name",
+        "ENTER_EMAIL": "Enter email",
+        "ENTER_USERNAME": "Enter username",
+        "OR": "OR",
+        "ALREADY_REGISTERED": "Already registered?",
+        "LOGIN": "Log In",
+        "EMAIL_TOOLTIP": "Enter the email to which the password will be sent",
+        "USERNAME_TOOLTIP": "This is your main identifier. Will be used to login",
+        "LANGUAGE_TOOLTIP": "Interface language and translation of tenders. Can be changed at any time"
+    },
+    "PASSWORD_PAGE": {
+        "RESTORE_PASSWORD": "Restore password",
+        "SEND_PASSWORD": "Send",
+        "REMEMBER": "I remembered the password",
+        "PROCESSING": "Loading..."
+    },
+    "ABOUT_PAGE": {
+        "HEADER": "About TenSys",
+        "SUB_HEADER": " – system for monitoring tenders of the Baltic countries.",
+        "CPV_SHOW": "Show only CPV",
+        "CPV_NOT_SHOW": "Show without CPV",
+        "P_1_1": "System feature ",
+        "P_1_2": " – flexible customization of user filters. Filters of the",
+        "P_1_3": "-type - shows only those tenders, the list of CPV codes of which includes codes from the user's list. Filters like",
+        "P_1_4": "-type - shows all tenders except those that consist of CPV codes from the user's list.",
+        "P_2": "While viewing a tender, you can add its CPV code to one or another type of filter at any time.",
+        "P_3_1": "The second feature of the system ",
+        "P_3_2": " – the ability to add incomplete CPV codes to filters, i.e. filter entire groups of tenders.",
+        "P_3_3": "For example, a filter with the code ",
+        "P_3_4": " filters out all codes starting with numbers",
+        "P_3_5": ", that is, the entire group 'Agriculture, fisheries, forestry and related products' and all its subgroups.",
+        "P_3_6": "This filter can be added to both the ",
+        "P_3_7": "group and to the grop ",
+        "P_4_1": "For user convenience ",
+        "P_4_2": " tenders are stored in the database in 5 languages ​​at once - Estonian",
+        "P_4_3": "Latvian ",
+        "P_4_4": ", Lithuanian ",
+        "P_4_5": "English ",
+        "P_4_6": "and Russian",
+        "P_4_7": "The interface and tender data are shown to the user immediately in the language he prefers, which saves a lot of time in daily monitoring.",
+        "P_5_1": "When using the system ",
+        "P_5_2": "the user has the ability to configure data sources. For example, a user can monitor only tenders of a certain country from a certain source, other tenders will be excluded from the search results.",
+        "P_6": "You can always get information about the tender in the original language by double-clicking on it or by clicking on the tender link to see it on the home resource.",
+        "P_7_1": "System ",
+        "P_7_2": " created by active participants in the tender life of Estonia and Latvia in the field of industrial automation, engineering equipment and engineering services, it was born from the need for",
+        "P_7_3": "quick and convenient daily monitoring of all tender activity in several countries by one person",
+        "P_7_4": "We hope that our system will help you to use your working time more effectively. If you have any wishes or suggestions for improvement - be sure to contact us, we will be very happy!",
+        "P_7_5": "Good luck with the tenders!",
+        "LOGIN": "Log In",
+        "REGISTER": "Register"
+    },
+    "PRICES_PAGE": {
+        "HEADER": "Prices",
+        "SUB_HEADER_1": "Register a new account, use ",
+        "SUB_HEADER_2": "2 free weeks",
+        "SUB_HEADER_3": " and choose the plan that suits you!",
+        "ACCOUNT_VALID_UNTIL": "Your account is valid until:",
+        "SEND_RENEWAL_REQUEST": "Submit an account renewal request",
+        "SUBSCRIPTION_ONE_ACCOUNT": "1 account",
+        "SUBSCRIPTION_YEAR": "Year Subscription",
+        "INVOICE_TO_EMAIL": "An invoice for the service will be sent to the user's email.",
+        "REGISTRATION": "Registration",
+        "REQUEST": "Request",
+        "SUBSCRIPTION_1": "Introduction",
+        "SUBSCRIPTION_1_SUBTITLE": "Month subscription",
+        "SUBSCRIPTION_1_TEXT_1": "Introduction to the system",
+        "SUBSCRIPTION_1_TEXT_2": "Compiling a database of filters",
+        "SUBSCRIPTION_2": "Work",
+        "SUBSCRIPTION_2_HEADER": "Profitable proposition",
+        "SUBSCRIPTION_2_TEXT_2": "Subscription for 12 months at a price of 7€/month",
+        "SUBSCRIPTION_2_TEXT_3": "1 account",
+        "SUBSCRIPTION_3_TEXT_2": "From 6 € to 5 € /month per account",
+        "SUBSCRIPTION_3_TEXT_3": "From 2 to 5 accounts",
+        "SUBSCRIPTION_3": "Corporate",
+
+        "PRICING": "Price plans",
+        "DESCR": "Click <b>Select</b> and we will send you an invoice for payment by e-mail",
+        "SELECT": "Select",
+
+        "BASE_NAME": "Base",
+        "BASE_TIME": "Month subscription",
+
+        "ECONOMY": "Economy",
+        "ECONOMY_DESCR": "Savings <b>23 €</b> per year",
+
+        "CORPORATE_PRICE": "From 150 €",
+        "CORPORATE_ACCOUNTS": "From 2 accounts"
+    },
+    "HOWTO": { 
+        "HEADER": "How to use TenSys", 
+        "HEADER_P1": "Video on the main page describes the main points of using the service.",
+        "HEADER_P2": "If you need step-by-step instructions in text with pictures, then here it is.",
+        "SECTIONS": "Sections:",
+
+        "REG_HEAD": "Registration",
+        "REG_P1": "Click Register in the top menu of the site.",
+        "REG_P2": "Enter your usual E-mail and select a username (for example, <b>firstname.lastname</b>) in the registration form.",
+        "REG_P3": "After registering, you will receive an email with a login password. Check your Spam folder if you think the email is taking a long time to arrive.",
+        "REG_P4": "Use your username to log into your account.",
+        "REG_P5": "You have <b>two weeks</b> to fully experience the full functionality of TenSys <b>for free</b>.",
+        "REG_P6": "If you like the service and want to continue using it, select one of the Price Plans on the <a href='prices' routerLink='/prices'>Pricing</a> page, click [Select]. We will send you an invoice for payment to the E-mail specified during registration.",
+        "REG_P7": "We are currently gathering feedback from early users, so feel free to email us at <a href='mailto:info@tensys.org'>info@tensys.org</a>. And you can find more contacts <a href='contact' routerLink='/contact'>here</a>.",
+
+        "START_HEAD": "Beginning of work",
+        "START_H1": "After logging into your account, you are in the 'All tenders' mode.",
+        "START_H2": "It shows all tenders from all sources for today without any filters.",
+
+        "TENDER_DATA_HEAD": "Tender data",
+        "TENDER_DATA_P1": "This is a tender card.",
+        "TENDER_DATA_P2": "All data in the cards is displayed in the language that you select in the site menu (upper right corner).",
+        "TENDER_DATA_P3": "You have the name, category, publication date, deadline, CPV codes of the tender, as well as its source, author, and a link to the original (Tender page button).",
+        "TENDER_DATA_P4": "On the original tender page you will find more detailed information and all documentation, if any.",
+        "TENDER_DATA_P5": "Double-click on an empty space in the card to open the original text and the translation next to it. In the same window there will be a link to the source.",
+
+        "DATES_HEAD": "Select time period",
+        "DATES_P1": "There are dates above the list of tenders.",
+        "DATES_P2": "Select the time period in which tenders are published.",
+        "DATES_P3": "To view tenders for only one date, double-click on that date.",
+
+        "SOURCES_HEAD": "Selection of sources",
+        "SOURCES_P1": "TenSys collects data from various sources.",
+        "SOURCES_P2": "To manage sources, go to the menu <b>Tenders → Sources</b>. Select the ones you want and click <b>'Apply'</b>.",
+
+        "MODES_HEADER": "Tender display modes",
+        "MODES_P1": "TenSys has three modes for displaying tenders, depending on the applied filters.",
+        "MODES_P2": "The <b>All Tenders</b> mode does not apply any filters.",
+        "MODES_P3": "In the <b>Show CPV</b> mode, only tenders whose CPV codes you have added to the filters will be displayed.",
+        "MODES_P4": "The <b>Hide CPV</b> mode will show all tenders except for those whose codes are in your list.",
+        "MODES_P5": "Switch between modes here:",
+        "MODES_P6": "Next, we will explain in more detail how to configure filters.",
+
+        "SHOW_CPV_HEAD": "'Show CPV' setting",
+        "SHOW_CPV_P1": "Find <b>Filters «Show CPV»</b> in the main menu of the site.",
+        "SHOW_CPV_P2": "This window will show which filters you have added.",
+        "SHOW_CPV_P3": "To add more CPVs, click the <b>Add code</b> button.",
+        "SHOW_CPV_P4": "Once added, filters are saved <b>automatically</b>.",
+        "SHOW_CPV_P5": "<b>Search</b> above added codes searches only among them.",
+        "SHOW_CPV_P6": "Click <b>Apply</b> to complete the setup.",
+
+        "HIDE_CPV_HEAD": "'Hide CPV' setting",
+        "HIDE_CPV_P1": "Filter settings here: <b>Main menu → Tenders → Filters «Hide CPV»</b>",
+
+        "HOW_TO_ADD_FILTERS_HEAD": "How to add CPV filters",
+        "HOW_TO_ADD_FILTERS_P1": "TenSys allows you to add any CPV code to any type of filter. This can be done in three ways.", 
+
+        "FROM_CARD_HEAD": "Adding a CPV filter from a tender card",
+        "FROM_CARD_P1": "Each tender has a list of its CPV codes in the card.",
+        "FROM_CARD_P2": "The code is a menu with which it can be added to a particular type of filter.",
+        "FROM_CARD_P3": "Click <b>add to 'Show CPV'</b> to add the code to the filters of the 'Show CPV' mode.",
+        "FROM_CARD_P4": "Click <b>add to 'Hide CPV'</b> to add the code to the Hide CPV filters.",
+        "FROM_CARD_P5": "When the code is added, in the filter settings it will look like this:",
+
+        "FROM_SEARCH_HEAD": "Adding a CPV filter through search",
+        "FROM_SEARCH_P1": "To add the CPV code known to you to the filter, go to the 'Show' or 'Hide' filter from the main menu and click <b>Add code</b>.",
+        "FROM_SEARCH_P2": "A CPV code search window will appear, where you can enter either the full code or part of it.",
+        "FROM_SEARCH_P3": "The found codes are all the same menus with the ability to add them to filters, as in the tender card:",
+
+        "ADD_GROUP_HEAD": "Adding a group of codes to a filter",
+        "ADD_GROUP_P1": "Often there is a need to add to the filters not one code, but a whole group, that is, the beginning of some code.",
+        "ADD_GROUP_P2": "To add an incomplete CPV code to filters, select Tenders from the main menu, select the required filters and click the <b>Add group</b> button.",
+        "ADD_GROUP_P3": "Enter the first digits of the code, putting the symbol * instead of the remaining digits. For example, “15*”. This group of codes includes all foodstuffs.",
+        "ADD_GROUP_P4": "Press the <b>'+'</b> button and the code will be added to your list of filters",
+        "ADD_GROUP_P5": "In the <b>'Show CPV'</b> mode, only tenders will be displayed, the CPV codes of which will begin with these numbers.",
+        "ADD_GROUP_P6": "The <b>'Hide CPV'</b> mode will show all tenders that do not have CPV codes beginning with these numbers.",
+
+        "SEARCH_HEAD": "More detailed search",
+        "SEARCH_P1": "In this line, the search works from what your filter has collected.",
+
+        "NOTIFICATIONS_HEAD": "New tenders notifications",
+        "NOTIFICATIONS_P1": "While you are in one of the tender view modes, TenSys constantly checks to see if <b>new tenders have come out that match the filters of the mode</b> you are in. Click on the red number icon to download new tenders.",
+
+        "ACCOUNT_HEAD": "Until when is my account valid?",
+        "ACCOUNT_P1": "Find the date on the <a href='prices' routerLink='/prices'>Pricing</a> page.",
+
+        "REGISTER": "Register",
+        "SCROLL_TO_REFERENCE": "Table of contents",
+        "QUESTIONS": "Questions?"
+    },
+    "REG-SUCCESS": {
+        "THANK_YOU": "Thank you!",
+        "H1": "You have successfully registered",
+        "P1_1": "Email with login information will be sent to your email.",
+        "P1_2": "Check your spam folder if you don't see it in your inbox."
+    },
+    "CONTACT": {
+        "WRITE": "Write",
+        "P1_1": "Any feedback will help us develop TenSys. ",
+        "P1_2": "If something is not clear - also write. ",
+        "P1_3": "We will try to answer within a day.",
+        "YOUR_EMAIL": "Your e-mail:",
+        "MESSAGE": "Message:",
+        "FOLLOW_FB": "Follow us on Facebook feed",
+        "PROCESSING": "processing",
+        "SEND": "Send",
+        "BUSINESS_PROPOSALS": "Business proposals",
+        "DANIIL": "Dan"
+    },
+    "MAIN": {
+        "MAIN_HEAD": "See all tenders in one convenient\u00a0place",
+        "MAIN_P": "Save time and work with all Baltic tenders in\u00a0one\u00a0interface\u00a0in\u00a0your\u00a0language",
+        "MAIN_BUTTON": "Try for free",
+        "MAIN_BUTTON_TEXT": "*Two weeks free, no card details required",
+
+        "F1_HEAD": "Save time",
+        "F1_P": "The tendering niche is where speed matters, and we know it. Use\u00a0TenSys\u00a0to\u00a0be\u00a0the\u00a0first.",
+
+        "F2_HEAD": "Keep Focus",
+        "F2_P": "While competitors are lost in many tabs, you follow the tenders on one.",
+
+        "F3_HEAD": "Read in your language",
+        "F3_P": "TenSys stores tender data in five languages at once. You can switch between languages from the top menu.",
+
+        "F4_HEAD": "Convenient interface",
+        "F4_P": "We designed TenSys such a way that it was convenient to monitor tenders from different sources. Try it yourself.",
+
+        "F5_HEAD": "Flexible filters",
+        "F5_P": "You can view tenders with only the CPV codes you need or all tenders except for filtered groups. TenSys will help members of any profile work more efficiently.",
+
+        "F6_HEAD": "Manage Sources",
+        "F6_P": "You can choose from which sources tenders will be downloaded.",
+
+        "F7_HEAD": "Link to original",
+        "F7_P": "In the card of each tender you will find a link to the original for\u00a0further\u00a0work.",
+
+        "REGISTER_NOW": "Register Now",
+        "REGISTRATION": "Registration"
+    },
+        "COOKIES": {
+        "MESSAGE": "This site uses cookies to store data. By continuing to use the site, you consent to the use of these cookies.",
+        "LINK": "Learn more",
+        "DISMISS": "Got it"
+    },
+
+    "NOT_FOUND": {
+        "HEAD": "Tenders not found",
+        "P_1": "Check date and selected sources"
+    }
+}

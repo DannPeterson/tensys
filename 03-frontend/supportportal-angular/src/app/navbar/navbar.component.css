@@ -1,0 +1,20 @@
+.reg-btn {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.lang-dropdown {
+    --bs-dropdown-min-width: 4rem;
+}
+
+.dropdown-item {
+    cursor: pointer;
+}
+
+.container-lg {
+    max-width: 1100px;
+}
+
+.navbar-brand {
+    padding-bottom: 12px;
+}

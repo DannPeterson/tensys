@@ -1,0 +1,705 @@
+<!-- Navbar -->
+<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top pt-2 justify-content-center">
+  <div class="container-lg">
+    <!-- navbar brand / title -->
+    <a class="navbar-brand align-items-center" href="#">
+      <img src="assets/img/logo.png" alt="TenSys" height="26">
+    </a>
+    <!-- toggle button for mobile nav -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav"
+      aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="main-nav">
+      <ul class="navbar-nav me-auto mb-0">
+        <li class="nav-item dropdown">
+
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            {{ "NAVIGATION.TENDERS" | translate }}
+          </a>
+
+          <ul class="dropdown-menu">
+            <li>
+              <a class="dropdown-item" (click)="getTenders(true)">{{
+                "NAVIGATION.ALL_TENDERS" | translate
+                }}</a>
+            </li>
+            <li>
+              <a class="dropdown-item" (click)="openModal(show_cpv_list)">{{ "NAVIGATION.SHOW_CPV" | translate }}</a>
+            </li>
+            <li>
+              <a class="dropdown-item" (click)="openModal(not_show_cpv_list)">{{ "NAVIGATION.NOT_SHOW_CPV" | translate
+                }}</a>
+            </li>
+            <li>
+              <a class="dropdown-item" (click)="openModal(settings)">{{ "NAVIGATION.SOURCES" |
+                translate }}</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="how-to-use" routerLink="/how-to-use">{{ "NAVIGATION.GUIDE" | translate }}</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="prices" routerLink="/prices">{{ "NAVIGATION.PRICING" | translate }}</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="contact" routerLink="/contact">{{ "NAVIGATION.CONTACT" | translate }}</a>
+        </li>
+      </ul>
+
+      <ul class="navbar-nav ms-auto mb-0">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+
+            <span *ngIf="this.translate.currentLang == 'et'">Et</span>
+            <span *ngIf="this.translate.currentLang == 'lv'">Lv</span>
+            <span *ngIf="this.translate.currentLang == 'lt'">Lt</span>
+            <span *ngIf="this.translate.currentLang == 'ru'">Ru</span>
+            <span *ngIf="this.translate.currentLang == 'en'">En</span>
+          </a>
+          <ul class="dropdown-menu lang-dropdown">
+            <li>
+              <a class="dropdown-item" (click)="translate.use('et')">
+                Et</a>
+            </li>
+            <li>
+              <a class="dropdown-item" (click)="translate.use('lv')">
+                Lv</a>
+            </li>
+            <li>
+              <a class="dropdown-item" (click)="translate.use('lt')">
+                Lt</a>
+            </li>
+            <li>
+              <a class="dropdown-item" (click)="translate.use('ru')">
+                Ru</a>
+            </li>
+            <li>
+              <a class="dropdown-item" (click)="translate.use('en')">
+                En</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> <i
+              class="bi bi-person-fill"></i> {{ user.username }} </a>
+          <ul class="dropdown-menu">
+            <li>
+              <a class="dropdown-item" href="login" (click)="onLogOut()">{{ "NAVIGATION.LOGOUT" |
+                translate }} &nbsp;<i class="bi bi-box-arrow-right"></i></a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<!-- Choose Sources Modal -->
+<ng-template #settings>
+  <div class="modal-header">
+    <button type="button" class="btn-close close pull-right" aria-label="Close" (click)="modalRef?.hide()">
+      <span aria-hidden="true" class="visually-hidden">&times;</span>
+    </button>
+  </div>
+
+  <div class="modal-body">
+    <div class="container">
+      <div class="col-6">
+        <h5 class="modal-title pull-left">{{ "SOURCES_MODAL.SELECT_SOURCES" | translate }}</h5>
+        <br />
+
+        <div class="form-check form-switch">
+          <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault"
+            [checked]="rhrSwitch" (change)="rhrSwitch = !rhrSwitch" />
+
+          <label class="form-check-label" for="flexSwitchCheckDefault"><span class="fi fi-ee"></span>
+            riigihanked.riik.ee
+          </label>
+        </div>
+
+        <div class="form-check form-switch">
+          <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault"
+            [checked]="eisSwitch" (change)="eisSwitch = !eisSwitch" />
+
+          <label class="form-check-label" for="flexSwitchCheckDefault"><span class="fi fi-lv"></span> eis.gov.lv
+          </label>
+        </div>
+
+        <div class="form-check form-switch">
+          <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault"
+            [checked]="cvppSwitch" (change)="cvppSwitch = !cvppSwitch" />
+
+          <label class="form-check-label" for="flexSwitchCheckDefault"><span class="fi fi-lt"></span>
+            cvpp.eviesiejipirkimai.lt
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal-footer">
+    <button type="submit" class="btn btn-primary" data-bs-dismiss="modal" (click)="applySources()">
+      {{ "SOURCES_MODAL.APPLY" | translate }}
+    </button>
+  </div>
+</ng-template>
+
+<!-- Show Only Cpv Modal -->
+<ng-template #show_cpv_list>
+
+  <div class="modal-body">
+    <div class="modal-header pb-0">
+      <h3 class="modal-title pull-left pb-0">
+        {{ "CPV_MODAL.TITLE_CPV_SHOW" | translate }}
+      </h3>
+      <button type="button" class="btn-close close pull-right" aria-label="Close" (click)="modalRef?.hide()">
+        <span aria-hidden="true" class="visually-hidden"></span>
+      </button>
+    </div>
+
+    <div class="modal-header pb-0">
+      <p>{{ "CPV_MODAL.DESRIPTION" | translate }}</p>
+    </div>
+
+    <div class="modal-body">
+      <div class="row pb-3">
+        <div class="col-12 d-sm-none">
+          <button class="btn btn-outline-primary me-1 py-2 btn-sm" (click)="openModal2(cpv_add)">{{
+            "CPV_MODAL.PLUS_CODE" | translate }}</button>
+          <button class="btn btn-outline-primary mx-1 py-2 btn-sm" (click)="openModal2(custom_show_cpv_add)">{{
+            "CPV_MODAL.PLUS_CODE" | translate }}</button>
+          <button *ngIf="!isFiltersFooterVisible" class="btn btn-primary mx-1 py-2 btn-sm float-end"
+            (click)="closeShowCpvModalAndApplyFilters(1)">{{ "CPV_MODAL.APPLY_SM" | translate }}</button>
+        </div>
+        <div class="col-12 d-none d-sm-block">
+          <button class="btn btn-outline-primary me-1" (click)="openModal2(cpv_add)">{{ "CPV_MODAL.ADD_CODE" | translate
+            }}</button>
+          <button class="btn btn-outline-primary mx-1" (click)="openModal2(custom_show_cpv_add)">{{
+            "CPV_MODAL.ADD_GROUP" | translate }}</button>
+          <button *ngIf="!isFiltersFooterVisible" class="btn btn-primary float-end"
+            (click)="closeShowCpvModalAndApplyFilters(1)">{{ "CPV_MODAL.APPLY" | translate }}</button>
+        </div>
+      </div>
+
+
+      <form role="search" class="pb-3">
+        <input name="searchItem" #searchInput="ngModel" ngModel (keydown.escape)="$event.preventDefault()"
+          (ngModelChange)="searchUserShowCpv(searchInput.value)" class="form-control" type="search"
+          placeholder="{{ 'CPV_MODAL.SEARCH_ADDED' | translate }}" aria-label="Search" />
+      </form>
+
+      <div *ngFor="let showCpv of showCpvs">
+        <div class="row pb-3">
+          <div class="col-3">
+            {{ showCpv.cpv.code }}
+          </div>
+          <div class="col-7">
+            {{ showCpv.cpv.description }}
+          </div>
+          <div class="col-2">
+            <button class="btn btn-outline-danger float-end" (click)="deleteUserShowCpv(true, showCpv.id)">
+              <i class="bi bi-trash-fill"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal-footer">
+
+    <button type="button" class="btn btn-primary btn-sm float-end d-sm-none" disabled style="opacity: 0;">
+      h
+    </button>
+    <button type="button" class="btn btn-primary float-end d-none d-sm-block" disabled style="opacity: 0;">
+      h
+    </button>
+    <div id="sensor"></div>
+    <button type="button" *ngIf="isFiltersFooterVisible" class="btn btn-primary btn-sm py-2 float-end d-sm-none"
+      data-bs-dismiss="modal" (click)="closeShowCpvModalAndApplyFilters(1)">
+      {{ "CPV_MODAL.APPLY" | translate }}
+    </button>
+    <button type="button" *ngIf="isFiltersFooterVisible" class="btn btn-primary float-end d-none d-sm-block"
+      data-bs-dismiss="modal" (click)="closeShowCpvModalAndApplyFilters(1)">
+      {{ "CPV_MODAL.APPLY" | translate }}
+    </button>
+  </div>
+
+</ng-template>
+
+
+<!-- Add Custom Show Only Cpv Modal -->
+<ng-template #custom_show_cpv_add>
+  <div class="modal-header">
+    <h4 class="modal-title pull-left">
+      {{ "CUSTOM_CPV_HELP.HEADER" | translate }}
+    </h4>
+    <button type="button" class="btn-close close pull-right" aria-label="Close" (click)="modalRef2?.hide()">
+      <span aria-hidden="true" class="visually-hidden">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+    <div class="container">
+      <p>{{ "CUSTOM_CPV_HELP.p1" | translate }}</p>
+      <p>{{ "CUSTOM_CPV_HELP.p2" | translate }}</p>
+      <p>{{ "CUSTOM_CPV_HELP.p3" | translate }}</p>
+      <p>{{ "CUSTOM_CPV_HELP.p4" | translate }}</p>
+      <p>{{ "CUSTOM_CPV_HELP.p5" | translate }}</p>
+      <p>{{ "CUSTOM_CPV_HELP.p6" | translate }}</p>
+      <p>{{ "CUSTOM_CPV_HELP.p7" | translate }}</p>
+
+      <button type="button" class="btn btn-outline-dark btn-sm"
+        (click)="goToLink('https://www.bipsolutions.com/news-and-resources/cpv-codes/')">
+        <i class="bi bi-info-circle"></i> &nbsp; {{ "CUSTOM_CPV_HELP.CATALOG" | translate }}
+      </button>
+
+    </div>
+    <br /><br />
+    <div class="container">
+      <form #newCpvShowFilter="ngForm" (ngSubmit)="addCustomUserShowCpv(newCpvShowFilter.value)">
+        <div class="row">
+          <div class="col-5">
+            <input type="text" class="form-control" name="code" placeholder="{{ 'CUSTOM_CPV_HELP.CODE' | translate }}"
+              ngModel #codeInput="ngModel" required />
+          </div>
+          <div class="col-5">
+            <input type="text" class="form-control" name="description"
+              placeholder="{{ 'CUSTOM_CPV_HELP.DESCRIPTION' | translate }}" ngModel #codeInput="ngModel" required />
+          </div>
+          <div class="col-2">
+            <button type="submit" class="btn btn-primary">
+              +
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</ng-template>
+
+<!-- Add Show Only Cpv Modal -->
+<ng-template #cpv_add>
+  <div class="modal-header">
+    <h4 class="modal-title pull-left">
+      {{ 'CPV_MODAL.FIND_CPV_HEADER' | translate }}
+    </h4>
+    <button type="button" class="btn-close close pull-right" aria-label="Close" (click)="modalRef2?.hide()">
+      <span aria-hidden="true" class="visually-hidden">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+    <form #searchCpvForm="ngForm" class="row" role="search" (ngSubmit)="searchCpv(searchCpvForm)">
+      <div class="col-10">
+        <input class="form-control me-2" name="code" type="search" placeholder="CPV code" ngModel aria-label="Search">
+      </div>
+      <div class="col-2">
+        <button class="btn btn-primary" type="submit"><i class="bi bi-search"></i></button>
+      </div>
+    </form>
+    <div class="modal-body" *ngFor="let cpv of cpvs">
+      <div class="dropdown">
+        <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown"
+          aria-expanded="false">
+          {{ cpv.code }}
+        </button>
+        <ul class="dropdown-menu">
+          <li (click)="onAddNewUserCpvShow(cpv)"><a style="cursor:pointer" class="dropdown-item"
+              [innerHTML]="('TO_FILTER.TO_SHOW' | translate) | sanitizeHtml"></a></li>
+          <li (click)="onAddNewUserCpvNotShow(cpv)"><a style="cursor:pointer" class="dropdown-item"
+              [innerHTML]="('TO_FILTER.TO_NOT_SHOW' | translate) | sanitizeHtml"></a></li>
+        </ul>
+        {{ cpv.description }}
+      </div>
+    </div>
+  </div>
+</ng-template>
+
+
+<ng-template #not_show_cpv_list>
+
+  <div class="modal-body">
+    <div class="modal-header pb-0">
+      <h3 class="modal-title pull-left pb-0">
+        {{ 'CPV_MODAL.TITLE_CPV_NOT_SHOW' | translate }}
+      </h3>
+      <button type="button" class="btn-close close pull-right" aria-label="Close" (click)="modalRef?.hide()">
+        <span aria-hidden="true" class="visually-hidden"></span>
+      </button>
+    </div>
+
+    <div class="modal-header pb-0">
+      <p>{{ 'CPV_MODAL.DESRIPTION' | translate }}</p>
+    </div>
+
+    <div class="modal-body">
+      <div class="row pb-3">
+        <div class="col-12 d-sm-none">
+          <button class="btn btn-outline-primary me-1 py-2 btn-sm" (click)="openModal2(cpv_add)">{{
+            'CPV_MODAL.PLUS_CODE' | translate }}</button>
+          <button class="btn btn-outline-primary mx-1 py-2 btn-sm" (click)="openModal2(custom_not_show_cpv_add)">{{
+            'CPV_MODAL.PLUS_GROUP' | translate }}</button>
+          <button *ngIf="!isFiltersFooterVisible" class="btn btn-primary mx-1 py-2 btn-sm float-end"
+            (click)="closeNotShowCpvModalAndApplyFilters(1)">{{ 'CPV_MODAL.APPLY_SM' | translate }}</button>
+        </div>
+        <div class="col-12 d-none d-sm-block">
+          <button class="btn btn-outline-primary me-1" (click)="openModal2(cpv_add)">{{ 'CPV_MODAL.ADD_CODE' | translate
+            }}</button>
+          <button class="btn btn-outline-primary mx-1" (click)="openModal2(custom_not_show_cpv_add)">{{
+            'CPV_MODAL.ADD_GROUP' | translate }}</button>
+          <button *ngIf="!isFiltersFooterVisible" class="btn btn-primary float-end"
+            (click)="closeNotShowCpvModalAndApplyFilters(1)">{{ 'CPV_MODAL.APPLY' | translate }}</button>
+        </div>
+      </div>
+
+
+      <form role="search" class="pb-3">
+        <input name="searchItem" #searchInput="ngModel" ngModel (keydown.escape)="$event.preventDefault()"
+          (ngModelChange)="searchUserNotShowCpv(searchInput.value)" class="form-control" type="search"
+          placeholder="{{ 'CPV_MODAL.SEARCH_ADDED' | translate }}" aria-label="Search" />
+      </form>
+
+      <div *ngFor="let notShowCpv of notShowCpvs">
+        <div class="row pb-3">
+          <div class="col-3">
+            {{ notShowCpv.cpv.code }}
+          </div>
+          <div class="col-7">
+            {{ notShowCpv.cpv.description }}
+          </div>
+          <div class="col-2">
+            <button class="btn btn-outline-danger float-end" (click)="deleteUserNotShowCpv(true, notShowCpv.id)">
+              <i class="bi bi-trash-fill"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal-footer">
+
+    <button type="button" class="btn btn-primary btn-sm float-end d-sm-none" disabled style="opacity: 0;">
+      h
+    </button>
+    <button type="button" class="btn btn-primary float-end d-none d-sm-block" disabled style="opacity: 0;">
+      h
+    </button>
+    <div id="sensor"></div>
+    <button type="button" *ngIf="isFiltersFooterVisible" class="btn btn-primary btn-sm py-2 float-end d-sm-none"
+      data-bs-dismiss="modal" (click)="closeShowCpvModalAndApplyFilters(1)">
+      {{ 'CPV_MODAL.APPLY' | translate }}
+    </button>
+    <button type="button" *ngIf="isFiltersFooterVisible" class="btn btn-primary float-end d-none d-sm-block"
+      data-bs-dismiss="modal" (click)="closeShowCpvModalAndApplyFilters(1)">
+      {{ 'CPV_MODAL.APPLY' | translate }}
+    </button>
+  </div>
+
+</ng-template>
+
+<!-- Add Custom Not Show Cpv Modal -->
+<ng-template #custom_not_show_cpv_add>
+  <div class="modal-header">
+    <h4 class="modal-title pull-left">
+      {{ 'CUSTOM_CPV_HELP.HEADER' | translate }}
+    </h4>
+    <button type="button" class="btn-close close pull-right" aria-label="Close" (click)="modalRef2?.hide()">
+      <span aria-hidden="true" class="visually-hidden">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+    <div class="container">
+      <p>{{ "CUSTOM_CPV_HELP.p1" | translate }}</p>
+      <p>{{ "CUSTOM_CPV_HELP.p2" | translate }}</p>
+      <p>{{ "CUSTOM_CPV_HELP.p3" | translate }}</p>
+      <p>{{ "CUSTOM_CPV_HELP.p4" | translate }}</p>
+      <p>{{ "CUSTOM_CPV_HELP.p5" | translate }}</p>
+      <p>{{ "CUSTOM_CPV_HELP.p6" | translate }}</p>
+      <p>{{ "CUSTOM_CPV_HELP.p7" | translate }}</p>
+
+      <button type="button" class="btn btn-outline-dark btn-sm"
+        (click)="goToLink('https://www.bipsolutions.com/news-and-resources/cpv-codes/')">
+        <i class="bi bi-info-circle"></i> &nbsp; {{ 'CUSTOM_CPV_HELP.CATALOG' | translate }}
+      </button>
+    </div>
+    <br /><br />
+    <div class="container">
+      <form #newCpvNotShowFilter="ngForm" (ngSubmit)="addCustomUserNotShowCpv(newCpvNotShowFilter.value)">
+        <div class="row">
+          <div class="col-5">
+            <input type="text" class="form-control" name="code" placeholder="{{ 'CUSTOM_CPV_HELP.CODE' | translate }}"
+              ngModel #codeInput="ngModel" required />
+          </div>
+          <div class="col-5">
+            <input type="text" class="form-control" name="description"
+              placeholder="{{ 'CUSTOM_CPV_HELP.DESCRIPTION' | translate }}" ngModel #codeInput="ngModel" required />
+          </div>
+          <div class="col-2">
+            <button type="submit" class="btn btn-primary">
+              +
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</ng-template>
+
+<!-- Title -->
+
+<div class="container-lg text-center mt-5 py-5 tenders-title">
+  <div class="row justify-content-center">
+    <div class="display-2">{{ title }}<a *ngIf="refreshing" class="spinner-grow text-dark m-2"
+        style="width: 2.5rem; height: 2.5rem;"></a>&nbsp;
+      <button *ngIf="unloadedTenders > 0" type="button" class="btn btn-secondary position-relative"
+        (click)="onNewTendersButtonClick()">
+        <i class="bi bi-cloud-download"></i>
+        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+          +{{ unloadedTenders }}
+          <span class="visually-hidden">new tenders</span>
+        </span>
+      </button>
+    </div>
+
+    <div class="col-lg-7 pt-3">
+      <div class="btn-group pt-4 w-100" role="group" aria-label="Basic outlined example">
+        <button *ngIf="mode === 'All'" type="button" class="btn btn-outline-secondary active">{{
+          "NAVIGATION.NO_FILTERS_MODE" | translate }}</button>
+        <button *ngIf="mode != 'All'" (click)="getTenders(true)" type="button" class="btn btn-outline-secondary">{{
+          "NAVIGATION.NO_FILTERS_MODE" | translate }}</button>
+
+        <button *ngIf="mode === 'Show'" type="button" class="btn btn-outline-secondary active">{{
+          "NAVIGATION.SHOW_CPV_MODE" | translate }}</button>
+        <button *ngIf="mode != 'Show'" (click)="getTendersCpvShowFiltered(true)" type="button"
+          class="btn btn-outline-secondary">{{ "NAVIGATION.SHOW_CPV_MODE" | translate }}</button>
+
+        <button *ngIf="mode === 'NotShow'" type="button" type="button" class="btn btn-outline-secondary active">{{
+          "NAVIGATION.HIDE_CPV_MODE" | translate }}</button>
+        <button *ngIf="mode != 'NotShow'" (click)="getTendersCpvNotShowFiltered(true)" type="button" type="button"
+          class="btn btn-outline-secondary">{{ "NAVIGATION.HIDE_CPV_MODE" | translate }}</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Search fields -->
+<form class="container-lg pb-2">
+  <div class="row p-2">
+    <div class="col-sm-6 col-md-4 col-xl-2 p-1">
+      <input type="text" placeholder="Daterangepicker" class="form-control w-100" [bsValue]="bsInlineRangeValue"
+        bsDaterangepicker [bsConfig]="{ isAnimated: true, adaptivePosition: true }"
+        (bsValueChange)="onDateChange($event)" />
+    </div>
+    <div class="col-sm-6 col-md-4 col-xl-2 p-1">
+      <input name="searchItem" #searchInput="ngModel" ngModel (keydown.escape)="$event.preventDefault()"
+        [(ngModel)]="searchClient" class="form-control w-100" type="search"
+        placeholder="{{ 'SEARCH.CLIENT' | translate }}" aria-label="Search" />
+    </div>
+    <div class="col-sm-6 col-md-4 col-xl-2 p-1">
+      <input name="searchItem" #searchInput="ngModel" ngModel (keydown.escape)="$event.preventDefault()"
+        [(ngModel)]="searchTitle" class="form-control w-100" type="search"
+        placeholder="{{ 'SEARCH.TITLE' | translate }}" aria-label="Search" />
+    </div>
+    <div class="col-sm-6 col-md-4 col-xl-2 p-1">
+      <input name="searchItem" #searchInput="ngModel" ngModel (keydown.escape)="$event.preventDefault()"
+        [(ngModel)]="searchDescription" class="form-control w-100" type="search"
+        placeholder="{{ 'SEARCH.DESCRIPTION' | translate }}" aria-label="Search" />
+    </div>
+    <div class="col-sm-6 col-md-4 col-xl-2 p-1">
+      <input name="searchItem" #searchInput="ngModel" ngModel (keydown.escape)="$event.preventDefault()"
+        [(ngModel)]="searchCpvCode" class="form-control w-100" type="search"
+        placeholder="{{ 'SEARCH.CPV_CODE' | translate }}" aria-label="Search" />
+    </div>
+    <div class="col-sm-6 col-md-4 col-xl-2 p-1">
+      <div class="btn-group w-100">
+        <button type="button" (click)="searchTender()" class="btn btn-primary form-control">
+          {{ "SEARCH.SEARCH" | translate }}
+        </button>
+        <button type="button" (click)="resetSearch()" class="btn btn-secondary form-control">
+          {{ "SEARCH.RESET" | translate }}
+        </button>
+      </div>
+    </div>
+  </div>
+</form>
+
+<!-- Not Found Image -->
+<div *ngIf="tenders.length === 0" class="container-lg">
+  <div class="row justify-content-center align-items-center mx-auto text-center py-5">
+    <div class="col-lg-5 col-md-7 mb-5">
+      <p class="h4 text-secondary">{{ "NOT_FOUND.HEAD" | translate }}</p>
+      <p class="pb-4 pt-3 text-secondary">{{ "NOT_FOUND.P_1" | translate }}</p>
+      <img src="assets/img/not-found3.png" class="img-fluid" alt="tenders not found" />
+    </div>
+  </div>
+
+</div>
+
+<!-- Tenders -->
+<div class="container-lg" *ngFor="let tender of tenders">
+
+  <div class="card my-2 py-2" style="background-color: #FCFCFC" (dblclick)="openTenderModal(tender, show_tender_info)">
+    <div class="card-body">
+      <div class="row">
+        <div class="col-md-9">
+          <div class="row">
+            <h4 class="card-title">{{ tender.title }}</h4>
+          </div>
+          <div class="row">
+
+            <div class="col pt-1 pb-3">
+              <div class="card-text text-secondary small">
+                <p style="margin-bottom: 0px;"><b>{{ 'TENDER_NEW.PUBLICATION' | translate }}</b></p>
+                <p style="margin-bottom: 0px;">{{ tender.date | date: "dd.MM HH:mm" }}</p>
+              </div>
+            </div>
+
+            <div class="col pt-1 pb-3">
+              <div class="card-text text-secondary small">
+                <p style="margin-bottom: 0px;"><b>{{ 'TENDER_NEW.DEADLINE' | translate }}</b></p>
+                <p style="margin-bottom: 0px;">{{ tender.deadline | date: "dd.MM" }}</p>
+              </div>
+            </div>
+
+            <div class="col pt-1 pb-3">
+              <div class="card-text text-secondary small">
+                <p style="margin-bottom: 0px;"><b>{{ 'TENDER_NEW.CATEGORY' | translate }}</b></p>
+                <p style="margin-bottom: 0px;">{{ tender.field }}</p>
+              </div>
+            </div>
+
+            <div class="col pt-1 pb-3">
+              <div class="card-text text-secondary small item">
+                <p style="margin-bottom: 0px;"><b>{{ 'TENDER_NEW.COUNTRY' | translate }}</b></p>
+                <span *ngIf="tender.source.name == 'RHR'" style="margin-bottom: 0px;" class="fi fi-ee"></span>
+                <span *ngIf="tender.source.name == 'eis.gov.lv'" style="margin-bottom: 0px;" class="fi fi-lv"></span>
+                <span *ngIf="tender.source.name == 'cvpp'" style="margin-bottom: 0px;" class="fi fi-lt"></span>
+              </div>
+            </div>
+
+            <div class="col pt-1 pb-3">
+              <div class="card-text text-secondary small">
+                <img *ngIf="tender.source.name == 'RHR'" src="assets/img/rhr_logo_sm_full.png" alt="">
+                <img *ngIf="tender.source.name == 'eis.gov.lv'" src="assets/img/eis_logo_sm_full.png" alt="">
+                <img *ngIf="tender.source.name == 'cvpp'" src="assets/img/cvpp_logo_sm_full.png" alt="">
+              </div>
+            </div>
+
+          </div>
+          <p class="card-text">
+            {{ tender.description }}
+          </p>
+          <p class="card-text text-secondary small"><i class="bi bi-people-fill"></i>&nbsp;{{ tender.client }}</p>
+          <button type="button" class="btn btn-outline-dark btn-sm" (click)="goToLink(tender.link)">
+            <i class="bi bi-info-circle"></i> &nbsp; {{ "TENDER.PAGE" | translate }}
+          </button>
+        </div>
+
+        <div class="col-12 col-md-3">
+          <h4 class="card-title">CPV:</h4>
+          <div class="row pb-2" *ngFor="let cpv of tender.cpv">
+            <div class="dropdown">
+              <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                {{ cpv.code }}
+              </button>
+              <ul class="dropdown-menu">
+                <li (click)="onAddNewUserCpvShow(cpv)"><a style="cursor:pointer" class="dropdown-item"
+                    [innerHTML]="('TO_FILTER.TO_SHOW' | translate) | sanitizeHtml"></a></li>
+                <li (click)="onAddNewUserCpvNotShow(cpv)"><a style="cursor:pointer" class="dropdown-item"
+                    [innerHTML]="('TO_FILTER.TO_NOT_SHOW' | translate) | sanitizeHtml"></a></li>
+              </ul>
+              {{ cpv.description }}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+<!-- Tender Modal -->
+<ng-template #show_tender_info>
+  <div class="modal-header">
+    <div class="row">
+      <h5 class="text-break">
+        <button type="button" class="btn btn-outline-dark btn-sm" (click)="copyText(selectedTender.link)">
+          <i class="bi bi-clipboard-check"></i>
+        </button>&nbsp;
+        <span><a href={{selectedTender.link}} target="_blank" rel="noopener noreferrer">{{ "TENDER.PAGE" | translate
+            }}</a></span>
+      </h5>
+    </div>
+    <button type="button" class="btn-close close pull-right" aria-label="Close" (click)="modalRef?.hide()">
+      <span aria-hidden="true" class="visually-hidden">&times;</span>
+    </button>
+  </div>
+
+  <div class="modal-body">
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <div class="row">
+            <h4>{{ selectedTender.title }}</h4>
+          </div>
+          <div class="row">
+            <p>{{ selectedTender.description }}</p>
+          </div>
+          <br />
+          <p><strong>CPV:</strong></p>
+          <div class="row pb-2" *ngFor="let cpv of selectedTender.cpv">
+            <div class="dropdown">
+              <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                {{ cpv.code }}
+              </button>
+              <ul class="dropdown-menu">
+                <li (click)="onAddNewUserCpvShow(cpv)"><a style="cursor:pointer" class="dropdown-item"
+                    [innerHTML]="('TO_FILTER.TO_SHOW' | translate) | sanitizeHtml"></a></li>
+                <li (click)="onAddNewUserCpvNotShow(cpv)"><a style="cursor:pointer" class="dropdown-item"
+                    [innerHTML]="('TO_FILTER.TO_NOT_SHOW' | translate) | sanitizeHtml"></a></li>
+              </ul>
+              {{ cpv.description }}
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6">
+          <div class="row">
+            <h4>{{ originalTender.title }}</h4>
+          </div>
+          <div class="row">
+            <p>{{ originalTender.description }}</p>
+          </div>
+          <br />
+          <p><strong>CPV:</strong></p>
+          <div class="row pb-2" *ngFor="let cpv of originalTender.cpv">
+            <div class="dropdown">
+              <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                {{ cpv.code }}
+              </button>
+              <ul class="dropdown-menu">
+                <li (click)="onAddNewUserCpvShow(cpv)"><a style="cursor:pointer" class="dropdown-item"
+                    [innerHTML]="('TO_FILTER.TO_SHOW' | translate) | sanitizeHtml"></a></li>
+                <li (click)="onAddNewUserCpvNotShow(cpv)"><a style="cursor:pointer" class="dropdown-item"
+                    [innerHTML]="('TO_FILTER.TO_NOT_SHOW' | translate) | sanitizeHtml"></a></li>
+              </ul>
+              {{ cpv.description }}
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+    </div>
+  </div>
+
+
+</ng-template>

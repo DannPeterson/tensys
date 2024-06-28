@@ -1,0 +1,59 @@
+<app-navbar></app-navbar>
+<section class="mt-5 pt-5">
+    <div class="container-lg mt-5 py-5">
+        <div class="row justify-content-center">
+            <div class="col-sm-7">
+                <div class="h2 mt-5 pt-5 pb-3">{{ "CONTACT.WRITE" | translate }}</div>
+                <p>{{ "CONTACT.P1_1" | translate }}<br>{{ "CONTACT.P1_2" | translate }}<br>{{ "CONTACT.P1_3" | translate }}</p>
+
+
+                <form #messageForm="ngForm" (ngSubmit)="onSendMessage(messageForm)">
+                    <div class="pb-2">
+                        <p class="pb-1 m-0"><b>{{ "CONTACT.YOUR_EMAIL" | translate }}</b></p>
+                        <input *ngIf="authenticationService.isUserLoggedIn()" type="text" id="email" required ngModel
+                            name="email" class="form-control" [(ngModel)]="email" #emailInput="ngModel" />
+
+                        <input *ngIf="!authenticationService.isUserLoggedIn()" type="text" id="email" required ngModel
+                            name="email" class="form-control" #emailInput="ngModel" />
+
+                    </div>
+
+                    <div class="pt-2">
+                        <p class="pb-1 m-0"><b>{{ "CONTACT.MESSAGE" | translate }}</b></p>
+                        <div class="form-floating">
+                            <textarea class="form-control" ngModel name="message" id="message" style="height: 140px"
+                                placeholder="query" #messageInput="ngModel"></textarea>
+
+                        </div>
+                    </div>
+
+                    <div>
+                        <button [disabled]="messageForm.invalid || showLoading" type="submit"
+                            class="btn btn-secondary mt-4">
+                            <div *ngIf="showLoading" class="spinner-border spinner-border-sm text-light" role="status">
+                            </div>
+                            <span *ngIf="showLoading">&nbsp;&nbsp;{{ "CONTACT.PROCESSING" | translate }}</span>
+                            <span *ngIf="!showLoading">{{ "CONTACT.SEND" | translate }}</span>
+                        </button>
+                    </div>
+                </form>
+
+                <div>
+                    <div class="h2 mt-5 pt-5 pb-5">{{ "CONTACT.FOLLOW_FB" | translate }}</div>
+                    <div class="fb-page" data-href="https://www.facebook.com/TenSysApp" data-tabs="timeline"
+                        data-width="" data-height="" data-small-header="false" data-adapt-container-width="true"
+                        data-hide-cover="false" data-show-facepile="true">
+                        <blockquote cite="https://www.facebook.com/TenSysApp" class="fb-xfbml-parse-ignore"><a
+                                href="https://www.facebook.com/TenSysApp">TenSys</a></blockquote>
+                    </div>
+                </div>
+
+                <div class="mb-5 pb-5">
+                    <div class="h2 mt-5 pt-5 pb-3">{{ "CONTACT.BUSINESS_PROPOSALS" | translate }}</div>
+                    <p><a href="mailto:business@tensys.org">business@tensys.org</a></p>
+                    <p><a href="tel:37255521019">+372 555 21 019</a> {{ "CONTACT.DANIIL" | translate }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

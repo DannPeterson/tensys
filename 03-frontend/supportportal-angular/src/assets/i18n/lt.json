@@ -1,0 +1,380 @@
+{
+    
+    "NAVIGATION": {
+        "TENDERS": "Konkursai",
+        "ALL_TENDERS": "Visi konkursai",
+        "SHOW_CPV": "Filtrai «Rodyti CPV»",
+        "NOT_SHOW_CPV": "Filtrai «Slėpti CPV»",
+        "SOURCES": "Šaltiniai",
+        "GUIDE": "Kaip naudotis",  
+        "PRICING": "Kainoraštis",
+        "CONTACT": "Susisiekti",
+        "LOGOUT": "Atsijungti",
+        "PAID_UNTIL": "Sąskaita apmokėta iki:", 
+        "LOGIN": "Prisijungti",
+        "REGISTRATION": "Registracija",
+        "NO_FILTERS_MODE": "Jokių filtrų",
+        "SHOW_CPV_MODE": "Rodyti CPV",
+        "HIDE_CPV_MODE": "Paslėpti CPV"
+    },
+    "HEADER": {
+        "ALL_TENDERS": "Visi konkursai",
+        "NOT_SHOW_CPV": "Konkursai be CPV",
+        "SHOW_CPV": "Konkursai su CPV"
+    },
+    "SOURCES_MODAL": {
+        "SETTINGS": "Nustatymai",
+        "TITLE_CPV_NOT_SHOW": "Rodyti visus CPV, išskyrus filtruotus",
+        "ADD_CUSTOM": "Sukurti",
+        "SELECT_SOURCES": "Pasirinkite duomenų šaltinius",
+        "APPLY": "Pritaikyti"
+    },
+    "CPV_MODAL": {
+        "TITLE_CPV_SHOW": "Rodyti konkursus su konkrečiais CPV kodais",
+        "DESRIPTION": "Šiame lange pridėkite / pašalinkite filtro kodus",
+        "TITLE_CPV_NOT_SHOW": "Rodyti konkursus be konkrečių CPV kodų",
+        "ADD_CPV": "Pridėti",
+        "ADD_CUSTOM": "Sukurti",
+        "APPLY_FILTERS": "Rodyti",
+        "FIND_CPV_HEADER": "Ieškoti CPV kodo",
+        "SEARCH": "Paieška",
+        "PLUS_CODE": "+ kodas",
+        "PLUS_GROUP": "+ grupė",
+        "ADD_CODE": "Pridėti kodą",
+        "ADD_GROUP": "Pridėti grupę",
+        "APPLY": "Pritaikyti",
+        "APPLY_SM": "pritaikyti",
+        "SEARCH_ADDED": "Ieškoti tarp pridėtų"
+    },
+    "CUSTOM_CPV_HELP": {
+        "HEADER": "Sukurti kodų grupės filtrą ",
+        "CATALOG": "CPV kodų katalogas",
+        "p1": "Galite pridėti CPV filtrą visai kodų grupei naudodami *,",
+        "p2": "Pavyzdžiui:",
+        "p3": "24* - Cheminės medžiagos",
+        "p4": "03* - Žemės ūkis, žuvininkystė, miškininkystė ir susiję produktai",
+        "p5": "Arba konkretesnė grupė:",
+        "p6": "03332* - Vilna",
+        "p7": "ir t. t.",
+        "p8": "Kodų sąrašą galima peržiūrėti šioje nuorodoje:",
+        "CODE": "Kodas",
+        "DESCRIPTION": "Aprašymas"
+    },
+    "SEARCH": {
+        "CLIENT": "Klientas",
+        "TITLE": "Pavadinimas",
+        "DESCRIPTION": "Aprašymas",
+        "CPV_CODE": "CPV kodas",
+        "SEARCH": "Paieška",
+        "RESET": "Išvalyti"
+    },
+    "TENDER": {
+        "SOURCE": "Šaltinis:",
+        "REF": "Kodas: ",
+        "DATE": "Data: ",
+        "TIME": "Laikas:",
+        "DEADLINE": "Galutinis terminas:",
+        "CPV_CODES": "CPV kodai:",
+        "PAGE": "Konkurso puslapis",
+        "CATEGORY": "Kategorija: "
+    },
+    "TENDER_NEW": {
+        "PUBLICATION": "Paskelbta",
+        "DEADLINE": "Terminas",
+        "COUNTRY": "Šalis",
+        "CATEGORY": "Kategorija"
+    },
+    "TO_FILTER": {
+        "TO_SHOW": "pridėti prie «rodyti CPV»",
+        "TO_NOT_SHOW": "pridėti prie «slėpti CPV»"
+    },
+    "NOTIFICATION": {
+        "TENDERS_LOADED": "įkelti konkursai",
+        "FILTER_REMOVED": "Filtras pašalintas",
+        "FILTER_ADDED": " pridėtas filtras",
+        "SEARCH_FIELDS_CLEARED": "Paieškos laukai išvalyti",
+        "TENDERS_SHOWN": " pateikti konkursai",
+        "TENDERS_FOUND": " rasti konkursai",
+        "LOGGED_OUT": "Jūs sėkmingai atsijungėte",
+        "ERROR_OCCURED": "Įvyko klaida. Bandykite dar kartą",
+        "CPV_EMPTY": "CPV kodas neteisingas! Turi būti bent 1 skaitmuo ir *",
+        "NO_DATA_SOURCE_SELECTED": "Duomenų šaltinis nepasirinktas! Pasirinkite bent 1",
+        "SOURCES_UPDATED": "Atnaujinti duomenų šaltiniai",
+        "CPV_FOUND": " CPV rastas",
+        "ACCOUNT_EXPIRED": "Paskyros galiojimo laikas baigėsi",
+        "NEED_TO_LOG_IN": "Norėdami pasiekti šį puslapį, turite būti prisijungę"
+    },
+    "TOOLTIP": {
+        "SOURCE": "Duomenų šaltinis",
+        "COUNTRY": "Konkurso šalis",
+        "REF_NUMBER": "Konkurso ID",
+        "DATE": "Paskelbimo data",
+        "TIME": "Paskelbimo laikas",
+        "DEADLINE": "Konkurso terminas",
+        "FUNCTIONALITY": "Prisijunkite, kad atidarytumėte funkciją",
+        "GO_TO_TENDER_PAGE": "Eikite į puslapį 'Visi konkursai', kad atidarytumėte funkciją"
+    },
+    "LOGIN_PAGE": {
+        "LOGIN": "Prisijungti",
+        "USERNAME": "Vartotojo vardas",
+        "PASSWORD": "Slaptažodis",
+        "OR": "Arba",
+        "DONT_HAVE_ACCOUNT": "Neturite paskyros? ",
+        "REGISTER": "Registruotis",
+        "FORGOT_PASSWORD": "Pamiršau slaptažodį",
+        "PROCESSING": "Įkeliama..."
+    },
+    "REGISTER_PAGE": {
+        "FIRST_NAME": "Vardas",
+        "LAST_NAME": "Pavardė",
+        "USERNAME": "Vartotojo vardas",
+        "COMPANY": "Įmonė (neprivaloma)",
+        "NEW_USER_REGISTRATION": "Naujo naudotojo registracija",
+        "CREATE_AN_ACCOUNT": "Sukurti paskyrą",
+        "PARAGRAPH_1": "Sukurti naują paskyrą su ",
+        "PARAGRAPH_2": "nemokamas dviejų savaičių laikotarpis",
+        "PARAGRAPH_3": "įvertinti visus Tensys privalumus",
+        "ENTER_FIRST_NAME": "Įveskite vardą",
+        "ENTER_LAST_NAME": "Įveskite pavardę",
+        "ENTER_EMAIL": "Įveskite el. pašto adresą",
+        "ENTER_USERNAME": "Įveskite naudotojo vardą",
+        "OR": "ARBA",
+        "ALREADY_REGISTERED": "Jau užsiregistravote?",
+        "LOGIN": "Prisijunkite",
+        "EMAIL_TOOLTIP": "Įveskite el. pašto adresą, į kurį bus siunčiamas slaptažodis",
+        "USERNAME_TOOLTIP": "Tai jūsų pagrindinis identifikatorius. Naudojamas prisijungimui",
+        "LANGUAGE_TOOLTIP": "Sąsajos kalbos ir konkurso vertimas. Galima bet kada pakeisti"
+    },
+    "PASSWORD_PAGE": {
+        "RESTORE_PASSWORD": "Atkurti slaptažodį",
+        "SEND_PASSWORD": "Siųsti",
+        "REMEMBER": "Prisiminiau savo slaptažodį",
+        "PROCESSING": "Įkeliama..."
+    },
+    "ABOUT_PAGE": {
+        "HEADER": "Apie TenSys",
+        "SUB_HEADER": " – Baltijos šalių konkursų stebėsenos sistema",
+        "CPV_SHOW": "Rodyti tik CPV",
+        "CPV_NOT_SHOW": "Rodyti be CPV",
+        "P_1_1": "Sistemos funkcija",
+        "P_1_2": " – lankstus naudotojo filtrų nustatymas. Filtrai",
+        "P_1_3": " tipo- rodomi tik tie pasiūlymai, kurių CPV kodų sąraše yra kodai iš naudotojo sąrašo. Tokie filtrai kaip ",
+        "P_1_4": " tipo- rodomi visi pasiūlymai, išskyrus tuos, kuriuos sudaro CPV kodai iš naudotojo sąrašo",
+        "P_2": "Peržiūrėdami konkursą, jo CPV kodą bet kuriuo metu galite pridėti prie vieno ar kito tipo filtro",
+        "P_3_1": "Antroji sistemos funkcija",
+        "P_3_2": " – galimybė į filtrus įtraukti nepilnus CPV kodus, t. y. filtruoti ištisas pasiūlymų grupes",
+        "P_3_3": "Pavyzdžiui, filtras su kodu ",
+        "P_3_4": " filtruoja visus kodus, prasidedančius skaičiais",
+        "P_3_5": ", t. y. visa grupė 'Žemės ūkis, žuvininkystė, miškininkystė ir susiję produktai' ir visi jos pogrupiai",
+        "P_3_6": "Šį filtrą galima įtraukti į grupę ",
+        "P_3_7": " ir į grupę ",
+        "P_4_1": "Naudotojų patogumui",
+        "P_4_2": "konkursų pasiūlymai duomenų bazėje saugomi iš karto 5 kalbomis - Estų kalba",
+        "P_4_3": "Latvių kalba ",
+        "P_4_4": ", Lietuvių kalba ",
+        "P_4_5": "Anglų kalba ",
+        "P_4_6": " ir Rusų kalba",
+        "P_4_7": "Sąsaja ir konkurso duomenys naudotojui iš karto rodomi jo pageidaujama kalba, todėl sutaupoma daug laiko kasdienei stebėsenai",
+        "P_5_1": "Naudojant sistemą ",
+        "P_5_2": " naudotojas turi galimybę konfigūruoti duomenų šaltinius. Pavyzdžiui, naudotojas gali stebėti tik tam tikros šalies konkursus iš tam tikro šaltinio, kiti konkursai į išvestį nebus įtraukti",
+        "P_6": "Visada galite gauti informaciją apie konkursą originalo kalba dukart spustelėję ant jos arba spustelėję konkurso nuorodą, kad pamatytumėte ją savo pagrindiniame šaltinyje.",
+        "P_7_1": "Sistema",
+        "P_7_2": ", sukurta aktyvių Estijos ir Latvijos konkurso dalyvių pramonės automatikos, inžinerinės įrangos ir inžinerinių paslaugų srityje, gimė dėl",
+        "P_7_3": "greita ir paprasta kasdienė visų kelių šalių konkursų veiklos stebėsena, kurią atlieka vienas asmuo",
+        "P_7_4": "Tikimės, kad mūsų sistema padės jums efektyviau išnaudoti darbo laiką. Jei turite kokių nors pageidavimų ar pasiūlymų, kaip patobulinti, nedvejodami kreipkitės į mus, mes labai džiaugsimės, jei išgirsime jūsų nuomonę!",
+        "P_7_5": "Sėkmės konkursuose!",
+        "LOGIN": "Prisijungti",
+        "REGISTER": "Registruotis"
+    },
+    "PRICES_PAGE": {
+        "HEADER": "Kainos",
+        "SUB_HEADER_1": "Užregistruokite naują paskyrą, naudokite ",
+        "SUB_HEADER_2": "2 nemokamas savaites",
+        "SUB_HEADER_3": " ir pasirinkite jums tinkantį planą!",
+        "ACCOUNT_VALID_UNTIL": "Jūsų paskyra galioja iki:",
+        "SEND_RENEWAL_REQUEST": "Pateikti sąskaitos atnaujinimo prašymą",
+        "SUBSCRIPTION_ONE_ACCOUNT": "1 paskyra",
+        "SUBSCRIPTION_YEAR": "Prenumerata vieneriems metams",
+        "INVOICE_TO_EMAIL": "Sąskaita už paslaugą bus išsiųsta į naudotojo el. paštą.",
+        "REGISTRATION": "Registracija",
+        "REQUEST": "Prašyti",
+        "SUBSCRIPTION_1": "Supažindinimas",
+        "SUBSCRIPTION_1_SUBTITLE": "1 mėnesio prenumerata",
+        "SUBSCRIPTION_1_TEXT_1": "Susipažinimas su sistema",
+        "SUBSCRIPTION_1_TEXT_2": "Filtro bazės kompiliavimas",
+        "SUBSCRIPTION_2": "Darbui",
+        "SUBSCRIPTION_2_HEADER": "Pelningas pasiūlymas",
+        "SUBSCRIPTION_2_TEXT_2": "Prenumerata 12 mėnesių po 7 €/mėn.",
+        "SUBSCRIPTION_2_TEXT_3": "1 paskyra",
+        "SUBSCRIPTION_3_TEXT_2": "Nuo 6 € iki 5 € per mėnesį už paskyrą",
+        "SUBSCRIPTION_3_TEXT_3": "2-5 paskyros",
+        "SUBSCRIPTION_3": "Įmonei",
+
+        "PRICING": "Kainų planai",
+        "DESCR": "Spustelėkite Pasirinkti ir mes atsiųsime jums sąskaitą apmokėjimui el. paštu",
+        "SELECT": "Pasirinkti",
+
+        "BASE_NAME": "Įprastas",
+        "BASE_TIME": "Vieno mėnesio prenumerata",
+
+        "ECONOMY": "Ekonomiškas",
+        "ECONOMY_DESCR": "Sutaupote 23 € per metus",
+
+        "CORPORATE_PRICE": "Nuo 150 €",
+        "CORPORATE_ACCOUNTS": "Nuo 2 paskyrų"
+    },
+    "HOWTO": { 
+        "HEADER": "Kaip naudotis TenSys", 
+        "HEADER_P1": "Pagrindiniame puslapyje esančiame vaizdo įraše aprašomi pagrindiniai paslaugos naudojimo aspektai.",
+        "HEADER_P2": "Jei jums reikia žingsnis po žingsnio pateikiamų instrukcijų tekste su paveikslėliais, jos yra čia pateikiamos.",
+        "SECTIONS": "Skiltys",
+
+        "REG_HEAD": "Registracija",
+        "REG_P1": "Svetainės viršutiniame meniu paspauskite Registruotis.",
+        "REG_P2": "Registracijos formoje įveskite savo įprastą el. pašto adresą ir pasirinkite vartotojo vardą (pvz., <b>vardas.pavardė</b>).",
+        "REG_P3": "Užsiregistravę gausite el. laišką su prisijungimo slaptažodžiu. Jei manote, kad el. laiškas ilgai neatkeliauja, patikrinkite nepageidaujamų laiškų aplanką.",
+        "REG_P4": "Prisijungimui prie paskyros naudokite savo vartotojo vardą.",
+        "REG_P5": "Gaunate <b>dvi savaites nemokamai</b> išbandyti visas TenSys funkcijas.",
+        "REG_P6": "Jei paslauga jums patinka ir norite toliau ja naudotis, pasirinkite vieną iš <a href='prices' routerLink='/prices'>Kainodaros</a> puslapyje pateiktų kainų planų ir spustelėkite [Pasirinkti]. Sąskaitą apmokėjimui atsiųsime registracijos metu nurodytu el. paštu.",
+        "REG_P7": "Šiuo metu renkame pirmųjų naudotojų atsiliepimus, todėl nedvejodami rašykite mums el. paštu <a href='mailto:info@tensys.org'>info@tensys.org</a>. O daugiau būdų susisiekti rasite <a href='contact' routerLink='/contact'>čia</a>.",
+
+        "START_HEAD": "Darbo pradžia",
+        "START_H1": "Prisijungę prie savo paskyros, esate režime «Visi konkursai».",
+        "START_H2": "Rodomi visi šios dienos konkursai iš visų šaltinių be jokių filtrų.",
+
+        "TENDER_DATA_HEAD": "Konkursų duomenys",
+        "TENDER_DATA_P1": "Tai konkurso kortelė.",
+        "TENDER_DATA_P2": "Visi duomenys kortelėse rodomi ta kalba, kurią pasirinkote svetainės meniu (viršutiniame dešiniajame kampe).",
+        "TENDER_DATA_P3": "Jums pateikiamas konkurso pavadinimas, kategorija, paskelbimo data, terminas, CPV kodai, taip pat jo šaltinis, autorius ir nuoroda į originalą (konkurso puslapio mygtukas).",
+        "TENDER_DATA_P4": "Originalaus konkurso puslapyje rasite išsamesnę informaciją ir visus dokumentus, jei tokių yra.",
+        "TENDER_DATA_P5": "Dukart spustelėkite tuščią kortelės vietą, kad atsidarytų originalus tekstas ir šalia jo esantis vertimas. Tame pačiame lange bus pateikta nuoroda į šaltinį",
+
+        "DATES_HEAD": "Laiko tarpo pasirinkimas",
+        "DATES_P1": "Virš pasiūlymų sąrašo yra datos.",
+        "DATES_P2": "Pasirinkite laikotarpį, kuriuo skelbiami konkursai.",
+        "DATES_P3": "Norėdami peržiūrėti tik vienos datos konkursus, dukart spustelėkite ant tos datos.",
+
+        "SOURCES_HEAD": "Šaltinių pasirinkimas",
+        "SOURCES_P1": "TenSys renka duomenis iš įvairių šaltinių.",
+        "SOURCES_P2": "Norėdami tvarkyti šaltinius, eikite į meniu <b>Konkursai → Šaltiniai</b>. Pasirinkite norimus ir spustelėkite <b>Taikyti</b>.",
+
+        "MODES_HEADER": "Konkursų rodymo režimai",
+        "MODES_P1": "TenSys turi tris konkursų rodymo režimus, priklausomai nuo taikomų filtrų.",
+        "MODES_P2": "<b>«Visų konkursų»</b> režimas netaiko jokių filtrų.",
+        "MODES_P3": "Režime <b>«Rodyti CPV»</b> bus rodomi tik tie pasiūlymai, kurių CPV kodus įtraukėte į filtrus.",
+        "MODES_P4": "Režime <b>«Paslėpti CPV»</b> bus rodomi visi konkursai, išskyrus tuos, kurių kodus įtraukėte į savo sąrašą.",
+        "MODES_P5": "Perjungti režimus galite čia:",
+        "MODES_P6": "Toliau išsamiau paaiškinsime, kaip sukonfigūruoti filtrus.",
+
+        "SHOW_CPV_HEAD": "«Rodyti CPV» nustatymą",
+        "SHOW_CPV_P1": "Pagrindiniame svetainės meniu raskite <b>filtrus «Rodyti CPV»</b>.",
+        "SHOW_CPV_P2": "Šiame lange bus rodoma, kokius filtrus pridėjote.",
+        "SHOW_CPV_P3": "Jei norite pridėti daugiau CPV, spustelėkite mygtuką <b>Pridėti kodą</b>.",
+        "SHOW_CPV_P4": "Pridėjus filtrus, jie išsaugomi <b>automatiškai</b>.",
+        "SHOW_CPV_P5": "<b>Paieška</b> virš pridėtų kodų ieško tik tarp jų.",
+        "SHOW_CPV_P6": "Spustelėkite <b>Taikyti</b>, kad užbaigtumėte nustatymus.",
+
+        "HIDE_CPV_HEAD": "«Paslėpti CPV» nustatymą",
+        "HIDE_CPV_P1": "Filtravimo nustatymai čia: Pagrindiniame meniu → Konkursai → «Paslėpti CPV» filtrą",
+
+        "HOW_TO_ADD_FILTERS_HEAD": "Kaip pridėti CPV filtrus",
+        "HOW_TO_ADD_FILTERS_P1": "TenSys leidžia pridėti bet kokį CPV kodą prie bet kokio tipo filtro. Tai galima padaryti trimis būdais.",
+
+        "FROM_CARD_HEAD": "CPV filtro pridėjimas iš konkurso kortelės",
+        "FROM_CARD_P1": "Kiekvieno konkurso kortelėje pateikiamas jo CPV kodų sąrašas.",
+        "FROM_CARD_P2": "Kodas yra meniu, su kuriuo jį galima pridėti prie tam tikro tipo filtro.",
+        "FROM_CARD_P3": "Spausk <b>pridėti prie «Rodyti CPV»</b>, kad kodą pridėtumėte prie režimo «Rodyti CPV» filtrų.",
+        "FROM_CARD_P4": "Spausk <b>pridėti prie «Slėpti CPV»</b>, kad pridėtumėte kodą prie režimo «Slėpti CPV» filtrų.",
+        "FROM_CARD_P5": "Kai kodas bus pridėtas, filtro nustatymuose jis atrodys taip:",
+
+        "FROM_SEARCH_HEAD": "CPV filtro pridėjimas per paiešką",
+        "FROM_SEARCH_P1": "Norėdami į filtrą įtraukti jums žinomą CPV kodą, pagrindiniame meniu eikite į «Rodyti» arba «Slėpti» filtrą ir spustelėkite <b>Pridėti kodą</b>.",
+        "FROM_SEARCH_P2": "Atsidarys CPV kodo paieškos langas, kuriame galite įvesti visą kodą arba jo dalį.",
+        "FROM_SEARCH_P3": "Visi rasti kodai yra tie patys meniu su galimybe juos pridėti prie filtrų, kaip ir konkurso kortelėje:",
+
+        "ADD_GROUP_HEAD": "Kodų grupės pridėjimas prie filtro",
+        "ADD_GROUP_P1": "Dažnai į filtrus reikia pridėti ne vieną kodą, o visą grupę, t. y. kokio nors kodo pradžią.",
+        "ADD_GROUP_P2": "Norėdami į filtrus įtraukti nepilną CPV kodą, pagrindiniame meniu pasirinkite Konkursai, pasirinkite reikiamus filtrus ir spustelėkite mygtuką <b>Pridėti grupę</b>.",
+        "ADD_GROUP_P3": "Įveskite pirmuosius kodo skaitmenis, vietoj likusių skaitmenų įrašydami simbolį *. Pavyzdžiui, «15*». Šiai kodų grupei priskiriami visi maisto produktai.",
+        "ADD_GROUP_P4": "Paspauskite mygtuką <b>«+»</b> ir kodas bus įtrauktas į filtrų sąrašą",
+        "ADD_GROUP_P5": "Režime <b>«Rodyti CPV»</b> bus rodomi tik konkursai, kurių CPV kodai prasideda šiais skaičiais.",
+        "ADD_GROUP_P6": "Režime <b>«Paslėpti CPV»</b> bus rodomi visi konkursai, kurių CPV kodai neprasideda šiais skaičiais.",
+
+        "SEARCH_HEAD": "Išsamesnė paieška",
+        "SEARCH_P1": "Šioje eilutėje paieška veikia pagal tai, ką surinko jūsų filtras.",
+
+        "NOTIFICATIONS_HEAD": "Pranešimai apie naujus konkursus",
+        "NOTIFICATIONS_P1": "Kol esate viename iš konkursų peržiūros režimų, TenSys nuolat tikrina, <b>ar neatsirado naujų konkursų, kurie atitinka režimo, kuriame esate, filtrus</b>. Spustelėkite raudono skaičiaus piktogramą, kad atsisiųstumėte naujus konkursus.",
+
+        "ACCOUNT_HEAD": "Iki kada galioja mano paskyra?",
+        "ACCOUNT_P1": "<a href='prices' routerLink='/prices'>Kainoraščio</a> puslapyje raskite datą",
+
+        "REGISTER": "Registruotis",
+        "SCROLL_TO_REFERENCE": "Turinys",
+        "QUESTIONS": "Klausimai?"
+
+    },
+
+    "REG-SUCCESS": {
+        "THANK_YOU": "Ačiū!",
+        "H1": "Jūs sėkmingai užsiregistravote",
+        "P1_1": "Į jūsų el. paštą bus išsiųstas el. laiškas su prisijungimo informacija.",
+        "P1_2": "Patikrinkite nepageidaujamų laiškų aplanką, jei jo nematote savo pašto dėžutėje."
+    },
+
+    "CONTACT": {
+        "WRITE": "Rašyti",
+        "P1_1": "Bet kokie atsiliepimai padės mums tobulinti TenSys",
+        "P1_2": "Jei kas nors neaišku - taip pat parašykite. ",
+        "P1_3": "Mes pasistengsime atsakyti per dieną",
+        "YOUR_EMAIL": "Jūsų el. paštas:",
+        "MESSAGE": "Pranešimas:",
+        "FOLLOW_FB": "Sekite mus Facebook",
+        "PROCESSING": "Apdorojama",
+        "SEND": "Siųsti",
+        "BUSINESS_PROPOSALS": "Verslo pasiūlymai",
+        "DANIIL": "Dan"
+    },
+
+    "MAIN": {
+        "MAIN_HEAD": "Peržiūrėkite visus konkursus vienoje patogioje vietoje",
+        "MAIN_P": "Taupykite laiką ir dirbkite su visais Baltijos šalių konkursais vienoje\u00a0sąsajoje\u00a0savo\u00a0kalba",
+        "MAIN_BUTTON": "Išbandykite nemokamai",
+        "MAIN_BUTTON_TEXT": "*Dvi savaitės nemokamai, nereikia kortelės duomenų",
+
+        "F1_HEAD": "Sutaupykite laiko",
+        "F1_P": "Konkursų nišoje svarbus greitis, ir mes tai žinome. Pasinaudokite\u00a0TenSys\u00a0ir\u00a0būkite pirmieji.",
+
+        "F2_HEAD": "Išlaikykite dėmesį",
+        "F2_P": "Kol konkurentai pasiklydę daugybėje skirtukų, jūs\u00a0seksite\u00a0konkursus\u00a0viename.",
+
+        "F3_HEAD": "Skaitykite savo kalba",
+        "F3_P": "TenSys saugo konkursų duomenis iš karto penkiomis kalbomis. Kalbas\u00a0galite\u00a0perjungti\u00a0iš viršutinio meniu.",
+
+        "F4_HEAD": "Patogi sąsaja",
+        "F4_P": "Apgalvojome dizainą taip, kad būtų patogu stebėti konkursus iš skirtingų šaltinių. Išbandykite tai patys.",
+
+        "F5_HEAD": "Lankstūs filtrai",
+        "F5_P": "Galite peržiūrėti konkursus tik su jums reikalingais CPV kodais arba visus konkursus, išskyrus filtruojamas grupes. TenSys padės bet kokio profilio nariams dirbti efektyviau.",
+
+        "F6_HEAD": "Tvarkykite šaltinius",
+        "F6_P": "Galite pasirinkti, iš kokių šaltinių bus atsisiunčiami konkursai.",
+
+        "F7_HEAD": "Nuoroda į originalą",
+        "F7_P": "Kiekvieno konkurso kortelėje rasite nuorodą į originalą\u00a0tolesniam\u00a0darbui.",
+
+        "REGISTER_NOW": "Registruokis dabar",
+        "REGISTRATION": "Registracija"
+    },
+
+    "COOKIES": {
+        "MESSAGE": "Ši svetainė naudoja slapukus duomenims saugoti. Toliau naudodamiesi svetaine, jūs sutinkate, kad šie slapukai būtų naudojami.",
+        "LINK": "Sužinokite daugiau",
+        "DISMISS": "Supratau" 
+    },
+
+    "NOT_FOUND": {
+        "HEAD": "Konkursai nerasta",
+        "P_1": "Patikrinkite datą ir pasirinktus šaltinius"
+    }
+}

@@ -1,0 +1,421 @@
+<app-navbar></app-navbar>
+
+<!-- HEADER -->
+<section id="content">
+    <div class="container-lg mt-5 pt-5">
+        <div class="row justify-content-center">
+            <div class="col-sm-9">
+                <div class="display-2 pt-5 pb-5">{{ "HOWTO.HEADER" | translate }}</div>
+                <p class="py-1 my-1">{{ "HOWTO.HEADER_P1" | translate }}</p>
+                <p class="py-1 my-1">{{ "HOWTO.HEADER_P2" | translate }}</p>
+
+                <div class="pt-3 pb-3" #reference>
+                    <h1 class="pb-3 pt-5">{{ "HOWTO.SECTIONS" | translate }}</h1>
+                    <p class="reference-point" (click)="scroll(registration)">{{ "HOWTO.REG_HEAD" | translate }}</p>
+                    <p class="reference-point" (click)="scroll(start)">{{ "HOWTO.START_HEAD" | translate }}</p>
+                    <p class="reference-point" (click)="scroll(tender_data)">{{ "HOWTO.TENDER_DATA_HEAD" | translate }}</p>
+                    <p class="reference-point" (click)="scroll(choose_dates)">{{ "HOWTO.DATES_HEAD" | translate }}</p>
+                    <p class="reference-point" (click)="scroll(sources)">{{ "HOWTO.SOURCES_HEAD" | translate }}</p>
+                    <p class="reference-point" (click)="scroll(modes)">{{ "HOWTO.MODES_HEADER" | translate }}</p>
+                    <p class="reference-point" (click)="scroll(show_cpv)">{{ "HOWTO.SHOW_CPV_HEAD" | translate }}</p>
+                    <p class="reference-point" (click)="scroll(hide_cpv)">{{ "HOWTO.HIDE_CPV_HEAD" | translate }}</p>
+                    <p class="reference-point" (click)="scroll(how_to_add_filters)">{{ "HOWTO.HOW_TO_ADD_FILTERS_HEAD" | translate }}</p>
+                    <p class="reference-point" (click)="scroll(add_filter_from_card)">{{ "HOWTO.FROM_CARD_HEAD" | translate }}</p>
+                    <p class="reference-point" (click)="scroll(add_filter_from_search)">{{ "HOWTO.FROM_SEARCH_HEAD" | translate }}</p>
+                    <p class="reference-point" (click)="scroll(add_group_code)">{{ "HOWTO.ADD_GROUP_HEAD" | translate }}</p>
+                    <p class="reference-point" (click)="scroll(search)">{{ "HOWTO.SEARCH_HEAD" | translate }}</p>
+                    <p class="reference-point" (click)="scroll(new_tenders_notifications)">{{ "HOWTO.NOTIFICATIONS_HEAD" | translate }}</p>
+                    <p class="reference-point" (click)="scroll(account)">{{ "HOWTO.ACCOUNT_HEAD" | translate }}</p>
+                </div>
+                <div>
+                    <div class="row" #registration>
+                        <h1 class="pb-3 pt-5">{{ "HOWTO.REG_HEAD" | translate }}</h1>
+
+                        <img *ngIf="translate.currentLang === 'et'" src="assets/img/how-to-use/et/register.png"
+                            class="" alt="">
+                        <img *ngIf="translate.currentLang === 'lv'" src="assets/img/how-to-use/lv/register.png"
+                            class="" alt="">
+                        <img *ngIf="translate.currentLang === 'lt'" src="assets/img/how-to-use/lt/register.png"
+                            class="" alt="">
+                        <img *ngIf="translate.currentLang === 'ru'" src="assets/img/how-to-use/ru/register.png"
+                            class="" alt="">
+                        <img *ngIf="translate.currentLang === 'en'" src="assets/img/how-to-use/en/register.png"
+                            class="" alt="">
+
+
+                        <p class="py-1 my-1">{{ "HOWTO.REG_P1" | translate }}</p>
+                        <p class="py-1 my-1" [innerHTML]="('HOWTO.REG_P2' | translate) | sanitizeHtml"></p>
+                        <p class="py-1 my-1">{{ "HOWTO.REG_P3" | translate }}</p>
+                        <p class="py-1 my-1">{{ "HOWTO.REG_P4" | translate }}</p>
+                        <p class="py-1 my-1" [innerHTML]="('HOWTO.REG_P5' | translate) | sanitizeHtml"></p>
+                        <p class="py-1 my-1" [innerHTML]="('HOWTO.REG_P6' | translate) | sanitizeHtml"></p>
+                        <p class="py-1 my-1" [innerHTML]="('HOWTO.REG_P7' | translate) | sanitizeHtml"></p>
+                    </div>
+
+                    <div class="row" #start>
+                        <h1 class="pb-3 pt-5">{{ "HOWTO.START_HEAD" | translate }}</h1>
+                        <p class="py-1 my-1">{{ "HOWTO.START_H1" | translate }}</p>
+
+                        <img *ngIf="translate.currentLang === 'et'" src="assets/img/how-to-use/et/all-tenders.png"
+                            class="" alt="">
+                        <img *ngIf="translate.currentLang === 'lv'" src="assets/img/how-to-use/lv/all-tenders.png"
+                            class="" alt="">
+                        <img *ngIf="translate.currentLang === 'lt'" src="assets/img/how-to-use/lt/all-tenders.png"
+                            class="" alt="">
+                        <img *ngIf="translate.currentLang === 'ru'" src="assets/img/how-to-use/ru/all-tenders.png"
+                            class="" alt="">
+                        <img *ngIf="translate.currentLang === 'en'" src="assets/img/how-to-use/en/all-tenders.png"
+                            class="" alt="">
+
+                        <p class="py-1 my-1">{{ "HOWTO.START_H2" | translate }}</p>
+                    </div>
+
+                    <div class="row" #tender_data>
+                        <h1 class="pb-3 pt-5">{{ "HOWTO.TENDER_DATA_HEAD" | translate }}</h1>
+                        <p class="py-1 my-1">{{ "HOWTO.TENDER_DATA_P1" | translate }}</p>
+
+                        <img *ngIf="translate.currentLang === 'et'" src="assets/img/how-to-use/et/tender-card.png"
+                            class="" alt="">
+                        <img *ngIf="translate.currentLang === 'lv'" src="assets/img/how-to-use/lv/tender-card.png"
+                            class="" alt="">
+                        <img *ngIf="translate.currentLang === 'lt'" src="assets/img/how-to-use/lt/tender-card.png"
+                            class="" alt="">
+                        <img *ngIf="translate.currentLang === 'ru'" src="assets/img/how-to-use/ru/tender-card.png"
+                            class="" alt="">
+                        <img *ngIf="translate.currentLang === 'en'" src="assets/img/how-to-use/en/tender-card.png"
+                            class="" alt="">
+
+                        <p class="py-1 my-1">{{ "HOWTO.TENDER_DATA_P2" | translate }}</p>
+                        <p class="py-1 my-1">{{ "HOWTO.TENDER_DATA_P3" | translate }}</p>
+                        <p class="py-1 my-1">{{ "HOWTO.TENDER_DATA_P4" | translate }}</p>
+                        <p class="py-1 my-1">{{ "HOWTO.TENDER_DATA_P5" | translate }}</p>
+
+                        <img *ngIf="translate.currentLang === 'et'" src="assets/img/how-to-use/et/double-click.png"
+                            class="" alt="">
+                        <img *ngIf="translate.currentLang === 'lv'" src="assets/img/how-to-use/lv/double-click.png"
+                            class="" alt="">
+                        <img *ngIf="translate.currentLang === 'lt'" src="assets/img/how-to-use/lt/double-click.png"
+                            class="" alt="">
+                        <img *ngIf="translate.currentLang === 'ru'" src="assets/img/how-to-use/ru/double-click.png"
+                            class="" alt="">
+                        <img *ngIf="translate.currentLang === 'en'" src="assets/img/how-to-use/en/double-click.png"
+                            class="" alt="">
+
+                        <img *ngIf="translate.currentLang === 'et'" src="assets/img/how-to-use/et/tender-modal.png"
+                            class="" alt="">
+                        <img *ngIf="translate.currentLang === 'lv'" src="assets/img/how-to-use/lv/tender-modal.png"
+                            class="" alt="">
+                        <img *ngIf="translate.currentLang === 'lt'" src="assets/img/how-to-use/lt/tender-modal.png"
+                            class="" alt="">
+                        <img *ngIf="translate.currentLang === 'ru'" src="assets/img/how-to-use/ru/tender-modal.png"
+                            class="" alt="">
+                        <img *ngIf="translate.currentLang === 'en'" src="assets/img/how-to-use/en/tender-modal.png"
+                            class="" alt="">
+                    </div>
+
+                    <div class="row" #choose_dates>
+                        <h1 class="pb-3 pt-5">{{ "HOWTO.DATES_HEAD" | translate }}</h1>
+                        <p class="py-1 my-1">{{ "HOWTO.DATES_P1" | translate }}</p>
+
+                        <img *ngIf="translate.currentLang === 'et'" src="assets/img/how-to-use/et/date-picker.png"
+                            class="" alt="">
+                        <img *ngIf="translate.currentLang === 'lv'" src="assets/img/how-to-use/lv/date-picker.png"
+                            class="" alt="">
+                        <img *ngIf="translate.currentLang === 'lt'" src="assets/img/how-to-use/lt/date-picker.png"
+                            class="" alt="">
+                        <img *ngIf="translate.currentLang === 'ru'" src="assets/img/how-to-use/ru/date-picker.png"
+                            class="" alt="">
+                        <img *ngIf="translate.currentLang === 'en'" src="assets/img/how-to-use/en/date-picker.png"
+                            class="" alt="">
+
+                        <p class="py-1 my-1">{{ "HOWTO.DATES_P2" | translate }}</p>
+                        <p class="py-1 my-1">{{ "HOWTO.DATES_P3" | translate }}</p>
+                    </div>
+
+                    <div class="row" #sources>
+                        <h1 class="pb-3 pt-5">{{ "HOWTO.SOURCES_HEAD" | translate }}</h1>
+                        <p class="py-1 my-1">{{ "HOWTO.SOURCES_P1" | translate }}</p>
+                        <p class="py-1 my-1" [innerHTML]="('HOWTO.SOURCES_P2' | translate) | sanitizeHtml"></p>
+
+                        <img *ngIf="translate.currentLang === 'et'" src="assets/img/how-to-use/et/sources-menu.png"
+                            class="" alt="">
+                        <img *ngIf="translate.currentLang === 'lv'" src="assets/img/how-to-use/lv/sources-menu.png"
+                            class="" alt="">
+                        <img *ngIf="translate.currentLang === 'lt'" src="assets/img/how-to-use/lt/sources-menu.png"
+                            class="" alt="">
+                        <img *ngIf="translate.currentLang === 'ru'" src="assets/img/how-to-use/ru/sources-menu.png"
+                            class="" alt="">
+                        <img *ngIf="translate.currentLang === 'en'" src="assets/img/how-to-use/en/sources-menu.png"
+                            class="" alt="">
+
+                        <img *ngIf="translate.currentLang === 'et'" src="assets/img/how-to-use/et/sources.png" class=""
+                            alt="">
+                        <img *ngIf="translate.currentLang === 'lv'" src="assets/img/how-to-use/lv/sources.png" class=""
+                            alt="">
+                        <img *ngIf="translate.currentLang === 'lt'" src="assets/img/how-to-use/lt/sources.png" class=""
+                            alt="">
+                        <img *ngIf="translate.currentLang === 'ru'" src="assets/img/how-to-use/ru/sources.png" class=""
+                            alt="">
+                        <img *ngIf="translate.currentLang === 'en'" src="assets/img/how-to-use/en/sources.png" class=""
+                            alt="">
+                    </div>
+
+                    <div class="row" #modes>
+                        <h1 class="pb-3 pt-5">{{ "HOWTO.MODES_HEADER" | translate }}</h1>
+                        <p class="py-1 my-1">{{ "HOWTO.MODES_P1" | translate }}</p>
+                        <p class="py-1 my-1" [innerHTML]="('HOWTO.MODES_P2' | translate) | sanitizeHtml"></p>
+                        <p class="py-1 my-1" [innerHTML]="('HOWTO.MODES_P3' | translate) | sanitizeHtml"></p>
+                        <p class="py-1 my-1" [innerHTML]="('HOWTO.MODES_P4' | translate) | sanitizeHtml"></p>
+                        <p class="py-1 my-1">{{ "HOWTO.MODES_P5" | translate }}</p>
+
+                        <img *ngIf="translate.currentLang === 'et'" src="assets/img/how-to-use/et/mode-switcher.png"
+                            class="" alt="">
+                        <img *ngIf="translate.currentLang === 'lv'" src="assets/img/how-to-use/lv/mode-switcher.png"
+                            class="" alt="">
+                        <img *ngIf="translate.currentLang === 'lt'" src="assets/img/how-to-use/lt/mode-switcher.png"
+                            class="" alt="">
+                        <img *ngIf="translate.currentLang === 'ru'" src="assets/img/how-to-use/ru/mode-switcher.png"
+                            class="" alt="">
+                        <img *ngIf="translate.currentLang === 'en'" src="assets/img/how-to-use/en/mode-switcher.png"
+                            class="" alt="">
+
+                        <p class="py-1 my-1">{{ "HOWTO.MODES_P6" | translate }}</p>
+                    </div>
+
+                    <div class="row" #show_cpv>
+                        <h1 class="pb-3 pt-5">{{ "HOWTO.SHOW_CPV_HEAD" | translate }}</h1>
+                        <p class="py-1 my-1" [innerHTML]="('HOWTO.SHOW_CPV_P1' | translate) | sanitizeHtml"></p>
+
+                        <img *ngIf="translate.currentLang === 'et'" src="assets/img/how-to-use/et/show-cpv-menu.png"
+                            class="" alt="">
+                        <img *ngIf="translate.currentLang === 'lv'" src="assets/img/how-to-use/lv/show-cpv-menu.png"
+                            class="" alt="">
+                        <img *ngIf="translate.currentLang === 'lt'" src="assets/img/how-to-use/lt/show-cpv-menu.png"
+                            class="" alt="">
+                        <img *ngIf="translate.currentLang === 'ru'" src="assets/img/how-to-use/ru/show-cpv-menu.png"
+                            class="" alt="">
+                        <img *ngIf="translate.currentLang === 'en'" src="assets/img/how-to-use/en/show-cpv-menu.png"
+                            class="" alt="">
+
+                        <img *ngIf="translate.currentLang === 'et'" src="assets/img/how-to-use/et/show-cpv.png"
+                            class="" alt="">
+                        <img *ngIf="translate.currentLang === 'lv'" src="assets/img/how-to-use/lv/show-cpv.png"
+                            class="" alt="">
+                        <img *ngIf="translate.currentLang === 'lt'" src="assets/img/how-to-use/lt/show-cpv.png"
+                            class="" alt="">
+                        <img *ngIf="translate.currentLang === 'ru'" src="assets/img/how-to-use/ru/show-cpv.png"
+                            class="" alt="">
+                        <img *ngIf="translate.currentLang === 'en'" src="assets/img/how-to-use/en/show-cpv.png"
+                            class="" alt="">
+
+                        <p class="py-1 my-1">{{ "HOWTO.SHOW_CPV_P2" | translate }}</p>
+                        <p class="py-1 my-1" [innerHTML]="('HOWTO.SHOW_CPV_P3' | translate) | sanitizeHtml"></p>
+                        <p class="py-1 my-1" [innerHTML]="('HOWTO.SHOW_CPV_P4' | translate) | sanitizeHtml"></p>
+                        <p class="py-1 my-1" [innerHTML]="('HOWTO.SHOW_CPV_P5' | translate) | sanitizeHtml"></p>
+                        <p class="py-1 my-1" [innerHTML]="('HOWTO.SHOW_CPV_P6' | translate) | sanitizeHtml"></p>
+                    </div>
+
+                    <div class="row" #hide_cpv>
+                        <h1 class="pb-3 pt-5">{{ "HOWTO.HIDE_CPV_HEAD" | translate }}</h1>
+                        <p class="py-1 my-1" [innerHTML]="('HOWTO.HIDE_CPV_P1' | translate) | sanitizeHtml"></p>
+
+                        <img *ngIf="translate.currentLang === 'et'" src="assets/img/how-to-use/et/hide-cpv.png"
+                            class="" alt="">
+                        <img *ngIf="translate.currentLang === 'lv'" src="assets/img/how-to-use/lv/hide-cpv.png"
+                            class="" alt="">
+                        <img *ngIf="translate.currentLang === 'lt'" src="assets/img/how-to-use/lt/hide-cpv.png"
+                            class="" alt="">
+                        <img *ngIf="translate.currentLang === 'ru'" src="assets/img/how-to-use/ru/hide-cpv.png"
+                            class="" alt="">
+                        <img *ngIf="translate.currentLang === 'en'" src="assets/img/how-to-use/en/hide-cpv.png"
+                            class="" alt="">
+                    </div>
+
+                    <div class="row" #how_to_add_filters>
+                        <h1 class="pb-3 pt-5">{{ "HOWTO.HOW_TO_ADD_FILTERS_HEAD" | translate }}</h1>
+                        <p class="py-1 my-1">{{ "HOWTO.HOW_TO_ADD_FILTERS_P1" | translate }}</p>
+                    </div>
+
+                    <div class="row" #add_filter_from_card>
+                        <h1 class="pb-3 pt-5">{{ "HOWTO.FROM_CARD_HEAD" | translate }}</h1>
+                        <p class="py-1 my-1">{{ "HOWTO.FROM_CARD_P1" | translate }}</p>
+                        <p class="py-1 my-1">{{ "HOWTO.FROM_CARD_P2" | translate }}</p>
+
+                        <img *ngIf="translate.currentLang === 'et'" src="assets/img/how-to-use/et/cpv-from-card.png"
+                            class="" alt="">
+                        <img *ngIf="translate.currentLang === 'lv'" src="assets/img/how-to-use/lv/cpv-from-card.png"
+                            class="" alt="">
+                        <img *ngIf="translate.currentLang === 'lt'" src="assets/img/how-to-use/lt/cpv-from-card.png"
+                            class="" alt="">
+                        <img *ngIf="translate.currentLang === 'ru'" src="assets/img/how-to-use/ru/cpv-from-card.png"
+                            class="" alt="">
+                        <img *ngIf="translate.currentLang === 'en'" src="assets/img/how-to-use/en/cpv-from-card.png"
+                            class="" alt="">
+
+
+                        <p class="py-1 my-1">{{ "HOWTO.FROM_CARD_P5" | translate }}</p>
+
+                        <img *ngIf="translate.currentLang === 'et'" src="assets/img/how-to-use/et/cpv-added.png"
+                            class="" alt="">
+                        <img *ngIf="translate.currentLang === 'lv'" src="assets/img/how-to-use/lv/cpv-added.png"
+                            class="" alt="">
+                        <img *ngIf="translate.currentLang === 'lt'" src="assets/img/how-to-use/lt/cpv-added.png"
+                            class="" alt="">
+                        <img *ngIf="translate.currentLang === 'ru'" src="assets/img/how-to-use/ru/cpv-added.png"
+                            class="" alt="">
+                        <img *ngIf="translate.currentLang === 'en'" src="assets/img/how-to-use/en/cpv-added.png"
+                            class="" alt="">
+                    </div>
+
+                    <div class="row" #add_filter_from_search>
+                        <h1 class="pb-3 pt-5">{{ "HOWTO.FROM_SEARCH_HEAD" | translate }}</h1>
+                        <p class="py-1 my-1" [innerHTML]="('HOWTO.FROM_SEARCH_P1' | translate) | sanitizeHtml"></p>
+
+                        <img *ngIf="translate.currentLang === 'et'" src="assets/img/how-to-use/et/cpv-from-search.png"
+                            class="" alt="">
+                        <img *ngIf="translate.currentLang === 'lv'" src="assets/img/how-to-use/lv/cpv-from-search.png"
+                            class="" alt="">
+                        <img *ngIf="translate.currentLang === 'lt'" src="assets/img/how-to-use/lt/cpv-from-search.png"
+                            class="" alt="">
+                        <img *ngIf="translate.currentLang === 'ru'" src="assets/img/how-to-use/ru/cpv-from-search.png"
+                            class="" alt="">
+                        <img *ngIf="translate.currentLang === 'en'" src="assets/img/how-to-use/en/cpv-from-search.png"
+                            class="" alt="">
+
+                        <p class="py-1 my-1">{{ "HOWTO.FROM_SEARCH_P2" | translate }}</p>
+
+                        <img *ngIf="translate.currentLang === 'et'" src="assets/img/how-to-use/et/search-cpv.png"
+                            class="" alt="">
+                        <img *ngIf="translate.currentLang === 'lv'" src="assets/img/how-to-use/lv/search-cpv.png"
+                            class="" alt="">
+                        <img *ngIf="translate.currentLang === 'lt'" src="assets/img/how-to-use/lt/search-cpv.png"
+                            class="" alt="">
+                        <img *ngIf="translate.currentLang === 'ru'" src="assets/img/how-to-use/ru/search-cpv.png"
+                            class="" alt="">
+                        <img *ngIf="translate.currentLang === 'en'" src="assets/img/how-to-use/en/search-cpv.png"
+                            class="" alt="">
+
+                        <p class="py-1 my-1">{{ "HOWTO.FROM_SEARCH_P3" | translate }}</p>
+
+                        <img *ngIf="translate.currentLang === 'et'"
+                            src="assets/img/how-to-use/et/cpv-add-from-search.png" class="" alt="">
+                        <img *ngIf="translate.currentLang === 'lv'"
+                            src="assets/img/how-to-use/lv/cpv-add-from-search.png" class="" alt="">
+                        <img *ngIf="translate.currentLang === 'lt'"
+                            src="assets/img/how-to-use/lt/cpv-add-from-search.png" class="" alt="">
+                        <img *ngIf="translate.currentLang === 'ru'"
+                            src="assets/img/how-to-use/ru/cpv-add-from-search.png" class="" alt="">
+                        <img *ngIf="translate.currentLang === 'en'"
+                            src="assets/img/how-to-use/en/cpv-add-from-search.png" class="" alt="">
+                    </div>
+
+                    <div class="row" #add_group_code>
+                        <h1 class="pb-3 pt-5">{{ "HOWTO.ADD_GROUP_HEAD" | translate }}</h1>
+                        <p class="py-1 my-1">{{ "HOWTO.ADD_GROUP_P1" | translate }}</p>
+                        <p class="py-1 my-1" [innerHTML]="('HOWTO.ADD_GROUP_P2' | translate) | sanitizeHtml"></p>
+                        <p class="py-1 my-1">{{ "HOWTO.ADD_GROUP_P3" | translate }}</p>
+
+                        <img *ngIf="translate.currentLang === 'et'" src="assets/img/how-to-use/et/cpv-add-group.png"
+                            class="" alt="">
+                        <img *ngIf="translate.currentLang === 'lv'" src="assets/img/how-to-use/lv/cpv-add-group.png"
+                            class="" alt="">
+                        <img *ngIf="translate.currentLang === 'lt'" src="assets/img/how-to-use/lt/cpv-add-group.png"
+                            class="" alt="">
+                        <img *ngIf="translate.currentLang === 'ru'" src="assets/img/how-to-use/ru/cpv-add-group.png"
+                            class="" alt="">
+                        <img *ngIf="translate.currentLang === 'en'" src="assets/img/how-to-use/en/cpv-add-group.png"
+                            class="" alt="">
+
+                        <p class="py-1 my-1" [innerHTML]="('HOWTO.ADD_GROUP_P4' | translate) | sanitizeHtml"></p>
+
+                        <img *ngIf="translate.currentLang === 'et'" src="assets/img/how-to-use/et/cpv-group-added.png"
+                            class="" alt="">
+                        <img *ngIf="translate.currentLang === 'lv'" src="assets/img/how-to-use/lv/cpv-group-added.png"
+                            class="" alt="">
+                        <img *ngIf="translate.currentLang === 'lt'" src="assets/img/how-to-use/lt/cpv-group-added.png"
+                            class="" alt="">
+                        <img *ngIf="translate.currentLang === 'ru'" src="assets/img/how-to-use/ru/cpv-group-added.png"
+                            class="" alt="">
+                        <img *ngIf="translate.currentLang === 'en'" src="assets/img/how-to-use/en/cpv-group-added.png"
+                            class="" alt="">
+
+                        <p class="py-1 my-1" [innerHTML]="('HOWTO.ADD_GROUP_P5' | translate) | sanitizeHtml"></p>
+                        <p class="py-1 my-1" [innerHTML]="('HOWTO.ADD_GROUP_P6' | translate) | sanitizeHtml"></p>
+                    </div>
+
+                    <div class="row" #search>
+                        <h1 class="pb-3 pt-5">{{ "HOWTO.SEARCH_HEAD" | translate }}</h1>
+                        <p class="py-1 my-1">{{ "HOWTO.SEARCH_P1" | translate }}</p>
+
+                        <img *ngIf="translate.currentLang === 'et'" src="assets/img/how-to-use/et/search.png" class=""
+                            alt="">
+                        <img *ngIf="translate.currentLang === 'lv'" src="assets/img/how-to-use/lv/search.png" class=""
+                            alt="">
+                        <img *ngIf="translate.currentLang === 'lt'" src="assets/img/how-to-use/lt/search.png" class=""
+                            alt="">
+                        <img *ngIf="translate.currentLang === 'ru'" src="assets/img/how-to-use/ru/search.png" class=""
+                            alt="">
+                        <img *ngIf="translate.currentLang === 'en'" src="assets/img/how-to-use/en/search.png" class=""
+                            alt="">
+
+                    </div>
+
+                    <div class="row" #new_tenders_notifications>
+                        <h1 class="pb-3 pt-5">{{ "HOWTO.NOTIFICATIONS_HEAD" | translate }}</h1>
+                        <p class="py-1 my-1" [innerHTML]="('HOWTO.NOTIFICATIONS_P1' | translate) | sanitizeHtml"></p>
+
+                        <img *ngIf="translate.currentLang === 'et'"
+                            src="assets/img/how-to-use/et/new-tenders-notifications.png" class="" alt="">
+                        <img *ngIf="translate.currentLang === 'lv'"
+                            src="assets/img/how-to-use/lv/new-tenders-notifications.png" class="" alt="">
+                        <img *ngIf="translate.currentLang === 'lt'"
+                            src="assets/img/how-to-use/lt/new-tenders-notifications.png" class="" alt="">
+                        <img *ngIf="translate.currentLang === 'ru'"
+                            src="assets/img/how-to-use/ru/new-tenders-notifications.png" class="" alt="">
+                        <img *ngIf="translate.currentLang === 'en'"
+                            src="assets/img/how-to-use/en/new-tenders-notifications.png" class="" alt="">
+
+                    </div>
+
+                    <div class="row" #account>
+                        <h1 class="pb-3 pt-5">{{ "HOWTO.ACCOUNT_HEAD" | translate }}</h1>
+                        <p class="py-1 my-1" [innerHTML]="('HOWTO.ACCOUNT_P1' | translate) | sanitizeHtml"></p>
+
+                        <img *ngIf="translate.currentLang === 'et'" src="assets/img/how-to-use/et/account.png" class=""
+                            alt="">
+                        <img *ngIf="translate.currentLang === 'lv'" src="assets/img/how-to-use/lv/account.png" class=""
+                            alt="">
+                        <img *ngIf="translate.currentLang === 'lt'" src="assets/img/how-to-use/lt/account.png" class=""
+                            alt="">
+                        <img *ngIf="translate.currentLang === 'ru'" src="assets/img/how-to-use/ru/account.png" class=""
+                            alt="">
+                        <img *ngIf="translate.currentLang === 'en'" src="assets/img/how-to-use/en/account.png" class=""
+                            alt="">
+                    </div>
+
+                    <div *ngIf="!this.authenticationService.isUserLoggedIn()" class="row py-5">
+                        <div
+                            class="col-lg-6 col-md-9 justify-content-center align-items-center mx-auto text-center py-5">
+                            <button class="btn btn-primary btn-lg mb-5  text-center" routerLink="/register"><small>{{
+                                    "HOWTO.REGISTER" | translate }}</small></button>
+                        </div>
+                    </div>
+
+                    <div *ngIf="this.authenticationService.isUserLoggedIn()" class="row py-5">
+                        <div
+                            class="col-lg-6 col-md-9 justify-content-center align-items-center mx-auto text-center py-5">
+                            <button class="btn btn-primary btn-lg mb-5  text-center" routerLink="/contact"><small>{{
+                                    "HOWTO.QUESTIONS" | translate }}</small></button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<button (click)="scroll(reference)" id="myBtn" title="{{ 'HOWTO.SCROLL_TO_REFERENCE' | translate }}">
+    <i class="bi bi-arrow-up-square"></i>
+</button>

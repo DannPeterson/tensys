@@ -1,0 +1,384 @@
+{
+    
+    "NAVIGATION": {
+        "TENDERS": "Hanked",
+        "ALL_TENDERS": "Kõik hanked",
+        "SHOW_CPV": "Filtrid «kuva CPV»",
+        "NOT_SHOW_CPV": "Filtrid «peida CPV»",
+        "SOURCES": "Allikad",
+        "GUIDE": "Kuidas kasutada", 
+        "PRICING": "Hinnad",
+        "CONTACT": "Kontakt",
+        "LOGOUT": "Logi välja",
+        "PAID_UNTIL": "Konto on makstud kuni:",
+        "LOGIN": "Logi sisse",
+        "REGISTRATION": "Registreerimine",
+        "SHOW_CPV_MODE": "Kuva CPV",
+        "HIDE_CPV_MODE": "Peida CPV",
+        "NO_FILTERS_MODE": "Filtrideta" 
+    },
+    "HEADER": {
+        "ALL_TENDERS": "Kõik hanked",
+        "NOT_SHOW_CPV": "Hanked ilma CPV-ta",
+        "SHOW_CPV": "Hanked CPV-ga"
+    },
+    "SOURCES_MODAL": {
+        "SETTINGS": "Настройки",
+        "TITLE_CPV_NOT_SHOW": "Показать все CPV кроме определенных",
+        "ADD_CUSTOM": "Создать",
+        "SELECT_SOURCES": "Valida andmete allikad",
+        "APPLY": "Rakenda"
+    },
+    "CPV_MODAL": {
+        "TITLE_CPV_SHOW": "Näidata hanked määratud CPV koodidega",
+        "DESRIPTION": "Lisage/kustutage filtrite koodid selles aknas ",
+        "TITLE_CPV_NOT_SHOW": "Näidata hanked ilma teatud CPV koodideta",
+        "ADD_CPV": "Lisada",
+        "ADD_CUSTOM": "Создать",
+        "APPLY_FILTERS": "Rakenda",
+        "FIND_CPV_HEADER": "Otsi CPV kood",
+        "SEARCH": "Otsing",
+        "PLUS_CODE": "+ kood",
+        "PLUS_GROUP": "+ grupp",
+        "ADD_CODE": "Lisada kood",
+        "ADD_GROUP": "Lisada grupp",
+        "APPLY": "Rakenda",
+        "APPLY_SM": "rakenda",
+        "SEARCH_ADDED": "Otsing lisatutes"
+    },
+    "CUSTOM_CPV_HELP": {
+        "HEADER": "Loo gruppi koodide filter",
+        "CATALOG": "CPV koodide teatmik",
+        "p1": "Te saate lisada CPV filter koodide gruppile kasutades sümbolit *.",
+        "p2": "Näiteks:",
+        "p3": "24* - Keemia toodang",
+        "p4": "03* - Põllumajandus, kalastus, metsamajandus ja kaasnev kaup",
+        "p5": "Või konkreetsem grupp:",
+        "p6": "03332* - Vill",
+        "p7": "jne",
+        "p8": "Koodide nimekirja saab vaadata lingiga:",
+        "CODE": "kood",
+        "DESCRIPTION": "Kirjeldus"
+    },
+    "SEARCH": {
+        "CLIENT": "Klient",
+        "TITLE": "Pealkiri",
+        "DESCRIPTION": "Kirjeldus",
+        "CPV_CODE": "CPV Kood",
+        "SEARCH": "Otsing",
+        "RESET": "Kustuta"
+    },
+    "TENDER": {
+        "SOURCE": "Allikas: ",
+        "REF": "Kood: ",
+        "DATE": "Kuupäev:  ",
+        "TIME": "Kell: ",
+        "DEADLINE": "Tähtaeg: ",
+        "CPV_CODES": "CPV Koodid:",
+        "PAGE": "Hanke lehekülg",
+        "CATEGORY": "Kategooria: "
+    },
+    "TENDER_NEW": {
+        "PUBLICATION": "Avaldatud",
+        "DEADLINE": "Tähtaeg", 
+        "COUNTRY": "Riik",
+        "CATEGORY": "Kategooria",
+        "COPIED": "Link puhvrisse kopeeritud"
+    },
+    "TO_FILTER": {
+        "TO_SHOW": "lisada «Kuva CPV»",
+        "TO_NOT_SHOW": "lisada «Peida CPV»"
+    },
+    "NOTIFICATION": {
+        "TENDERS_LOADED": "hankeid laetud",
+        "FILTER_REMOVED": "Filter kustutatud",
+        "FILTER_ADDED": " filter lisatud",
+        "SEARCH_FIELDS_CLEARED": "Otsingu lahtrid puhastatud",
+        "TENDERS_SHOWN": " hankeid näidatud",
+        "TENDERS_FOUND": " hankeid leitud",
+        "LOGGED_OUT": "Olete edukalt väljunud",
+        "ERROR_OCCURED": "Juhtus viga. Proovige veel kord",
+        "CPV_EMPTY": "CPV kood on vale! Peab olema kas või 1 number ja sümbol *",
+        "NO_DATA_SOURCE_SELECTED": "Ei ole valitud ükski allikas! Valige kas või 1.",
+        "SOURCES_UPDATED": "Andmete allikad uuedatud",
+        "CPV_FOUND": " CPV leitud",
+        "ACCOUNT_EXPIRED": "Konto kehtivus on lõppenud",
+        "NEED_TO_LOG_IN": "Sisenemiseks sellele leheküljele on vajalik sisse logida"
+    },
+    "TOOLTIP": {
+        "SOURCE": "Источник данных",
+        "COUNTRY": "Страна тендера",
+        "REF_NUMBER": "Идентификатор тендера",
+        "DATE": "Дата публикации",
+        "TIME": "Время публикации",
+        "DEADLINE": "Срок сдачи тендера",
+        "FUNCTIONALITY": "Войдите, чтобы открыть функционал",
+        "GO_TO_TENDER_PAGE": "Перейдите на страницу 'Все Тендеры', чтобы открыть функционал"
+    },
+    "LOGIN_PAGE": {
+        "LOGIN": "Sisene",
+        "USERNAME": "Kasutaja nimi",
+        "PASSWORD": "Salasõna",
+        "OR": "Või",
+        "DONT_HAVE_ACCOUNT": "Konto puudub? ",
+        "REGISTER": "Regitreeru",
+        "FORGOT_PASSWORD": "Olen unustanud salasõna",
+        "PROCESSING": "Töötlemine..."
+    },
+    "REGISTER_PAGE": {
+        "FIRST_NAME": "Nimi",
+        "LAST_NAME": "Фамилия",
+        "USERNAME": "Kasutaja nimi",
+        "COMPANY": "Компания (не обязательно)",
+        "NEW_USER_REGISTRATION": "Регистрация нового пользователя",
+        "CREATE_AN_ACCOUNT": "Luua konto",
+        "PARAGRAPH_1": "Создайте новый аккаунт с ",
+        "PARAGRAPH_2": "бесплатным двухнедельным периодом ",
+        "PARAGRAPH_3": "чтобы оценить все преимущества Tensys.",
+        "ENTER_FIRST_NAME": "Введите имя",
+        "ENTER_LAST_NAME": "Введите фамилию",
+        "ENTER_EMAIL": "Введите email",
+        "ENTER_USERNAME": "Введите имя пользователя",
+        "OR": "Või",
+        "ALREADY_REGISTERED": "Juba registreeritud?",
+        "LOGIN": "Sisene",
+        "EMAIL_TOOLTIP": "Sistage e-mail kuhu saadetakse salasõna",
+        "USERNAME_TOOLTIP": "Это ваш главный идентификатор. Будет использоваться для входа в систему",
+        "LANGUAGE_TOOLTIP": "Язык интерфейса и перевод тендеров. Может быть изменен в любое время"
+    },
+    "PASSWORD_PAGE": {
+        "RESTORE_PASSWORD": "Salasõna taastamine",
+        "SEND_PASSWORD": "Saata",
+        "REMEMBER": "Salasõna tuli meelde",
+        "PROCESSING": "Töötlemine..."
+    },
+    "ABOUT_PAGE": {
+        "HEADER": "О системе TenSys",
+        "SUB_HEADER": " – система мониторинга тендеров стран Балтии.",
+        "CPV_SHOW": "Показать только CPV",
+        "CPV_NOT_SHOW": "Показать кроме CPV",
+        "P_1_1": "Особенность системы ",
+        "P_1_2": " – гибкая настройка фильтров пользователя. Фильтры типа",
+        "P_1_3": " - показывает только те тендеры, в перечень CPV кодов которых входят коды из списка пользователя. Фильтры типа ",
+        "P_1_4": " - показывает все тендеры кроме тех, которые состоят из CPV кодов из списка пользователя.",
+        "P_2": "Во время просмотра тендера вы в любой момент можете добавить его CPV код в тот или иной тип фильтров.",
+        "P_3_1": "Вторая особенность системы ",
+        "P_3_2": " – возможность добавлять в фильтры неполные коды CPV, т.е. фильтровать целые группы тендеров.",
+        "P_3_3": "Например, фильтр с кодом ",
+        "P_3_4": " отфильтровывает все коды, начинающиеся с цифр",
+        "P_3_5": ", т.е. всю группу «Сельское хозяйство, рыболовство, лесное хозяйство и сопутствующие товары» и все ее подргуппы.",
+        "P_3_6": "Данный фильтр можно добавить в как в группу ",
+        "P_3_7": ", так и в группу ",
+        "P_4_1": "Для удобства пользователей ",
+        "P_4_2": " тендеры хранятся в базе данных сразу на 5 языках – эстонском ",
+        "P_4_3": "латышском ",
+        "P_4_4": ", литовском ",
+        "P_4_5": "английском ",
+        "P_4_6": " и русском",
+        "P_4_7": "Интерфейс и данные о тендерах показываются пользователю сразу на языке, который он предпочитает, что сильно экономит время при ежедневном мониторинге.",
+        "P_5_1": "При использовании системы ",
+        "P_5_2": " у пользователя есть возможность настройки источников данных. Например, пользователь может мониторить только тендеры определенной страны из определенного источника, остальные тендеры будут исключены из выдачи.",
+        "P_6": "Вы всегда можете получить информацию о конкурсе на языке оригинала, дважды кликнув по нему или перейдя по ссылке тендера, чтобы увидеть его на домашнем ресурсе.",
+        "P_7_1": "Система ",
+        "P_7_2": " создана активными участниками тендерной жизни Эстонии и Латвии в области промышленной автоматики, инженерного оборудования и инженерных услуг, она родилась из необходимости",
+        "P_7_3": "быстрого и удобного ежедневного мониторинга всей тендерной активности нескольких стран силами одного человека",
+        "P_7_4": "Мы надеемся, что наша система поможет вам более эффективно использоват свое рабочее время. Если у вас есть пожелания или предложения по улучшению – обязательно свяжитесь с нами, мы будем очень рады!",
+        "P_7_5": "Удачи в конкурсах!",
+        "LOGIN": "Войти",
+        "REGISTER": "Зарегистрируйся"
+    },
+    "PRICES_PAGE": {
+        "HEADER": "Цены",
+        "SUB_HEADER_1": "Registreerige uus konto, kasutage ",
+        "SUB_HEADER_2": "2 tasuta nädalat",
+        "SUB_HEADER_3": " ja valige plaan, mis teile sobib!",
+        "ACCOUNT_VALID_UNTIL": "Teie konto kehtib kuni:",
+        "SEND_RENEWAL_REQUEST": "Отправьте заявку на продление аккаунта",
+        "SUBSCRIPTION_ONE_ACCOUNT": "1 konto",
+        "SUBSCRIPTION_YEAR": "Teelimus aastaks",
+        "INVOICE_TO_EMAIL": "Счет за услугу будет выслан на email пользователя.",
+        "REGISTRATION": "Registreeru",
+        "REQUEST": "Заявка",
+        "SUBSCRIPTION_1": "Знакомство",
+        "SUBSCRIPTION_1_SUBTITLE": "Подписка на 1 месяц",
+        "SUBSCRIPTION_1_TEXT_1": "Знакомство с системой",
+        "SUBSCRIPTION_1_TEXT_2": "Составление базы фильтров",
+        "SUBSCRIPTION_2": "Работа",
+        "SUBSCRIPTION_2_HEADER": "Sooduspakkumine",
+        "SUBSCRIPTION_2_TEXT_2": "Подписка на 12 месяцев по цене 7€/месяц",
+        "SUBSCRIPTION_2_TEXT_3": "1 konto",
+        "SUBSCRIPTION_3_TEXT_2": "От 6 € до 5 € /месяц за аккаунт",
+        "SUBSCRIPTION_3_TEXT_3": "От 2 до 5 аккаунтов",
+        "SUBSCRIPTION_3": "Korporatiivne",
+
+        "PRICING": "Hinnad",
+        "DESCR": "Vajutage <b>Vali</b> ning meie edastame arve tasumiseks Teie e-mailile",
+        "SELECT": "Vali",
+
+        "BASE_NAME": "Põhiline",
+        "BASE_TIME": "Tellimus üheks (1) kuuks",
+
+        "ECONOMY": "Ekonoom",
+        "ECONOMY_DESCR": "Sääst <b>23€</b> aastas",
+
+        "CORPORATE_PRICE": "Alates 150€",
+        "CORPORATE_ACCOUNTS": "Alates kahest(2) kontost"
+    },
+
+    "HOWTO": { 
+        "HEADER": "Kuidas TenSys-t kasutada", 
+        "HEADER_P1": "Pealehel olev video kirjeldab põhiliseed momendid TenSys-i kasutamiseks.",
+        "HEADER_P2": "Samm-sammu piltidega instruktsiooni vajadusel leiate selle siin. ",
+        "SECTIONS": "Sisukord",
+
+        "REG_HEAD": "Registreerumine",
+        "REG_P1": "Vajutage Registreeri lehekülje ülemises menüüs.",
+        "REG_P2": "Registreerimisvormis sisestage oma e-mail ja valige kasutajanimi (nt <b>eesnimi.perekonnanimi</b>).",
+        "REG_P3": "Peale registreerimist Teie e-mailile saadetakse salasõna sisenemiseks. Juhul kui kiri kaua ei ilmu, kontrollige kaust spam.",
+        "REG_P4": "Kontole sisenemiseks kasutage oma kasutajanimi.",
+        "REG_P5": "Täieliku funnktsionaali proovimiseka Teil on <b>2 tasuta nädalat</b>. ",
+        "REG_P6": "Kui teenindus meeldib ning Te soovite seda edasi kasutada, valige sobiv hinnaplaan <a href='prices' routerLink='/prices'>Hinnade</a> leheküljel ja vajutage [Vali] nupu. Arve saadetakse välja teie konto e-mailile.",
+        "REG_P7": "Hetkel kogume esimeste kasutajate tagasisidet, seega võtke meiega julgelt ühendust <a href='mailto:info@tensys.org'>info@tensys.org</a>. Rohkem kontakte leiate <a href='contact' routerLink='/contact'>siit</a>.",
+
+        "START_HEAD": "Kasutamise algus",
+        "START_H1": "Peale sisenemist kontole olete «Kõik hanked» vaates",
+        "START_H2": "Siin kuvatakse kõik tänased hanked kõikidest allikatest ilma filtriteta.",
+
+        "TENDER_DATA_HEAD": "Hanke andmed",
+        "TENDER_DATA_P1": "See on hankekaart.",
+        "TENDER_DATA_P2": "Kogu hankekaardis olev info on kättesaadav teie valitud keeles (ülemisel menüüribal paremas nurgas).",   
+        "TENDER_DATA_P3": "Teie jaoks on kättesaadavad pealkiri, kategooria, avaldamiskuupäev, tähtajad, hanke CPV kood, hanke allikas, autor ja link originaalile (nupp «hanke lehekülg»).",
+        "TENDER_DATA_P4": "Hanke originaallehelt leiate täpsustavat infot ja dokumentatsiooni, kui see on olemas.",
+        "TENDER_DATA_P5": "Vajutage topelt kaardil olevale tühjale kohale, et näha originaalteksti koos tõlkega. Samas aknas on ka link allikale.",
+
+        "DATES_HEAD": "Valige ajavahemikud",
+        "DATES_P1": "Kuupäevad asuvad hangete loetelu ülal.",
+        "DATES_P2": "Valige hangete ilmumise ajavahemik.",
+        "DATES_P3": "Selleks, et näha kindla kuupäeva hankeid, vajutage vajalikule kuupäevale topelt.",
+
+        "SOURCES_HEAD": "Allikate valik", 
+        "SOURCES_P1": "TenSys kogub andmeid erinevatest allikatest.",
+        "SOURCES_P2": "Allikate haldamiseks avage menüü <b>Hanked → Allikad</b>. Valige huvipakkuvad allikad ja vajutage <b>Rakenda</b>.",
+
+        "MODES_HEADER": "Hangete vaated",
+        "MODES_P1": "TenSys on kolm hangete kuvamise vaadet sõltuvalt rakendatud filtritest.",
+        "MODES_P2": "Vaates <b>«Filtrideta»</b> filtreid ei kasutata.",
+        "MODES_P3": "Vaates <b>«Kuva CPV»</b> kuvatakse vaid neid hankeid, mille CPV koodid on lisatud teie filtritesse.",
+        "MODES_P4": "Vaates <b>«Peida CPV»</b> kuvatakse kõik hanked, va neid, mille CPV koodid on lisatud teie filtritesse.",
+        "MODES_P5": "Vaadet on võimalik valida siin:",
+        "MODES_P6": "Kuidas filtreid seadistada",
+
+        "SHOW_CPV_HEAD": "Seadistus «Kuva CPV»",
+        "SHOW_CPV_P1": "Leidke <b>filtrid «Kuva CPV»</b> lehekülje peamenüüst.",
+        "SHOW_CPV_P2": "Selles aknas kuvatakse kõik teie poolt lisatud filtrid.",
+        "SHOW_CPV_P3": "CPV lisamiseks vajutage nupp <b>Lisa kood</b>.",
+        "SHOW_CPV_P4": "Filtrid salvestuvad automaatselt pärast nende lisamist.",
+        "SHOW_CPV_P5": "Selles aknas <b>Otsing</b> toimib ainult lisatud koodide vahel",
+        "SHOW_CPV_P6": "Seadistamise lõpetamiseks vajutage <b>Rakenda</b> nupu.",
+
+        "HIDE_CPV_HEAD": "Seadistus «Peida CPV»",
+        "HIDE_CPV_P1": "Filtrite seadistused on siin: <b>Peamenüü -> Hanked -> Filtrid «Peida CPV»</b>.",
+
+        "HOW_TO_ADD_FILTERS_HEAD": "Kuidas CPV filtreid lisada?",
+        "HOW_TO_ADD_FILTERS_P1": "TenSys võimaldab lisada suvalise CPV koodi iga filtride tüüpidesse. Seda saab teha kolmel viisil.",
+
+        "FROM_CARD_HEAD": "CPV filtri lisamine hankekaardist.",
+        "FROM_CARD_P1": "Iga hanke kaardis on olemas tema CPV koodide loetelu.",
+        "FROM_CARD_P2": "Kood kujundab endast menüü, millega teda saab lisada sellese või teise filtri tüüpi.",
+        "FROM_CARD_P3": "Vajutage <b>lisa «Kuva CPV»</b>, et lisada kood filtri vaatesse «Kuva CPV».",
+        "FROM_CARD_P4": "Vajutage <b>lisa «Peida CPV»</b>, et lisada kood filtri vaatesse «Peida CPV».",
+        "FROM_CARD_P5": "Kui kood on lisatud, näeb see filtriseades välja nii:",
+
+        "FROM_SEARCH_HEAD": "CPV filtri lisamine läbi otsingu",
+        "FROM_SEARCH_P1": "Teile teadaoleva CPV koodi filtrisse lisamiseks minge pealemenüüst filtrisse «Kuva» või «Peida» ja vajutage <b>Lisa kood</b>.",
+        "FROM_SEARCH_P2": "Ette tuleb CPV koodi otsinguriba. Kirjutage sinna kas poolik või terve kood.",
+        "FROM_SEARCH_P3": "Leitud koodid on samuti võimalik lisada filtritesse, nagu ka hankekaartides olevad koodid.",
+
+        "ADD_GROUP_HEAD": "Koodide gruppi lisamine filtritesse",
+        "ADD_GROUP_P1": "Tihti on vaja lisada filtridesse ühe tüüpi koodide grupp, mille koodialgus on ühine.",
+        "ADD_GROUP_P2": "Pooliku CPV koodi filtritesse lisamiseks vajutage peamenüüst «Hanked», valige huvipakkuvad filtrid ja vajutage nupule <b>Lisa gruppi</b>.",
+        "ADD_GROUP_P3": "Sisestage koodi esimesed numbrid, lisades lõppu sümbol *. Näiteks: «15*». Siia koodigruppi kuuluvad kõik toiduained.",
+        "ADD_GROUP_P4": "Vajutage nupule <b>«+»</b> ja kood lisandub teie filtrite nimekirja.",
+        "ADD_GROUP_P5": "Vaates <b>«Kuva CPV»</b> kuvatakse vaid neid hankeid, mille CPV koodid algavad valitud numbritest.",
+        "ADD_GROUP_P6": "Vaates <b>«Peida CPV»</b> kuvatakse vaid neid hankeid, mille CPV koodid ei alga valitud numbritest.",
+
+        "SEARCH_HEAD": "Täpsem otsing",
+        "SEARCH_P1": "Selles reas on otsing filtreeritud seas.",
+
+        "NOTIFICATIONS_HEAD": "Teade uutest hangetest",
+        "NOTIFICATIONS_P1": "Olles ühes hangetevaates, <b>TenSys pidevalt kontrollib valitud filtritele vastavaid uusi hankeid</b>. Vajutage punasele ikoonile, et näha uusi hankeid.",
+
+        "ACCOUNT_HEAD": "Mis kuupäevani kehtib minu konto?",
+        "ACCOUNT_P1": "Kuupäev on kättesaadav <a href='prices' routerLink='/prices'>hinnakirja</a> lehel.",
+
+        "REGISTER": "Registreeru",
+        "SCROLL_TO_REFERENCE": "Sisukorra juurde",
+        "QUESTIONS": "Küsimused?"
+    },
+
+    "REG-SUCCESS": {
+        "THANK_YOU": "Aitäh!",
+        "H1": "Olete edukalt registreeritud.",
+        "P1_1": "Kiri sisenemiseks vajalikute andmetega on edastatud e-postile.",
+        "P1_2": "Juhul Teie ei leia kirja, kontrollige kaust Spam."
+    },
+
+    "CONTACT": {
+        "WRITE": "Kirjutage",
+        "P1_1": "Tagasiside on alati teretulnud - see aitab meiele arendada TenSys-t.",
+        "P1_2": "Kui midagi ei ole arusaadav - kirjutage ka.",
+        "P1_3": "Me püüame vastata tööpäeva jooksul.",
+        "YOUR_EMAIL": "Teie e-mail",
+        "MESSAGE": "Sõnum:",
+        "FOLLOW_FB": "Jälgige meid Facebook-is",
+        "PROCESSING": "Töötlemine",
+        "SEND": "Saada",
+        "BUSINESS_PROPOSALS": "Asjalikud ettepanekud",
+        "DANIIL": "Daniil",
+
+        "MESSAGE_EMPTY": "Sõnum ei ole sisestatud!",
+        "EMAIL_INCORRECT": "E-mail on vigane!"
+    },
+
+    "MAIN": {
+        "MAIN_HEAD": "Vaadake kõik hanked ühes\u00a0mugavas\u00a0kohas",
+        "MAIN_P": "Säästke aega ja töödelge kõik baltimaade hanked ühes\u00a0interfeisis\u00a0Teie\u00a0keeles",
+        "MAIN_BUTTON": "Proovida tasuta",
+        "MAIN_BUTTON_TEXT": "Kaks nädalat tasuta, krediidikardi andmed pole vaja",
+
+        "F1_HEAD": "Säästke aega",
+        "F1_P": "Hangete nišš on koht, kus kiirus on väga tähtis ning me teame sellest enda kogemustest. Kasutage TenSys, et esimeseks olla.",
+
+        "F2_HEAD": "Hoidke fookuses",
+        "F2_P": "Niikaua kui konkurentid kaovad lehekülgede paljususes, Teie\u00a0jälgite\u00a0hankeid\u00a0ühel.",
+
+        "F3_HEAD": "Lugege mugavas keeles",
+        "F3_P": "TenSys säilitab hangete andmed viies keeles. Keelt\u00a0saab\u00a0valida\u00a0ülemises\u00a0menüüs.",
+
+        "F4_HEAD": "Mugav interfeis",
+        "F4_P": "Olime läbimõelnud TenSys-e disaini nii, et jälgida hankeid erinevatest\u00a0allikatest\u00a0oleks\u00a0mugav. Proovige ise.",
+
+        "F5_HEAD": "Paindlikud filtrid",
+        "F5_P": "Teil on võimalus hangete läbivaatamine ainult vajalikutega Teile CPV koodidega. Samas on võimalus jälgida kõik hanked, va märgitud grupid. TenSys aitab iga profiili hangete osalejatel töödata effektiivsemalt.",
+
+        "F6_HEAD": "Juhtige allikaid",
+        "F6_P": "Teil on võimalus valida, kust allikast hanked laekuvad.",
+
+        "F7_HEAD": "Link originaalile",
+        "F7_P": "Edasiseks tööks leiate viide originaalile iga hanke kaardis.",
+
+        "REGISTER_NOW": "Registreeru kohe",
+        "REGISTRATION": "Registreerimine"
+    },
+
+    "COOKIES": {
+        "MESSAGE": "See lehekülg kasutab cookie andmete salvestamiseks. Jätkatest kasutama seda lehekülge Te annate nõusoleku nende andmete töötlemiseks.",
+        "LINK": "Teada rohkem",
+        "DISMISS": "Saan aru" 
+    },
+
+    "NOT_FOUND": {
+        "HEAD": "Hankeid ei leitud",
+        "P_1": "Kontrollige kuupäeva ja valitud allikaid"
+    }
+}

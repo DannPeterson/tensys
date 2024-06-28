@@ -1,0 +1,29 @@
+jwt:
+  secret: 'jwt secret here'
+
+GOOGLE_API_KEY: 'google translate api key here'
+
+server:
+  port: 5000
+
+spring:
+  http:
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+  datasource:
+    url: jdbc:mysql://
+    username: admin
+    password: admin
+  jpa:
+    show-sql: false
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+  mvc:
+    throw-exception-if-no-handler-found: true
+  resources:
+    add-mappings: false

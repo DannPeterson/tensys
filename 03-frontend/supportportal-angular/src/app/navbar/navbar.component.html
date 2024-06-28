@@ -1,0 +1,125 @@
+<!-- Navbar -->
+<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top justify-content-center">
+    <div class="container-lg">
+        <!-- navbar brand / title -->
+        <a class="navbar-brand align-items-center" href="#">
+            <img src="assets/img/logo.png" alt="TenSys" height="26">
+        </a>
+        <!-- toggle button for mobile nav -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav"
+            aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="main-nav">
+            <ul class="navbar-nav me-auto mb-0">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        {{ "NAVIGATION.TENDERS" | translate }}
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="tender" routerLink="/tender" class="dropdown-item">{{ "NAVIGATION.ALL_TENDERS" |
+                                translate }}</a>
+                        </li>
+
+                        <li>
+                            <span *ngIf="isLoggedIn" class="tt" data-bs-placement="auto"
+                                title="{{ 'TOOLTIP.GO_TO_TENDER_PAGE' | translate }}">
+                                <a class="dropdown-item disabled">{{ 'NAVIGATION.SHOW_CPV' | translate }}</a>
+                            </span>
+                            <span *ngIf="!isLoggedIn" class="tt" data-bs-placement="auto"
+                                title="{{ 'TOOLTIP.FUNCTIONALITY' | translate }}">
+                                <a class="dropdown-item disabled">{{ 'NAVIGATION.SHOW_CPV' | translate }}</a>
+                            </span>
+                        </li>
+                        <li>
+                            <span *ngIf="isLoggedIn" class="tt" data-bs-placement="auto"
+                                title="{{ 'TOOLTIP.GO_TO_TENDER_PAGE' | translate }}">
+                                <a class="dropdown-item disabled">{{ 'NAVIGATION.NOT_SHOW_CPV' | translate }}</a>
+                            </span>
+                            <span *ngIf="!isLoggedIn" class="tt" data-bs-placement="auto"
+                                title="{{ 'TOOLTIP.FUNCTIONALITY' | translate }}">
+                                <a class="dropdown-item disabled">{{ 'NAVIGATION.NOT_SHOW_CPV' | translate }}</a>
+                            </span>
+                        </li>
+                        <li>
+                            <span *ngIf="isLoggedIn" class="tt" data-bs-placement="auto"
+                                title="{{ 'TOOLTIP.GO_TO_TENDER_PAGE' | translate }}">
+                                <a class="dropdown-item disabled">{{ "NAVIGATION.SOURCES" | translate }}</a>
+                            </span>
+                            <span *ngIf="!isLoggedIn" class="tt" data-bs-placement="auto"
+                                title="{{ 'TOOLTIP.FUNCTIONALITY' | translate }}">
+                                <a class="dropdown-item disabled">{{ "NAVIGATION.SOURCES" | translate }}</a>
+                            </span>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="how-to-use" routerLink="/how-to-use">{{ "NAVIGATION.GUIDE" | translate }}</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="prices" routerLink="/prices">{{ "NAVIGATION.PRICING" | translate }}</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="contact" routerLink="/contact">{{ "NAVIGATION.CONTACT" | translate }}</a>
+                </li>
+            </ul>
+
+            <ul class="navbar-nav ms-auto mb-0">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        <span *ngIf="this.translate.currentLang == 'et'">Et</span>
+                        <span *ngIf="this.translate.currentLang == 'lv'">Lv</span>
+                        <span *ngIf="this.translate.currentLang == 'lt'">Lt</span>
+                        <span *ngIf="this.translate.currentLang == 'ru'">Ru</span>
+                        <span *ngIf="this.translate.currentLang == 'en'">En</span>
+
+
+                    </a>
+                    <ul class="dropdown-menu lang-dropdown">
+                        <li>
+                            <a class="dropdown-item" (click)="translate.use('et')">
+                                Et</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" (click)="translate.use('lv')">
+                                Lv</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" (click)="translate.use('lt')">
+                                Lt</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" (click)="translate.use('ru')">
+                                Ru</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" (click)="translate.use('en')">
+                                En</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown" *ngIf="isLoggedIn">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false"> <i class="bi bi-person-fill"></i> {{ user.username }} </a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a class="dropdown-item" href="login" (click)="onLogOut()">{{ "NAVIGATION.LOGOUT" |
+                                translate }} &nbsp;<i class="bi bi-box-arrow-right"></i></a>
+                        </li>
+                    </ul>
+                </li>
+                <li *ngIf="!isLoggedIn" class="nav-item">
+                    <a class="nav-link" href="login">{{ "NAVIGATION.LOGIN" | translate }}</a>
+                </li>
+                <button *ngIf="!isLoggedIn" routerLink="/register" class="btn btn-primary reg-btn"><b></b>{{ "NAVIGATION.REGISTRATION" | translate }}</button>
+            </ul>
+        </div>
+    </div>
+</nav>

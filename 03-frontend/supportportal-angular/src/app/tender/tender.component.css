@@ -1,0 +1,37 @@
+.tenders-title {
+  padding-top: 30%;
+}
+
+.modal.fade {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.modal-backdrop.fade {
+    opacity: 0;
+}
+
+.lang-dropdown {
+  --bs-dropdown-min-width: 4rem;
+}
+
+.dropdown-item {
+  cursor: pointer;
+}
+
+.container-lg {
+  max-width: 1100px;
+}
+
+.navbar-brand {
+  padding-bottom: 12px;
+}
+
+.modal-header {
+  border-bottom: 0;
+}
+
+#sensor {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+}

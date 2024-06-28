@@ -1,0 +1,382 @@
+{ 
+    "NAVIGATION": {
+        "TENDERS": "Iepirkumi",
+        "ALL_TENDERS": "Visi iepirkumi", 
+        "SHOW_CPV": "Filtri «rādīt CPV»",
+        "NOT_SHOW_CPV": "Filtri «slēpt CPV»",
+        "SOURCES": "Avoti",
+        "GUIDE": "Lietošanas pamācība", 
+        "PRICING": "Cenas",
+        "CONTACT": "Sazināties",
+        "LOGOUT": "Iziet",
+        "PAID_UNTIL": "Konts apmaksāts līdz:", 
+        "LOGIN": "Ieiet",
+        "REGISTRATION": "Reģistrācija",
+
+        "NO_FILTERS_MODE": "Nav filtru", 
+        "SHOW_CPV_MODE": "Rādīt CPV",
+        "HIDE_CPV_MODE": "Slēpt CPV"
+    },
+    "HEADER": {
+        "ALL_TENDERS": "Visi iepirkumi",
+        "NOT_SHOW_CPV": "Iepirkumi ar CPV",
+        "SHOW_CPV": "Iepirkumi bez CPV"
+    },
+    "SOURCES_MODAL": {
+        "SETTINGS": "Iestatījumi",
+        "TITLE_CPV_NOT_SHOW": "Rādīt visus CPV, izņemot filtrētos",
+        "ADD_CUSTOM": "Izveidot",
+        "SELECT_SOURCES": "Izvēlēties datu avotus",
+        "APPLY": "Piemērot"
+    },
+    "CPV_MODAL": {
+        "TITLE_CPV_SHOW": "Rādīt iepirkumus ar noteiktiem CPV kodiem",
+        "DESRIPTION": "Pievienot/noņemt iepirkumus ar noteiktiem CPV kodiem",
+        "TITLE_CPV_NOT_SHOW": "Rādīt iepirkumus bez noteiktiem CPV kodiem",
+        "ADD_CPV": "Pievienot",
+        "ADD_CUSTOM": "Izveidot",
+        "APPLY_FILTERS": "Rādīt",
+        "FIND_CPV_HEADER": "Meklēt CPV kodu",
+        "SEARCH": "Meklēt",
+        "PLUS_CODE": "+ kods",
+        "PLUS_GROUP": "+ grupa",
+        "ADD_CODE": "Pievienot kodu",
+        "ADD_GROUP": "Pievienot grupu",
+        "APPLY": "Lietot",
+        "APPLY_SM": "lietot",
+        "SEARCH_ADDED": "Meklēt pievienotos"
+    },
+    "CUSTOM_CPV_HELP": {
+        "HEADER": "Izveidot kodu grupas filtru",
+        "CATALOG": "CPV kodu direktorijs",
+        "p1": "Izmantojot simbolu *, varat pievienot CPV filtru visai kodu grupai.",
+        "p2": "Piemērs:",
+        "p3": "24* - Ķīmiskie produkti",
+        "p4": "03* - Lauksaimniecība, zivsaimniecība, mežsaimniecība un saistītie produkti",
+        "p5": "Vai specifiskāka grupa:",
+        "p6": "03332* - Vilna",
+        "p7": "u.c.",
+        "p8": "Kodu saraksts atrodas šeit:",
+        "CODE": "Kods",
+        "DESCRIPTION": "Apraksts"
+    },
+    "SEARCH": {
+        "CLIENT": "Pasūtītājs",
+        "TITLE": "Nosaukums",
+        "DESCRIPTION": "Apraksts",
+        "CPV_CODE": "CPV kods",
+        "SEARCH": "Meklēt",
+        "RESET": "Dzēst"
+    },
+    "TENDER": {
+        "SOURCE": "Avots: ",
+        "REF": "Kods: ",
+        "DATE": "Datums:  ",
+        "TIME": "Laiks: ",
+        "DEADLINE": "Termiņš: ",
+        "CPV_CODES": "CPV kodi:",
+        "PAGE": "Iepirkuma lapa",
+        "CATEGORY": "Kategorija: "
+    },
+    "TENDER_NEW": {
+        "PUBLICATION": "Publicēts",
+        "DEADLINE": "Termiņš",
+        "COUNTRY": "Valsts",
+        "CATEGORY": "Kategorija"
+    },
+    "TO_FILTER": {
+        "TO_SHOW": "pievienot «rādīt CPV»",
+        "TO_NOT_SHOW": "pievienot «slēpt CPV»"
+    },
+    "NOTIFICATION": {
+        "TENDERS_LOADED": "iepirkumi ielādēti",
+        "FILTER_REMOVED": "Filtrs noņemts",
+        "FILTER_ADDED": " filtrs pievienots",
+        "SEARCH_FIELDS_CLEARED": "Meklēšanas lauki notīrīti",
+        "TENDERS_SHOWN": " iepirkumi parādīti",
+        "TENDERS_FOUND": " iepirkumi atrasti",
+        "LOGGED_OUT": "Jūs esat veiksmīgi izgājis",
+        "ERROR_OCCURED": "Notikusi kļūda. Mēģiniet vēlreiz",
+        "CPV_EMPTY": "CPV kods nav pareizs! Jābūt vismaz 1 ciparam un simbolam *",
+        "NO_DATA_SOURCE_SELECTED": "Nav izvēlēts neviens datu avots! Lūdzu, izvēlieties vismaz vienu",
+        "SOURCES_UPDATED": "Datu avoti atjaunināti",
+        "CPV_FOUND": " CPV atrasti",
+        "ACCOUNT_EXPIRED": "Kontam ir beidzies derīguma termiņš",
+        "NEED_TO_LOG_IN": "Jums jāieiet konā, lai piekļūtu šai lapai."
+    },
+    "TOOLTIP": {
+        "SOURCE": "Datu avots",
+        "COUNTRY": "Iepirkuma valsts",
+        "REF_NUMBER": "Iepirkuma ID",
+        "DATE": "Publicēšanas datums",
+        "TIME": "Publicēšanas laiks",
+        "DEADLINE": "Iepirkuma termiņš",
+        "FUNCTIONALITY": "Ieejiet kontā, lai atvērtu funkcionalitāti",
+        "GO_TO_TENDER_PAGE": "Dodieties uz lapu 'Visi iepirkumi', lai atvērtu funkcionalitāti"
+    },
+    "LOGIN_PAGE": {
+        "LOGIN": "Ieiet",
+        "USERNAME": "Lietotājvārds",
+        "PASSWORD": "Parole",
+        "OR": "Vai",
+        "DONT_HAVE_ACCOUNT": "Vai jums nav konta?",
+        "REGISTER": "Reģistrēties",
+        "FORGOT_PASSWORD": "Es aizmirsu savu paroli",
+        "PROCESSING": "Ielādē..."
+    },
+    "REGISTER_PAGE": {
+        "FIRST_NAME": "Vārds",
+        "LAST_NAME": "Uzvārds",
+        "USERNAME": "Lietotājvārds",
+        "COMPANY": "Uzņēmums (neobligāti)",
+        "NEW_USER_REGISTRATION": "Jauna lietotāja reģistrācija",
+        "CREATE_AN_ACCOUNT": "Izveidot kontu",
+        "PARAGRAPH_1": "Izveidot jaunu kontu ar ",
+        "PARAGRAPH_2": "2 nedēļu bezmaksas izmēģinājums ",
+        "PARAGRAPH_3": "izbaudiet visas Tensys priekšrocības.",
+        "ENTER_FIRST_NAME": "Ievadiet vārdu",
+        "ENTER_LAST_NAME": "Ievadiet uzvārdu",
+        "ENTER_EMAIL": "Ievadiet e-pastu",
+        "ENTER_USERNAME": "Ievadiet lietotājvārdu",
+        "OR": "VAI",
+        "ALREADY_REGISTERED": "Jau esat reģistrējies?",
+        "LOGIN": "Ieiet",
+        "EMAIL_TOOLTIP": "Ievadiet e-pasta adresi, uz kuru tiks nosūtīta parole",
+        "USERNAME_TOOLTIP": "Šis ir jūsu galvenais identifikators. Tas tiks izmantots, lai ieietu kontā",
+        "LANGUAGE_TOOLTIP": "Saskarnes valoda un iepirkumu tulkojums. Var mainīt jebkurā laikā"
+    },
+    "PASSWORD_PAGE": {
+        "RESTORE_PASSWORD": "Atjaunot paroli",
+        "SEND_PASSWORD": "Sūtīt",
+        "REMEMBER": "Es atcerējos paroli",
+        "PROCESSING": "Ielādē..."
+    },
+    "ABOUT_PAGE": {
+        "HEADER": "Par TenSys",
+        "SUB_HEADER": " – sistēma Baltijas valstu iepirkumu pārraudzībai.",
+        "CPV_SHOW": "Rādīt tikai CPV",
+        "CPV_NOT_SHOW": "Rādīt bez CPV",
+        "P_1_1": "Sistēmas funkcija ",
+        "P_1_2": " – elastīga lietotāja filtru pielāgošana. Tipa",
+        "P_1_3": " filtri - parāda tikai tos iepirkumus, kuru CPV kodu sarakstā ir iekļauti kodi no lietotāja saraksta. Tāda tipa filtri kā",
+        "P_1_4": " - parāda visus iepirkumus, izņemot tos, kuros ir CPV kodi no lietotāja saraksta.",
+        "P_2": "Skatot iepirkumu, tā CPV kodu var jebkurā brīdī pievienot viena vai cita veida filtram.",
+        "P_3_1": "Sistēmas otrā funkcija ",
+        "P_3_2": " – iespēja filtriem pievienot nepilnus CPV kodus, t.i., filtrēt veselas iepirkumu grupas.",
+        "P_3_3": "Piemēram, filtrs ar kodu ",
+        "P_3_4": " filtrē visus kodus, kas sākas ar cipariem",
+        "P_3_5": ", t.i., visu 'Lauksaimniecība, zivsaimniecība, mežsaimniecība un saistītie produkti' grupu un tās apakšgrupas.",
+        "P_3_6": "Šo filtru var pievienot gan ",
+        "P_3_7": "grupai, gan grupai ",
+        "P_4_1": "Lietotāja ērtībai ",
+        "P_4_2": " iepirkumi tiek saglabāti datu bāzē uzreiz 5 valodās - igauņu",
+        "P_4_3": "latviešu ",
+        "P_4_4": ", lietuviešu ",
+        "P_4_5": "angļu ",
+        "P_4_6": "un krievu",
+        "P_4_7": "Saskarne un informācija par iepirkumiem tiek uzreiz attēlota lietotājam vēlamajā valodā, kas ietaupa daudz laika ikdienas uzraudzībā.",
+        "P_5_1": "Izmantojot sistēmu, ",
+        "P_5_2": "lietotājam ir iespēja konfigurēt datu avotus. Piemēram, lietotājs var uzraudzīt tikai iepirkumus konkrētā valstī no noteikta datu avota - pārējie iepirkumi netiks iekļauti meklēšanas rezultātos.",
+        "P_6": "Jūs vienmēr varat iegūt informāciju par iepirkumu oriģinālvalodā, divreiz uzklikšķinot uz tā vai noklikšķinot uz iepirkuma saites, lai skatītu to oriģinālajā resursā.",
+        "P_7_1": "Sistēma ",
+        "P_7_2": " , ko izveidojuši aktīvi Igaunijas un Latvijas iepirkumu jomas dalībnieki rūpnieciskās automatizācijas, inženiertehnisko iekārtu un inženierpakalpojumu sfērā - tā radās no nepieciešamības pēc",
+        "P_7_3": "ātras un ērtas visu iepirkumu aktivitāšu ikdienas uzraudzības vairākās valstīs, ko veic viena persona",
+        "P_7_4": "Mēs ceram, ka mūsu sistēma palīdzēs jums efektīvāk izmantot savu darba laiku. Ja jums ir kādas vēlmes vai ierosinājumi uzlabojumiem - droši sazinieties ar mums, mēs par to ļoti priecāsimies!",
+        "P_7_5": "Veiksmi iepirkumos!",
+        "LOGIN": "Ieiet",
+        "REGISTER": "Reģistrēties"
+    },
+    "PRICES_PAGE": {
+        "HEADER": "Cenas",
+        "SUB_HEADER_1": "Reģistrējiet jaunu kontu, izmantojiet ",
+        "SUB_HEADER_2": "2 bezmaksas nedēļas",
+        "SUB_HEADER_3": " un izvēlieties sev vispiemērotāko plānu!",
+        "ACCOUNT_VALID_UNTIL": "Jūsu konts ir derīgs līdz:",
+        "SEND_RENEWAL_REQUEST": "Iesniegt konta atjaunošanas pieprasījumu",
+        "SUBSCRIPTION_ONE_ACCOUNT": "1 konts",
+        "SUBSCRIPTION_YEAR": "Gada abonements",
+        "INVOICE_TO_EMAIL": "Uz lietotāja e-pastu tiks nosūtīts rēķins par pakalpojumu.",
+        "REGISTRATION": "Reģistrācija",
+        "REQUEST": "Pieprasīt",
+        "SUBSCRIPTION_1": "Ievads",
+        "SUBSCRIPTION_1_SUBTITLE": "1 mēneša abonements",
+        "SUBSCRIPTION_1_TEXT_1": "Ievads sistēmā",
+        "SUBSCRIPTION_1_TEXT_2": "Filtru datubāzes sastādīšana",
+        "SUBSCRIPTION_2": "Darbs",
+        "SUBSCRIPTION_2_HEADER": "Izdevīgs piedāvājums",
+        "SUBSCRIPTION_2_TEXT_2": "Abonements uz 12 mēnešiem par cenu 7€/mēnesī",
+        "SUBSCRIPTION_2_TEXT_3": "1 konts",
+        "SUBSCRIPTION_3_TEXT_2": "No 6 € līdz 5 € /mēnesī par vienu kontu",
+        "SUBSCRIPTION_3_TEXT_3": "No 2 līdz 5 kontiem",
+        "SUBSCRIPTION_3": "Uzņēmums",
+
+        "PRICING": "Cenu plāni",
+        "DESCR": "Noklikšķiniet “Izvēlēties” un mēs jums nosūtīsim rēķinu apmaksai pa e-pastu",
+        "SELECT": "Izvēlēties",
+
+        "BASE_NAME": "Pamatplāns",
+        "BASE_TIME": "Viena mēneša abonements",
+
+        "ECONOMY": "Ekonomiskais plāns",
+        "ECONOMY_DESCR": "Ietaupiet 23€ gadā",
+
+        "CORPORATE_PRICE": "No 150€",
+        "CORPORATE_ACCOUNTS": "Sākot ar 2 kontiem"
+    },
+
+    "HOWTO": { 
+        "HEADER": "Kā lietot TenSys", 
+        "HEADER_P1": "Galvenajā lapā redzamajā videomateriālā aprakstīti pakalpojuma lietošanas būtiskākie aspekti",
+        "HEADER_P2": "Ja jums nepieciešami norādījumi soli pa solim ar attēliem, tad šeit tie būs.",
+        "SECTIONS": "Sadaļas",
+
+        "REG_HEAD": "Reģistrācija",
+        "REG_P1": "Noklikšķiniet “Reģistrācija” lapas augšējā izvēlnē.",
+        "REG_P2": "Reģistrācijas veidlapā ievadiet savu e-pastu un izvēlieties lietotājvārdu (piemēram, <b>vārds.uzvārds</b>)",
+        "REG_P3": "Pēc reģistrācijas jūs saņemsiet e-pastu ar pieteikšanās paroli. Ja ilgāku laiku nesaņemat e-pastu, pārbaudiet savu surogātpasta mapi.",
+        "REG_P4": "Piesakieties savā kontā, izmantojot savu lietotājvārdu.",
+        "REG_P5": "Jums ir <b>divas nedēļas</b> laika, lai bez maksas pilnībā izmēģinātu TenSys pilnu funkcionalitāti.",
+        "REG_P6": "Ja jums patiks pakalpojums un vēlēsieties tupināt to lietot, izvēlieties kādu no cenu plāniem <a href='prices' routerLink='/prices'>cenu</a> lapā un noklikšķiniet uz [Izvēlēties]. Mēs nosūtīsim jums rēķinu apmaksai uz reģistrācijas laikā norādīto e-pastu.",
+        "REG_P7": "Mēs pašlaik apkopojam atsauksmes no pirmajiem lietotājiem, tāpēc droši rakstiet mums uz e-pasta adresi <a href='mailto:info@tensys.org'>info@tensys.org</a>. Vairāk kontaktinformācijas atradīsiet <a href='contact' routerLink='/contact'>šeit</a>.",
+
+        "START_HEAD": "Darba sākšana",
+        "START_H1": "Pēc pieteikšanās savā kontā jūs atrodaties režīmā «Visi iepirkumi».",
+        "START_H2": "Tajā redzami visi šodienas iepirkumi no visiem avotiem bez jebkādiem filtriem.",
+
+        "TENDER_DATA_HEAD": "Informācija par iepirkumiem",
+        "TENDER_DATA_P1": "Šī ir iepirkuma karte",
+        "TENDER_DATA_P2": "Visa informācija kartēs tiek attēlota valodā, ko izvēlējāties vietnes izvēlnē (augšējā labajā stūrī).",
+        "TENDER_DATA_P3": "Jums redzams iepirkuma nosaukums, kategorija, publicēšanas datums, termiņš, CPV kodi, kā arī tā avots, autors un saite uz sākotnējo lapu (iepirkuma lapas poga).",
+        "TENDER_DATA_P4": "Sākotnējā iepirkuma lapā atradīsiet sīkāku informāciju un visu dokumentāciju, ja tāda ir.",
+        "TENDER_DATA_P5": "Veiciet dubultklikšķi kādā tukšā vietā kartē, lai atvērtu sākotnējo tekstu un tulkojumu tam blakus. Tajā pašā logā būs saite uz avotu.", 
+
+        "DATES_HEAD": "Izvēlieties laika periodu",
+        "DATES_P1": "Virs iepirkumu saraksta ir norādīti datumi.",
+        "DATES_P2": "Izvēlieties laika periodu, kurā iepirkumi publicēti.",
+        "DATES_P3": "Lai apskatītu iepirkumus tikai vienā datumā, veiciet dubultklikšķi uz šī datuma.",
+
+        "SOURCES_HEAD": "Avotu atlase",
+        "SOURCES_P1": "TenSys apkopo datus no dažādiem avotiem.",
+        "SOURCES_P2": "Lai pārvaldītu avotus, dodieties uz izvēlni <b>Iepirkumi → Avoti</b>. Izvēlieties vēlamos avotus un noklikšķiniet uz <b>«Lietot»</b>.",
+
+        "MODES_HEADER": "Iepirkumu attēlošanas režīmi",
+        "MODES_P1": "TenSys ir trīs iepirkumu attēlošanas režīmi atkarībā no lietotajiem filtriem.",
+        "MODES_P2": "Režīmā <b>«Visi iepirkumi»</b> netiek lietoti nekādi filtri.",
+        "MODES_P3": "Režīmā <b>«Rādīt CPV»</b> tiks parādīti tikai tie iepirkumi, kuru CPV kodi ir pievienoti filtriem.",
+        "MODES_P4": "Režīmā <b>«Slēpt CPV»</b> tiks parādīti visi iepirkumi, izņemot tos, kuru kodi ir norādīti sarakstā.",
+        "MODES_P5": "Šeit varat pārslēgties starp režīmiem:",
+        "MODES_P6": "Tālāk ir sīkāk paskaidrots, kā konfigurēt filtrus.",
+
+        "SHOW_CPV_HEAD": "«Rādīt CPV» iestatīšana",
+        "SHOW_CPV_P1": "<b>Filtri «Rādīt CPV»</b> ir atrodami vietnes galvenajā izvēlnē.",
+        "SHOW_CPV_P2": "Šajā logā tiks parādīti pievienotie filtri.",
+        "SHOW_CPV_P3": "Lai pievienotu vairāk CPV, noklikšķiniet pogu <b>Pievienot kodu</b>.",
+        "SHOW_CPV_P4": "Pēc pievienošanas filtri tiek <b>automātiski</b> saglabāti.",
+        "SHOW_CPV_P5": "<b>Meklēt</b> starp augstāk pievienotajiem kodiem” meklē tikai starp tiem.",
+        "SHOW_CPV_P6": "Noklikšķiniet <b>Lietot</b>, lai pabeigtu iestatīšanu.",
+
+        "HIDE_CPV_HEAD": "«Slēpt CPV» iestatīšana",
+        "HIDE_CPV_P1": "Filtra iestatījumi atrodami šeit: <b>Galvenā izvēlne → Iepirkumi → Filtri «Slēpt CPV»</b>",
+
+        "HOW_TO_ADD_FILTERS_HEAD": "Kā pievienot CPV filtrus",
+        "HOW_TO_ADD_FILTERS_P1": "TenSys ļauj pievienot jebkuru CPV kodu jebkura veida filtram. To var izdarīt trīs veidos.",
+
+        "FROM_CARD_HEAD": "CPV filtra pievienošana no iepirkuma kartes",
+        "FROM_CARD_P1": "Katra iepirkuma kartē ir saraksts ar CPV kodiem.",
+        "FROM_CARD_P2": "Kods ir izvēlne, ar kuru to var pievienot konkrētam filtra veidam.",
+        "FROM_CARD_P3": "Noklikšķiniet <b>pievienot «Rādīt CPV»</b>, lai pievienotu kodu režīma «Rādīt CPV» filtriem.",
+        "FROM_CARD_P4": "Noklikšķiniet <b>pievienot «Slēpt CPV»</b>, lai pievienotu kodu «Slēpt CPV» filtriem.",
+        "FROM_CARD_P5": "Kad kods ir pievienots, filtra iestatījumos tas izskatīsies šādi:",
+
+        "FROM_SEARCH_HEAD": "CPV filtra pievienošana, izmantojot meklēšanu",
+        "FROM_SEARCH_P1": "Lai pievienotu jums zināmu CPV kodu filtram, galvenajā izvēlnē atveriet filtru «Rādīt» vai «Slēpt» un noklikšķiniet <b>Pievienot kodu</b>.",
+        "FROM_SEARCH_P2": "Ekrānā parādīsies CPV koda meklēšanas logs, kurā var ievadīt pilnu kodu vai tā daļu.",
+        "FROM_SEARCH_P3": "Atrastie kodi ir visas tās pašas izvēlnes ar iespēju tos pievienot filtriem, līdzīgi kā iepirkuma kartē:",
+
+        "ADD_GROUP_HEAD": "Kodu grupas pievienošana filtram",
+        "ADD_GROUP_P1": "Bieži ir nepieciešams filtriem pievienot nevis vienu kodu, bet veselu grupu, t.i. kāda koda sākumu.",
+        "ADD_GROUP_P2": "Lai filtriem pievienotu nepilnu CPV kodu, galvenajā izvēlnē izvēlieties Iepirkumi, atlasiet vajadzīgos filtrus un noklikšķiniet pogu <b>Pievienot grupu</b>.",
+        "ADD_GROUP_P3": "Ievadiet pirmos koda ciparus, pārējo ciparu vietā ierakstot simbolu *. Piemēram, «15*». Šajā kodu grupā ietilpst visi pārtikas produkti.",
+        "ADD_GROUP_P4": "Nospiediet pogu <b>«+»</b>, un kods tiks pievienots filtru sarakstam.",
+        "ADD_GROUP_P5": "Režīmā <b>«Rādīt CPV»</b> tiks rādīti tikai tie iepirkumi, kuru CPV kodi sākas ar šiem cipariem.",
+        "ADD_GROUP_P6": "Režīmā <b>«Slēpt CPV»</b> tiks rādīti visi iepirkumi, kuru CPV kodi nesākas ar šiem cipariem.",
+
+        "SEARCH_HEAD": "Paplašinātā meklēšana",
+        "SEARCH_P1": "Šajā rindā meklēšana tiek veikta pēc tā, ko ir atradis atlasītais filtrs.",
+
+        "NOTIFICATIONS_HEAD": "Paziņojumi par jauniem iepirkumiem",
+        "NOTIFICATIONS_P1": "Atrodoties kādā no iepirkumu pārlūkošanas režīmiem, TenSys nepārtraukti pārbauda, <b>vai nav parādījušies jauni iepirkumi, kas atbilst jūsu režīma filtriem</b>. Noklikšķiniet sarkano ciparu ikonu, lai lejupielādētu jaunos iepirkumus.",
+
+        "ACCOUNT_HEAD": "Kāds ir mana konta derīguma termiņš?",
+        "ACCOUNT_P1": "Datums redzams <a href='prices' routerLink='/prices'>Cenu</a> lapā.",
+
+        "REGISTER": "Reģistrēties",
+        "SCROLL_TO_REFERENCE": "Saturs",
+        "QUESTIONS": "Jautājumi?"
+    },
+    
+    "REG-SUCCESS": {
+        "THANK_YOU": "Paldies!",
+        "H1": "Jūs esat veiksmīgi reģistrējies",
+        "P1_1": "Uz jūsu e-pastu tiks nosūtīts ziņojums ar pieteikšanās informāciju.",
+        "P1_2": "Ja neredzat to savā iesūtnē, pārbaudiet surogātpasta mapi."
+
+    },
+
+    "CONTACT": {
+        "WRITE": "Rakstīt",
+        "P1_1": "Jebkura atsauksme palīdzēs mums pilnveidot TenSys.",
+        "P1_2": "Rakstiet arī tādā gadījumā, ja jums kaut kas nav skaidrs.",
+        "P1_3": "Mēs centīsimies jums atbildēt vienas dienas laikā.",
+        "YOUR_EMAIL": "Jūsu e-pasts:",
+        "MESSAGE": "Ziņojums:",
+        "FOLLOW_FB": "Sekojiet mums vietnē Facebook",
+        "PROCESSING": "apstrādā",
+        "SEND": "Sūtīt",
+        "BUSINESS_PROPOSALS": "Sadarbības piedāvājumi",
+        "DANIIL": "Danils"
+    },
+
+    "MAIN": {
+        "MAIN_HEAD": "Ērti aplūkojiet visus iepirkumus vienā vietā",
+        "MAIN_P": "Ietaupiet laiku un apskatiet visus iepirkumus Baltijas valstīs\u00a0vienā\u00a0saskarnē\u00a0savā valodā",
+        "MAIN_BUTTON": "Izmēģiniet bez maksas",
+        "MAIN_BUTTON_TEXT": "*Divas nedēļas bez maksas, kartes dati nav jānorāda",
+
+        "F1_HEAD": "Ietaupiet laiku",
+        "F1_P": "Iepirkumu nišā ātrums ir būtisks, un mēs to zinām. Izmantojiet\u00a0TenSys,\u00a0lai\u00a0būtu pirmie.",
+
+        "F2_HEAD": "Saglabājiet fokusu",
+        "F2_P": "Kamēr konkurenti maldās pa vairākām cilnēm, jūs\u00a0sekojat\u00a0līdzi\u00a0iepirkumiem vienā cilnē.",
+
+        "F3_HEAD": "Lasiet savā valodā",
+        "F3_P": "TenSys saglabā informāciju par iepirkumiem piecās valodās vienlaicīgi. Pārslēgties\u00a0starp\u00a0valodām\u00a0iespējams\u00a0augšējā izvēlnē.",
+
+        "F4_HEAD": "Ērta saskarne",
+        "F4_P": "Mēs pārdomājām dizainu tā, lai būtu ērti pārraudzīt iepirkumus no dažādiem avotiem. Izmēģiniet to paši.",
+
+        "F5_HEAD": "Elastīgi filtri",
+        "F5_P": "Jūs varat skatīt iepirkumus tikai ar vajadzīgajiem CPV kodiem vai visus iepirkumus, izņemot filtrētās grupas. TenSys palīdzēs jebkura profila dalībniekiem strādāt efektīvāk.",
+
+        "F6_HEAD": "Pārvaldiet avotus",
+        "F6_P": "Jūs varat izvēlēties, no kuriem avotiem tiks lejupielādēti iepirkumi.",
+
+        "F7_HEAD": "Saite uz sākotnējo lapu",
+        "F7_P": "Katra iepirkuma kartē atradīsiet saiti uz sākotnējo lapu tālākam darbam.",
+
+        "REGISTER_NOW": "Reģistrēties tūlīt",
+        "REGISTRATION": "Reģistrācija"
+
+    },
+
+    "COOKIES": {
+        "MESSAGE": "Šī vietne izmanto sīkfailus, lai saglabātu datus. Turpinot lietot vietni, jūs piekrītat šo sīkfailu izmantošanai.",
+        "LINK": "Uzzināt vairāk",
+        "DISMISS": "Sapratu" 
+    },
+
+    "NOT_FOUND": {
+        "HEAD": "I  epirkumi nav atrasti",
+        "P_1": "Pārbaudiet datumu un atlasītos avotus"
+    }
+}
